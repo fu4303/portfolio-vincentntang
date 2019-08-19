@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import terminal from '../images/terminal.png'
+import terminal from '../images/terminal.svg'
 import sun from '../images/sun.svg'
 import moon from '../images/moon.svg'
 import kofi from '../../content/thumbnails/kofi.png'
@@ -39,6 +39,7 @@ export default class Navigation extends Component {
         <div className="nav-container">
           <div className="brand">
             <Link to="/">
+               {/* Needs Fill white logo on svg */}
               <img src={terminal} className="favicon" alt="terminal Diskette" />
               <span className="text">Vincent Tang</span>
             </Link>
