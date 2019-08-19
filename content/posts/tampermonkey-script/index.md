@@ -1,15 +1,14 @@
 ---
-date: 2015-09-26
-title: 'Build a restful API'
+date: 2018-06-29
+title: 'Adventures in writing a Tampermonkey Script'
 template: post
-thumbnail: '../../thumbnails/git.png'
-slug: getting-started-with-git
+thumbnail: '../../thumbnails/tampermonkey.png'
+slug: Writing a custom userscript
 categories:
-  - Personal
+  - Javascript
 tags:
-  - git
-  - setup
-  - version control
+  - Userscript
+  - API
 ---
 
 Tampermonkey Scripting (aka userscripts)

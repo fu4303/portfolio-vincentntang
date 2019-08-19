@@ -1,15 +1,14 @@
 ---
-date: 2017-01-23
+date: 2019-02-01
 title: '2018 into 2019'
 template: post
-thumbnail: '../../thumbnails/git.png'
+thumbnail: '../../thumbnails/vt.png'
 slug: 2018-into-2019
 categories:
   - Personal
 tags:
-  - git
-  - setup
-  - version control
+  - life
+  - new year
 ---
 
 Last year I wrote my [2017 to 2018](https://vincentntang.com/my-2017-yearly-reflections-2018-resolutions/) post, which summarizes what I accomplished throughout the year and goals for the year to come. It helps me keep track of my progress. The tradition goes on this year!

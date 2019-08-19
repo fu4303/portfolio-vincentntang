@@ -1,8 +1,8 @@
 ---
-date: 2015-09-23
+date: 2019-01-18
 title: 'Things I wish I knew for my first tech talk'
 template: post
-thumbnail: '../../thumbnails/git.png'
+thumbnail: '../../thumbnails/writing.png'
 slug: things-I-wish-I-knew-for-my-first-tech-talk
 categories:
   - Personal

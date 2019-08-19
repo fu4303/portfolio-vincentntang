@@ -2,14 +2,13 @@
 date: 2017-01-23
 title: '2017 into 2018'
 template: post
-thumbnail: '../../thumbnails/git.png'
+thumbnail: '../../thumbnails/vt.png'
 slug: 2017-into-2018
 categories:
   - Personal
 tags:
-  - git
-  - setup
-  - version control
+  - life
+  - new year
 ---
 
 Its year 2018 and I still haven't reflected upon all the things I achieved last year, or things I want to do this year. So I will do it now. After digging through all my profiles (stackoverflow, github, bookmarks, projects, photos on phone, workout log, and journal log), this is a comprised list of things I achieved, and what things I want to finish in the future

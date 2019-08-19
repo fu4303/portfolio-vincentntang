@@ -1,20 +1,20 @@
 ---
-date: 2017-01-23
-title: '14 phrase express macros'
+date: 2018-05-31
+title: '14 Macros for Developers'
 template: post
-thumbnail: '../../thumbnails/git.png'
+thumbnail: '../../thumbnails/phraseexpress.png'
 slug: 14-phrase-express-macros
 categories:
   - Tools
 tags:
-  - git
-  - setup
-  - version control
+  - phrase express
+  - workflow
+  - macros
 ---
 
 Are you juggling between dozens of apps on limited screen space? Or find yourself typing the same thing over? Looking for the same code/text/unicode/emoji to copy+paste? Find yourself writing typos in your emails, data entry, or programming? Or doing the same repetitive tasks all the time?
 
-Then you need a macro program.<!--more-->
+Then you need a macro program.
 
 What is it you might ask?
 
