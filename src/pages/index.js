@@ -29,7 +29,7 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <a
-              href="https://taniarascia.github.io/new-moon"
+              // href="https://taniarascia.github.io/new-moon"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -40,7 +40,7 @@ export default class Index extends Component {
                 alt="Hmm? What's this?"
               />
             </a>
-            <h1>{`Hi, I'm Tania`}</h1>
+            <h1>{`Hi, I'm Vincent`}</h1>
             <p>
               {`I'm a web developer and writer specializing in modern JavaScript. I make things from scratch, contribute to open source, and write about
                 development in an accessible and intuitive way.`}
