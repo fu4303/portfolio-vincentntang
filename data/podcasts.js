@@ -1,4 +1,4 @@
-import egghead from '../content/images/egghead.png'
+import egghead from '../content/common/egghead.png'
 
 export default [
   {

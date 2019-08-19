@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import tania from '../../content/images/taniawarm.jpg'
-import patreon from '../../content/thumbnails/patreon.png'
-import kofi from '../../content/thumbnails/kofi.png'
+import React, { Component } from 'react';
+import tania from '../../content/common/taniawarm.jpg';
+import patreon from '../../content/thumbnails/patreon.png';
+import kofi from '../../content/thumbnails/kofi.png';
 
 export default class UserInfo extends Component {
   render() {
@@ -42,6 +42,6 @@ export default class UserInfo extends Component {
           </div>
         </div>
       </aside>
-    )
+    );
   }
 }

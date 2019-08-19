@@ -13,7 +13,7 @@ import projects from '../../data/projects'
 import speaking from '../../data/speaking'
 import podcasts from '../../data/podcasts'
 import quotes from '../../data/quotes'
-import newMoon from '../../content/images/new-moon.svg'
+import newMoon from '../../content/common/new-moon.svg'
 
 export default class Index extends Component {
   render() {
