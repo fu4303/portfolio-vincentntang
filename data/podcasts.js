@@ -1,9 +1,9 @@
-import egghead from '../content/common/egghead.png'
+import sidequest from '../content/thumbnails/sidequest.png'
 
 export default [
   {
-    title: 'Egghead.io - Switching Careers and Learning in Public - with Joel Hooks',
-    path: 'https://egghead.io/podcasts/switching-careers-and-learning-in-public-with-tania-rascia',
-    img: egghead,
+    title: 'Building a Flash Card Note App',
+    path: 'https://www.developersidequestspodcast.com/5-vincent-tang',
+    img: sidequest,
   },
 ]

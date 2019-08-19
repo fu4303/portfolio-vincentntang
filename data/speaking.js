@@ -1,16 +1,16 @@
-import wordpress from '../content/thumbnails/wp.png'
-import react from '../content/thumbnails/react.png'
+import airtable from '../content/thumbnails/airtable.png'
+import js from '../content/thumbnails/js.png'
 
 export default [
   {
-    title: 'JS Chicago - An Introduction to React',
-    path: 'https://www.meetup.com/js-chi/events/258154685/',
-    img: react,
+    title: 'JS Orlando - Rendering Tale: Comparing Canvas, SVG, WebGL, and CSS',
+    path: 'https://youtu.be/OWbVcMfEShI/',
+    img: js,
   },
   {
-    title: 'WordCamp Chicago - Developing a WordPress Theme from Scratch',
+    title: 'Airtable - Open source plugins I wrote for a database/spreadsheet tool',
     path:
-      'https://wordpress.tv/2017/08/30/tania-rascia-how-to-develop-a-wordpress-theme-from-scratch/',
-    img: wordpress,
+      'https://builtonair.com/boa-podcast-s02e08-vincent-tang-airtable-super-producer/',
+    img: airtable,
   },
 ]
