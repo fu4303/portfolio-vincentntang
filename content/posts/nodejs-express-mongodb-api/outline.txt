@@ -1,0 +1,7 @@
+outline of topics
+
+1. Installation
+2. Initializing a server
+3. Getting a route created
+4. Connecting to MongoDB
+5. Building out the scaffold data
