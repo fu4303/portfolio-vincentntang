@@ -1,46 +1,59 @@
-import React, { Component } from 'react'
-import { Link } from 'gatsby'
-import terminal from '../images/terminal.svg'
-import sun from '../images/sun.svg'
-import moon from '../images/moon.svg'
-import kofi from '../../content/thumbnails/kofi.png'
-import ThemeContext from '../context/ThemeContext'
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
+import terminalBlack from '../images/terminal-black.svg';
+import terminalWhite from '../images/terminal-white.svg';
+import sun from '../images/sun.svg';
+import moon from '../images/moon.svg';
+import kofi from '../../content/thumbnails/kofi.png';
+import ThemeContext from '../context/ThemeContext';
 
 export default class Navigation extends Component {
-  static contextType = ThemeContext
+  static contextType = ThemeContext;
 
   state = {
     scrolled: false,
-  }
+  };
 
   componentDidMount() {
-    window.addEventListener('scroll', this.navOnScroll)
+    window.addEventListener('scroll', this.navOnScroll);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.navOnScroll)
+    window.removeEventListener('scroll', this.navOnScroll);
   }
 
   navOnScroll = () => {
     if (window.scrollY > 20) {
-      this.setState({ scrolled: true })
+      this.setState({ scrolled: true });
     } else {
-      this.setState({ scrolled: false })
+      this.setState({ scrolled: false });
     }
-  }
+  };
 
   render() {
-    const { scrolled } = this.state
-    const { menuLinks } = this.props
-    const theme = this.context
+    const { scrolled } = this.state;
+    const { menuLinks } = this.props;
+    const theme = this.context;
 
     return (
       <nav className={scrolled ? 'nav scroll' : 'nav'}>
         <div className="nav-container">
           <div className="brand">
             <Link to="/">
-               {/* Needs Fill white logo on svg */}
-              <img src={terminal} className="favicon" alt="terminal Diskette" />
+              {/* Needs Fill white logo on svg */}
+              {theme.dark ? (
+                <img
+                  src={terminalWhite}
+                  className="favicon"
+                  alt="terminal command"
+                />
+              ) : (
+                <img
+                  src={terminalBlack}
+                  className="favicon"
+                  alt="terminal command"
+                />
+              )}
               <span className="text">Vincent Tang</span>
             </Link>
           </div>
@@ -50,7 +63,11 @@ export default class Navigation extends Component {
                 {link.name}
               </Link>
             ))}
-            <a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/taniarascia">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://ko-fi.com/taniarascia"
+            >
               <img src={kofi} alt="Kofi" className="kofi" />
             </a>
             <div className="cta">
@@ -69,6 +86,6 @@ export default class Navigation extends Component {
           </div>
         </div>
       </nav>
-    )
+    );
   }
 }
