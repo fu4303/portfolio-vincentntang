@@ -15,18 +15,30 @@ export default class Contact extends Component {
         <ul>
           <li>
             <strong>GitHub</strong>:{' '}
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/taniarascia">
-              taniarascia
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/vincentntang">
+              vincentntang
             </a>
           </li>
           <li>
             <strong>Twitter</strong>:{' '}
-            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/taniarascia">
-              taniarascia
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/vincentntang">
+              vincentntang
             </a>
           </li>
           <li>
-            <strong>Feed</strong>: <a href="https://www.taniarascia.com/rss.xml">RSS</a>
+            <strong>Instagram</strong>:{' '}
+            <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/vincentntang">
+              vincentntang
+            </a>
+          </li>
+          <li>
+            <strong>Linkedin</strong>:{' '}
+            <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/vincentntang">
+              vincentntang
+            </a>
+          </li>
+          <li>
+            <strong>Feed</strong>: <a href="https://www.vincentntang.com/rss.xml">RSS</a>
           </li>
         </ul>
       </>
