@@ -49,19 +49,19 @@ export default class Index extends Component {
               <div>
                 <a
                   className="twitter-follow-button"
-                  href="https://twitter.com/taniarascia"
+                  href="https://twitter.com/vincentntang"
                   data-size="large"
                   data-show-screen-name="false"
                 >
-                  Follow @taniarascia
+                  Follow @vincentntang
                 </a>
               </div>
               <div>
                 <GitHubButton
-                  href="https://github.com/taniarascia"
+                  href="https://github.com/vincentntang"
                   data-size="large"
                   data-show-count="true"
-                  aria-label="Follow @taniarascia on GitHub"
+                  aria-label="Follow @vincentntang on GitHub"
                 >
                   Follow
                 </GitHubButton>

@@ -2,7 +2,7 @@
 date: 2018-06-29
 title: 'Adventures in writing a Tampermonkey Script'
 template: post
-thumbnail: '../../thumbnails/tampermonkey.png'
+thumbnail: '../../thumbnails/matrix.png'
 slug: Writing a custom userscript
 categories:
   - Javascript
