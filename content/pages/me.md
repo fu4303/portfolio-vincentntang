@@ -8,7 +8,7 @@ I’m Vincent Tang, a web developer, technical writer, and former restaurant arc
 
 I started this website as a place to document everything I learned while going through a [career change](https://www.taniarascia.com/how-i-made-a-career-change-into-web-development/). I [learn in public](/learn) and write about everything I know.
 
-My goal is to become the best engineer that I can be, through projects that have a lasting impact. I document my journey, free of ads, affiliate links, or sponsored posts.
+My goal is to become the best engineer that I can be, through projects that have a lasting impact. I aim to create a beautiful corner of the web free of ads, affiliate links, or sponsored posts.
 
 ![Me](../common/vincentIDGAF.jpg)
 
