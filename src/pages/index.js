@@ -1,26 +1,26 @@
-import React, { Component } from 'react'
-import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
-import GitHubButton from 'react-github-btn'
-import Layout from '../layout'
-import PostListing from '../components/PostListing'
-import ProjectListing from '../components/ProjectListing'
-import SimpleListing from '../components/SimpleListing'
-import NewsletterForm from '../components/NewsletterForm'
-import SEO from '../components/SEO'
-import config from '../../data/SiteConfig'
-import projects from '../../data/projects'
-import speaking from '../../data/speaking'
-import podcasts from '../../data/podcasts'
-import quotes from '../../data/quotes'
-import newMoon from '../../content/common/new-moon.svg'
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
+import GitHubButton from 'react-github-btn';
+import Layout from '../layout';
+import PostListing from '../components/PostListing';
+import ProjectListing from '../components/ProjectListing';
+import SimpleListing from '../components/SimpleListing';
+import NewsletterForm from '../components/NewsletterForm';
+import SEO from '../components/SEO';
+import config from '../../data/SiteConfig';
+import projects from '../../data/projects';
+import speaking from '../../data/speaking';
+import podcasts from '../../data/podcasts';
+import quotes from '../../data/quotes';
+import vtYellow from '../../content/common/VT_yellowBG.png';
 
 export default class Index extends Component {
   render() {
-    const { data } = this.props
+    const { data } = this.props;
 
-    const latestPostEdges = data.latest.edges
-    const popularPostEdges = data.popular.edges
+    const latestPostEdges = data.latest.edges;
+    const popularPostEdges = data.popular.edges;
 
     return (
       <Layout>
@@ -34,7 +34,7 @@ export default class Index extends Component {
               rel="noopener noreferrer"
             >
               <img
-                src={newMoon}
+                src={vtYellow}
                 className="new-moon-icon"
                 title="Hmm? What's this?"
                 alt="Hmm? What's this?"
@@ -111,15 +111,15 @@ export default class Index extends Component {
           <section className="newsletter-section section">
             <h2>Join the Newsletter</h2>
             <p>
-              I write about JavaScript, programming, and front-end design. Join other developers in
-              keeping up with my content. Unsubscribe whenever.{' '}
-              <b>Never any spam, ads, or affiliate links.</b>
+              I write about JavaScript, programming, and front-end design. Join
+              other developers in keeping up with my content. Unsubscribe
+              whenever. <b>Never any spam, ads, or affiliate links.</b>
             </p>
             <NewsletterForm />
           </section>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
@@ -186,4 +186,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

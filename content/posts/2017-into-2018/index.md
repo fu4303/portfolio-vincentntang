@@ -2,7 +2,7 @@
 date: 2017-01-23
 title: '2017 into 2018'
 template: post
-thumbnail: '../../thumbnails/vt.png'
+thumbnail: '../../thumbnails/VT_yellowBG.png'
 slug: 2017-into-2018
 categories:
   - Personal

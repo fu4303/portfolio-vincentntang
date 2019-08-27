@@ -2,7 +2,7 @@
 date: 2019-02-01
 title: '2018 into 2019'
 template: post
-thumbnail: '../../thumbnails/vt.png'
+thumbnail: '../../thumbnails/VT_yellowBG.png'
 slug: 2018-into-2019
 categories:
   - Personal
