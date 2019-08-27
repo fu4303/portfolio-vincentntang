@@ -4,18 +4,19 @@ slug: me
 template: page
 ---
 
-I’m Tania Rascia, a web developer, technical writer, and former chef from Chicago. I currently work as a front end software engineer for [DAIS](https://www.dais.com/), and I've also written for [DigitalOcean](https://www.digitalocean.com/community/users/taniarascia), [SitePoint](https://www.sitepoint.com/author/trascia/), [Envato Tuts+](https://tutsplus.com/authors/tania-rascia), [among others](/publications).
+I’m Vincent Tang, a web developer, technical writer, and former restaurant architect from Orlando. I currently work as a front end software engineer for [E2 Generations](https://www.e2gens.com/), and I've also written for [FreeCodeCamp](https://www.freecodecamp.org/forum/u/Kagerjay/summary), [MozillaDeveloperNetwork](https://developer.mozilla.org/en-US/profiles/Kagerjay), [DevTo](https://dev.to/vincentntang), [among others](/publications).
 
 I started this website as a place to document everything I learned while going through a [career change](https://www.taniarascia.com/how-i-made-a-career-change-into-web-development/). I [learn in public](/learn) and write about everything I know.
 
-I aim to create a beautiful corner of the web free of ads, sponsored posts, newsletter pop-ups, affiliate links, and the rest of the annoying noise we're so accustomed to seeing on the internet these days.
+My goal is to become the best engineer that I can be, through projects that have a lasting impact. I document my journey, free of ads, affiliate links, or sponsored posts.
 
-![Me](../images/taniafull.jpg)
+![Me](../common/vincentIDGAF.jpg)
 
 ### Around the web
 
-- **GitHub**: [taniarascia](https://github.com/taniarascia)
-- **Twitter**: [taniarascia](https://twitter.com/taniarascia)
+- **Email**: [vincentntang@gmail.com](mailto:vincentntangATvincentntangDOTgmail.com)
+- **GitHub**: [vincentntang](https://github.com/vincentntang)
+- **Twitter**: [vincentntang](https://twitter.com/vincentntang)
 
 ## Links
 
