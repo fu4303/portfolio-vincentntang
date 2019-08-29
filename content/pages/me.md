@@ -14,29 +14,31 @@ My goal is to become the best engineer that I can be, through projects that have
 
 ### Connect with me
 
-My username is "vincentntang" @ everything. Twitter, github, gmail, this domain,  etc.
+My username is "vincentntang" across the web.
 
-- **Email**: [vincentntang@gmail.com](mailto:vincentntangATvincentntangDOTgmail.com)
-- **GitHub**: [vincentntang](https://github.com/vincentntang)
-- **Twitter**: [vincentntang](https://twitter.com/vincentntang)
-- **Instagram**: [vincentntang](https://instagram.com/vincentntang)
-- **Linkedin**: [vincentntang](https://linkedin.com/in/vincentntang)
+#### Code Portfolio
 
-### Other Portfolios
+- **[GitHub](https://github.com/vincentntang)**: Open source projects
+- **[Codepen](https://codepen.io/vincentntang)**: I'm a web doodler
+- **[Devpost](https://devpost.com/vincentntang)**: Occasional hackathon'er
+- **[Dribbble](https://dribbble.com/vincentntang)**: Wannabe designer
 
-- **Codepen (Frontend)**: [vincentntang](https://codepen.io/vincentntang)
-- **Devpost (Hackathons)**: [vincentntang](https://devpost.com/vincentntang)
+#### Promotional
 
-### Publications
+- **[Publications](/publications)** - Blogs I wrote elsewhere
+- **[Talks](/talks)** - Podcasts, Conferences, and Meetups
+- **[Apperances](/apperances)** - Places I'm featured in
+- **[Media](/media)** - Promotional material
 
-- [View All](/publications)
+#### Misc
 
-## Currently Using
+- **[Uses](/uses)** - Tools I currently use
+- **[DIY](/diy)** - Physical things I've built
+- **[Restaurants](/restaurants)** - Did you know I used to design restaurants?
 
-- **Computer:** MacBook Pro 2015
-- **Hosting:** [Netlify](https://netlify.com), [AWS](https://aws.amazon.com), [Heroku](https://heroku.com)
-- **Editor:** [Visual Studio Code](https://code.visualstudio.com/)
-- **Static site generator (blog):** [Gatsby](https://gatsbyjs.org)
-- **Syntax highlighting:** [PrismJS](http://prismjs.com/)
-- **Notes:** [SimpleNote](https://simplenote.com/)
-- **Journaling** [Dynalist.io](https://dynalist.io)
+#### Social Media
+
+- **[Email](mailto:vincentntang+mydomain@gmail.com)**: Contact me here
+- **[Twitter](https://twitter.com/vincentntang)**: Random thoughts
+- **[Instagram](https://instagram.com/vincentntang)**: I like taking pictures
+- **[Linkedin](https://linkedin.com/in/vincentntang)**: For the recruiters out there
