@@ -11,8 +11,14 @@ export default class Contact extends Component {
           month when I write an article.
         </p>
         <NewsletterForm />
-        <p>You can also find me around the web.</p>
+        <p>My username is "vincentntang" across the web.</p>
         <ul>
+          <li>
+            <strong>Email</strong>:{' '}
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/vincentntang">
+              vincentntang@gmail.com [edit to hello@vincentntang.com]
+            </a>
+          </li>
           <li>
             <strong>GitHub</strong>:{' '}
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/vincentntang">
@@ -26,19 +32,10 @@ export default class Contact extends Component {
             </a>
           </li>
           <li>
-            <strong>Instagram</strong>:{' '}
-            <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/vincentntang">
-              vincentntang
-            </a>
-          </li>
-          <li>
             <strong>Linkedin</strong>:{' '}
             <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/vincentntang">
               vincentntang
             </a>
-          </li>
-          <li>
-            <strong>Feed</strong>: <a href="https://www.vincentntang.com/rss.xml">RSS</a>
           </li>
         </ul>
       </>

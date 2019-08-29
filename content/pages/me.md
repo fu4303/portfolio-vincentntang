@@ -38,7 +38,7 @@ My username is "vincentntang" across the web.
 
 #### Social Media
 
-- **[Email](mailto:vincentntang+mydomain@gmail.com)**: Contact me here
+- **[Email](mailto:vincentntang+mydomain@gmail.com)**: Contact me here. [edit to hello@vincentntang.com]
 - **[Twitter](https://twitter.com/vincentntang)**: Random thoughts
 - **[Instagram](https://instagram.com/vincentntang)**: I like taking pictures
 - **[Linkedin](https://linkedin.com/in/vincentntang)**: For the recruiters out there
