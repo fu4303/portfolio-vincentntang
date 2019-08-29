@@ -12,59 +12,24 @@ My goal is to become the best engineer that I can be, through projects that have
 
 ![Me](../common/vincentIDGAF.jpg)
 
-### Around the web
+### Connect with me
+
+My username is "vincentntang" @ everything. Twitter, github, gmail, this domain,  etc.
 
 - **Email**: [vincentntang@gmail.com](mailto:vincentntangATvincentntangDOTgmail.com)
 - **GitHub**: [vincentntang](https://github.com/vincentntang)
 - **Twitter**: [vincentntang](https://twitter.com/vincentntang)
+- **Instagram**: [vincentntang](https://instagram.com/vincentntang)
+- **Linkedin**: [vincentntang](https://linkedin.com/in/vincentntang)
 
-## Links
+### Other Portfolios
 
-A non-exhaustive list.
+- **Codepen (Frontend)**: [vincentntang](https://codepen.io/vincentntang)
+- **Devpost (Hackathons)**: [vincentntang](https://devpost.com/vincentntang)
 
-- [Vanya Sergeev](https://sergeev.io) – a brilliant programmer who is very important to me
-- [Teodor Nikolaev](https://teodor.co/) – a talented designer, developer, artist, photographer, and Bulgarian
-- [Craig Lam](http://craiglam.com/) – one of the funniest people I’ve ever met and the mastermind behind Scripto
-- [Ben Schroeder](https://benschroeder.com/) – a dear friend of mine who is knowledgeable, hilarious, and eloquent
-- [Dave Bock](https://dkbock.com/) – an excellent designer and insightful friend
-- [Joe Carlyon](http://qualitytesting.tech/) – the automation expert and an awesome guy who makes great beer
+### Publications
 
-## Music
-
-Sometimes I sing and play accordion/piano. I like to [record music](https://soundcloud.com/ivoryandivory) in my spare time. Here are some.
-
-- [I’d Like to Walk Around In Your Mind](https://soundcloud.com/ivoryandivory/id-like-to-walk-around-in-your-mind)
-- [Such Great Heights](https://soundcloud.com/john-termaat/such-great-heights) (duet)
-- [Night Nurse](https://soundcloud.com/john-termaat/night-nurse) (duet)
-- [El Pasadiscos](https://soundcloud.com/ivoryandivory/el-pasadiscos)
-- [Mad World](https://soundcloud.com/ivoryandivory/mad-world)
-- [You And I](https://soundcloud.com/ivoryandivory/you-and-i)
-- [Just Like Heaven](https://soundcloud.com/ivoryandivory/just-like-heaven)
-- [The Winner Takes It All](https://soundcloud.com/ivoryandivory/the-winner-takes-it-all)
-- [Wicked Game](https://soundcloud.com/ivoryandivory/wicked-game)
-- [Truce](https://soundcloud.com/ivoryandivory/truce)
-- [Something Wild](https://soundcloud.com/ivoryandivory/something-wild)
-- [Bridge Over Troubled Water](https://soundcloud.com/ivoryandivory/bridge-over-troubled-water)
-- [Rainy Monday](https://soundcloud.com/ivoryandivory/rainy-monday)
-- [Saloon](https://soundcloud.com/ivoryandivory/saloon)
-
-## Projects
-
-- [Laconia](https://github.com/taniarascia/laconia) – a modern PHP MVC framework written without libraries or frameworks
-- [New Moon](https://github.com/taniarascia/new-moon) – the optimized dark theme for web development. Your new favorite theme
-- [Chip8.js](https://github.com/taniarascia/chip8) – a Chip-8 emulator written in JavaScript for terminal and the browser
-- [Primitive](https://github.com/taniarascia/primitive) – a minimalist front-end design toolkit built with Sass
-- [MVC.js](https://github.com/taniarascia/mvc) – a simple Todo MVC application in plain JavaScript
-- [Snek.js](https://github.com/taniarascia/snek) – a terminal-based Snake implementation written in JavaScript (Node.js)
-- [tania.dev](https://github.com/taniarascia/taniarascia.com) – personal theme for Gatsby (the source of this website)
-
-## Publications
-
-- [View all](/publications)
-
-## 3D Printer
-
-- [3D Printer Projects](https://github.com/taniarascia/3d)
+- [View All](/publications)
 
 ## Currently Using
 
@@ -73,6 +38,5 @@ Sometimes I sing and play accordion/piano. I like to [record music](https://soun
 - **Editor:** [Visual Studio Code](https://code.visualstudio.com/)
 - **Static site generator (blog):** [Gatsby](https://gatsbyjs.org)
 - **Syntax highlighting:** [PrismJS](http://prismjs.com/)
-- **Code syntax theme:** [New Moon](https://taniarascia.github.io/new-moon)
-- **Newsletter:** [Sendy](https://sendy.co)
 - **Notes:** [SimpleNote](https://simplenote.com/)
+- **Journaling** [Dynalist.io](https://dynalist.io)
