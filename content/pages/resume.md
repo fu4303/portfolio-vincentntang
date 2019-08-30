@@ -4,6 +4,12 @@ slug: resume
 template: page
 ---
 
+ADDITIONAL NOTES
+
+- Put experiences uptop is plain text.
+- List every project below?
+- 3x3 square grid of every project?
+
 ### Web Developer
 
 Highly motivated and versatile web developer and technical writer who is passionate about writing clean, efficient code and maintaining modern standards and security.
