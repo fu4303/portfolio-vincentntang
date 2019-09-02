@@ -4,7 +4,7 @@ import terminalBlack from '../images/terminal-black.svg';
 import terminalWhite from '../images/terminal-white.svg';
 import sun from '../images/sun.svg';
 import moon from '../images/moon.svg';
-import kofi from '../../content/thumbnails/kofi.png';
+// import kofi from '../../content/thumbnails/kofi.png';
 import ThemeContext from '../context/ThemeContext';
 
 export default class Navigation extends Component {
@@ -63,13 +63,13 @@ export default class Navigation extends Component {
                 {link.name}
               </Link>
             ))}
-            <a
+            {/* <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://ko-fi.com/taniarascia"
+              href="https://ko-fi.com/vincentntang"
             >
               <img src={kofi} alt="Kofi" className="kofi" />
-            </a>
+            </a> */}
             <div className="cta">
               <button className="dark-switcher" onClick={theme.toggleDark}>
                 {theme.dark ? (

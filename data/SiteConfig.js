@@ -19,17 +19,21 @@ const config = {
   userTwitter: 'vincentntang',
   menuLinks: [
     {
-      name: 'Me',
-      link: '/me/',
-    },
-    {
-      name: 'Articles',
+      name: 'Writing',
       link: '/blog/',
     },
     {
-      name: 'Contact',
-      link: '/contact/',
+      name: 'Speaking',
+      link: '/talks/'
     },
+    {
+      name: 'About',
+      link: '/me/',
+    },
+    // {
+    //   name: 'Contact',
+    //   link: '/contact/',
+    // },
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff',

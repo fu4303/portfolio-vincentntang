@@ -16,29 +16,33 @@ My goal is to become the best engineer that I can be, through projects that have
 
 My username is "vincentntang" across the web.
 
-#### Code Portfolio
+- 💾 **[GitHub](https://github.com/vincentntang)**: Open source projects
+- 💾 **[Codepen](https://codepen.io/vincentntang)**: Web doodles
+- 💾 **[Devpost](https://devpost.com/vincentntang)**: Hackathon projects
+- ⚙️ **[Uses](/uses)** - Tools I use
+- ⚙️ **[Appearances](/apperances)** - Podcasts / Interviews / etc I'm featured in
+- 👋 **[Twitter](https://twitter.com/vincentntang)**
+- 👋 **[Instagram](https://instagram.com/vincentntang)**
+- 👋 **[Linkedin](https://linkedin.com/in/vincentntang)**
+- 👋 **[Email](mailto:vincentntang+mydomain@gmail.com)**: hello@vincentntang.com
 
-- **[GitHub](https://github.com/vincentntang)**: Open source projects
-- **[Codepen](https://codepen.io/vincentntang)**: I'm a web doodler
-- **[Devpost](https://devpost.com/vincentntang)**: Occasional hackathon'er
-- **[Dribbble](https://dribbble.com/vincentntang)**: Wannabe designer
+<br/>
+<br/>
+<br/>
 
-#### Promotional
+
+<!-- - **[Dribbble](https://dribbble.com/vincentntang)**: Wannabe designer -->
+
+<!-- #### Promotional
 
 - **[Publications](/publications)** - Blogs I wrote elsewhere
 - **[Talks](/talks)** - Podcasts, Conferences, and Meetups
 - **[Apperances](/apperances)** - Places I'm featured in
-- **[Media](/media)** - Promotional material
+- **[Media](/media)** - Promotional material -->
 
-#### Misc
 
-- **[Uses](/uses)** - Tools I currently use
-- **[DIY](/diy)** - Physical things I've built
-- **[Restaurants](/restaurants)** - Did you know I used to design restaurants?
 
-#### Social Media
+<!-- - **[DIY](/diy)** - Physical things I've built
+- **[Restaurants](/restaurants)** - Did you know I used to design restaurants? -->
 
-- **[Email](mailto:vincentntang+mydomain@gmail.com)**: Contact me here. [edit to hello@vincentntang.com]
-- **[Twitter](https://twitter.com/vincentntang)**: Random thoughts
-- **[Instagram](https://instagram.com/vincentntang)**: I like taking pictures
-- **[Linkedin](https://linkedin.com/in/vincentntang)**: For the recruiters out there
+
