@@ -20,7 +20,7 @@ My username is "vincentntang" across the web.
 - 💾 **[Codepen](https://codepen.io/vincentntang)**: Web doodles
 - 💾 **[Devpost](https://devpost.com/vincentntang)**: Hackathon projects
 - ⚙️ **[Uses](/uses)** - Tools I use
-- ⚙️ **[Appearances](/apperances)** - Podcasts / Interviews / etc I'm featured in
+- ⚙️ **[Appearances](/appearances)** - Podcasts / Interviews / etc I'm featured in
 - 👋 **[Twitter](https://twitter.com/vincentntang)**
 - 👋 **[Instagram](https://instagram.com/vincentntang)**
 - 👋 **[Linkedin](https://linkedin.com/in/vincentntang)**

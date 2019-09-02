@@ -20,7 +20,7 @@ const config = {
   menuLinks: [
     {
       name: 'Writing',
-      link: '/writing/',
+      link: '/blog/',
     },
     {
       name: 'Speaking',
