@@ -20,15 +20,15 @@ const config = {
   menuLinks: [
     {
       name: 'Writing',
-      link: '/blog/',
+      link: '/writing/',
     },
     {
       name: 'Speaking',
-      link: '/talks/'
+      link: '/speaking/'
     },
     {
       name: 'About',
-      link: '/me/',
+      link: '/about/',
     },
     // {
     //   name: 'Contact',
