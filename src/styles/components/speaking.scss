@@ -1,0 +1,13 @@
+.speaking-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  // background-color: #ededed;
+  border-top: 1px solid #dadbd9;
+  border-left: 1px solid #dadbd9;
+  .speaking-card {
+    padding: 2.5%;
+    width: calc(33.33%);
+    border-right: 1px solid #dadbd9;
+    border-bottom: 1px solid #dadbd9;
+  }
+}
