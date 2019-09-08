@@ -67,17 +67,17 @@ export default class Speaking extends Component {
         <SEO />
         <div className="container">
           <h1>Speaking</h1>
-          <p>I'm passionate about talking about frontend related topics, message me </p>
-          <p>Past Events</p>
+          <p>Over the past year, I've been fortunate enough to share my ideas, skills, and knowledge at meetups, hackathons, and events. Here you'll find an archive of slide decks, demos, and resources I made available.</p>
+          <p>I'm available for speaking opportunities please feel free to get in touch at <a href="mailto:hello@vincentntang.com">here</a></p>
           <div className="speaking-wrapper">
             {speakingData.map(item => {
               return (
                 <div className="speaking-card">
                   <img src={item.fullImg} alt="text"/>
-                  <p>{item.venue}</p>
-                  <p>{item.date} — {item.location}</p>
-                  <p>{item.title}</p>
-                  <ul>
+                  <div>{item.venue}</div>
+                  <div className="text-13 mb-2">{item.date} — {item.location}</div>
+                  <div className="text-14">{item.title}</div>
+                  <ul className="text-14">
                     {item.links && Object.keys(item.links).map(key => {
                       return <li><a href={item.links[key]}>{key}</a></li>
                     })}
