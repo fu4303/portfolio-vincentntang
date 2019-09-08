@@ -1,0 +1,109 @@
+// For Mobile-First Design
+@mixin screen-min($min) { 
+  @media (min-width: $min) { 
+    @content 
+  } 
+};
+
+// For Desktop-First Design
+@mixin screen-max($max) { 
+  @media (max-width: $max - 1) { 
+    @content 
+  } 
+};
+
+// For Hybrid Design
+@mixin screen-minmax($min, $max){ 
+  @media (min-width: $min) and (max-width: $max - 1){ 
+    @content 
+  }
+};
+
+.speaking-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  // background-color: #ededed;
+  border-top: 1px solid #dadbd9;
+  border-left: 1px solid #dadbd9;
+  .speaking-card {
+    padding: 2.5%;
+    width: 33.33%;
+    border-right: 1px solid #dadbd9;
+    border-bottom: 1px solid #dadbd9;
+    @include screen-max(700px){
+      width: 50%;
+    }
+    @include screen-max(400px){
+      width: 100%;
+    }
+  }
+  img {
+    width: 300px;
+    height: 150px;
+    object-fit:cover;
+    opacity: 0.95;
+    @include screen-max(400px){
+      width: 100%;
+    }
+  }
+}
+
+.text-13 {
+  font-size: 13px !important;
+}
+.text-14 {
+  font-size: 14px !important;
+}
+.text-15 {
+  font-size: 15px !important;
+}
+
+$spacer: 4px;
+@for $i from 0 through 20 {
+  .m-#{$i} {
+    margin: $i * $spacer !important;
+  }
+  .ml-#{$i} {
+    margin-left: $i * $spacer !important;
+  }
+  .mr-#{$i} {
+    margin-right: $i * $spacer !important;
+  }
+  .mt-#{$i} {
+    margin-top: $i * $spacer !important;
+  }
+  .mb-#{$i} {
+    margin-bottom: $i * $spacer !important;
+  }
+  .mx-#{$i} {
+    margin-left: $i * $spacer !important;
+    margin-right: $i * $spacer !important;
+  }
+  .my-#{$i} {
+    margin-top: $i * $spacer !important;
+    margin-bottom: $i * $spacer !important;
+  }
+  .p-#{$i} {
+    padding: $i * $spacer !important;
+  }
+  .pl-#{$i} {
+    padding-left: $i * $spacer !important;
+  }
+  .pr-#{$i} {
+    padding-right: $i * $spacer !important;
+  }
+  .pt-#{$i} {
+    padding-top: $i * $spacer !important;
+  }
+  .pb-#{$i} {
+    padding-bottom: $i * $spacer !important;
+  }
+  .px-#{$i} {
+    padding-left: $i * $spacer !important;
+    padding-right: $i * $spacer !important;
+  }
+  .py-#{$i} {
+    padding-top: $i * $spacer !important;
+    padding-bottom: $i * $spacer !important;
+  }
+}

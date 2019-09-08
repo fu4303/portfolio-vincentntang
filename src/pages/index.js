@@ -10,7 +10,7 @@ import NewsletterForm from '../components/NewsletterForm';
 import SEO from '../components/SEO';
 import config from '../../data/SiteConfig';
 import projects from '../../data/projects';
-import speaking from '../../data/speaking';
+import speaking from '../../data/speakingData';
 import podcasts from '../../data/podcasts';
 import quotes from '../../data/quotes';
 import vtYellow from '../../content/common/VT_yellowBG.png';
