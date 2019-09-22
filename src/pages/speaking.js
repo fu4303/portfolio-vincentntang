@@ -5,61 +5,62 @@ import Layout from '../layout'
 import PostListing from '../components/PostListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
+import Img from 'gatsby-image'; // Lazy Load images
 
 import speakingData from '../../data/speakingData';
 
 export default class Speaking extends Component {
   state = {
-    searchTerm: '',
-    currentCategories: [],
-    posts: this.props.data.posts.edges,
-    filteredPosts: this.props.data.posts.edges,
+    // searchTerm: '',
+    // currentCategories: [],
+    // posts: this.props.data.posts.edges,
+    // filteredPosts: this.props.data.posts.edges,
   }
 
-  handleChange = async event => {
-    const { name, value } = event.target
+  // handleChange = async event => {
+  //   const { name, value } = event.target
 
-    await this.setState({ [name]: value })
+  //   await this.setState({ [name]: value })
 
-    this.filterPosts()
-  }
+  //   this.filterPosts()
+  // }
 
-  filterPosts = () => {
-    const { posts, searchTerm, currentCategories } = this.state
+  // filterPosts = () => {
+  //   const { posts, searchTerm, currentCategories } = this.state
 
-    let filteredPosts = posts.filter(post =>
-      post.node.frontmatter.title.toLowerCase().includes(searchTerm.toLowerCase())
-    )
+  //   let filteredPosts = posts.filter(post =>
+  //     post.node.frontmatter.title.toLowerCase().includes(searchTerm.toLowerCase())
+  //   )
 
-    if (currentCategories.length > 0) {
-      filteredPosts = filteredPosts.filter(
-        post =>
-          post.node.frontmatter.categories &&
-          currentCategories.every(cat => post.node.frontmatter.categories.includes(cat))
-      )
-    }
+  //   if (currentCategories.length > 0) {
+  //     filteredPosts = filteredPosts.filter(
+  //       post =>
+  //         post.node.frontmatter.categories &&
+  //         currentCategories.every(cat => post.node.frontmatter.categories.includes(cat))
+  //     )
+  //   }
 
-    this.setState({ filteredPosts })
-  }
+  //   this.setState({ filteredPosts })
+  // }
 
-  updateCategories = category => {
-    const { currentCategories } = this.state
+  // updateCategories = category => {
+  //   const { currentCategories } = this.state
 
-    if (!currentCategories.includes(category)) {
-      this.setState(prevState => ({
-        currentCategories: [...prevState.currentCategories, category],
-      }))
-    } else {
-      this.setState(prevState => ({
-        currentCategories: prevState.currentCategories.filter(cat => category !== cat),
-      }))
-    }
-  }
+  //   if (!currentCategories.includes(category)) {
+  //     this.setState(prevState => ({
+  //       currentCategories: [...prevState.currentCategories, category],
+  //     }))
+  //   } else {
+  //     this.setState(prevState => ({
+  //       currentCategories: prevState.currentCategories.filter(cat => category !== cat),
+  //     }))
+  //   }
+  // }
 
   render() {
-    const { filteredPosts, searchTerm, currentCategories } = this.state
-    const filterCount = filteredPosts.length
-    const categories = this.props.data.categories.group
+    // const { filteredPosts, searchTerm, currentCategories } = this.state
+    // const filterCount = filteredPosts.length
+    // const categories = this.props.data.categories.group
 
     return (
       <Layout>
@@ -70,7 +71,28 @@ export default class Speaking extends Component {
           <p>Over the past year, I've been fortunate enough to share my ideas, skills, and knowledge at meetups, hackathons, and events. Here you'll find an archive of slide decks, demos, and resources I made available.</p>
           <p>I'm available for speaking opportunities please feel free to get in touch at <a href="mailto:hello@vincentntang.com">here</a></p>
           <div className="speaking-wrapper">
-            {speakingData.map(item => {
+            {/* New Content */}
+            {this.props.data.allSpeakingDataJson.edges.map(item => {
+              return (
+                <div className="speaking-card">
+                  {/* <img src={item.fullImg} alt="text"/> */}
+                  {/* <Img fixed={item.node.fullImg.childImageSharp.fixed}/> */}
+                  <Img fluid={item.node.fullImg.childImageSharp.fluid}/>
+                  <div>{item.node.venue}</div>
+                  <div className="text-13 mb-2">{item.node.date} — {item.node.location}</div>
+                  <div className="text-14">{item.node.title}</div>
+                  {/* <ul className="text-14">
+                    {item.node.links && Object.keys(item.node.links).map(key => {
+                      return <li><a href={item.node.links[key]}>{key}</a></li>
+                    })}
+                  </ul> */}
+                </div>
+              )
+            })}
+          </div>
+          <div className="speaking-wrapper">
+            {/* Old content */}
+            {/* {speakingData.map(item => {
               return (
                 <div className="speaking-card">
                   <img src={item.fullImg} alt="text"/>
@@ -84,7 +106,7 @@ export default class Speaking extends Component {
                   </ul>
                 </div>
               )
-            })}
+            })} */}
           </div>
         </div>
       </Layout>
@@ -92,39 +114,35 @@ export default class Speaking extends Component {
   }
 }
 
-
+// Automatically passes as props to react component
 export const pageQuery = graphql`
-  query SpeakingQuery {
-    posts: allMarkdownRemark(limit: 2000, sort: { fields: [fields___date], order: DESC }) {
+  query {
+    allSpeakingDataJson {
       edges {
         node {
-          fields {
-            slug
-            date
-          }
-          excerpt(pruneLength: 180)
-          timeToRead
-          frontmatter {
-            title
-            tags
-            categories
-            thumbnail {
-              childImageSharp {
-                fixed(width: 150, height: 150) {
-                  ...GatsbyImageSharpFixed
-                }
+          path
+          location
+          venue
+          fullImg {
+            childImageSharp {
+              fluid(maxWidth: 300, maxHeight: 220) {
+                src
+                srcSet
+                aspectRatio
+                # base64
+                tracedSVG
+              }
+              fixed(width: 400, height: 200) {
+                src
+                srcSet
+                height
+                width
+                # base64
+                tracedSVG
               }
             }
-            date
-            template
           }
         }
-      }
-    }
-    categories: allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___categories) {
-        fieldValue
-        totalCount
       }
     }
   }

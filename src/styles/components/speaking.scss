@@ -20,6 +20,7 @@
 };
 
 .speaking-wrapper {
+  // margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
   // background-color: #ededed;
@@ -38,12 +39,12 @@
     }
   }
   img {
-    width: 300px;
-    height: 150px;
-    object-fit:cover;
-    opacity: 0.95;
+    // width: 300px;
+    // height: 150px;
+    // object-fit:cover;
+    // opacity: 0.95;
     @include screen-max(400px){
-      width: 100%;
+      // width: 100%;
     }
   }
 }

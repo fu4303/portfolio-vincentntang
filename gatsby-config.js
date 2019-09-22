@@ -28,6 +28,7 @@ module.exports = {
       },
     },
     {
+      // Default Configuration 
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'assets',
@@ -41,11 +42,26 @@ module.exports = {
       },
     },
     {
+      // Post load images and markdown
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
         path: `${__dirname}/content/`,
       },
+    },
+    {
+      // All other data images (speaking) 
+      // order of files matter if one plugin later relies on previous
+      // e.g. manifest file first (top) and service workers last (bottom)
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'speaking',
+        path: `${__dirname}/data/`,
+      },
+    },
+    {
+      // This will look across all gatsby-source-filesystems declarations
+      resolve: 'gatsby-transformer-json',
     },
     {
       resolve: 'gatsby-transformer-remark',

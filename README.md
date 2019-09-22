@@ -43,3 +43,34 @@ If you see any typos or formatting errors in a post, or any other issue that nee
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## Adding new features
+
+1. Use `yarn add <gatsby plugin>` to get the new name
+
+
+## Notes with Michal - Gatsby Team
+
+https://www.gatsbyjs.org/docs/gatsby-image/#common-fragments-with-gatsby-transformer-sharp 
+
+```
+childImageSharp {
+  fixed(width: 400, height: 200) {
+    src
+    srcSet
+    height
+    width
+    # base64
+    tracedSVG
+  }
+```
+
+vs premade fragments
+
+```
+childImageSharp {
+  fixed(width: 150, height: 150) {
+    ...GatsbyImageSharpFixed
+  }
+}
+```
