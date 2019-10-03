@@ -2,10 +2,10 @@
 date: 2019-10-16
 title: 'Demystifying javascript promises and async/await'
 template: post
-thumbnail: '../../thumbnails/sass.png'
+thumbnail: '../../thumbnails/js.png'
 slug: sass-media-queries
 categories:
-  - CSS
+  - Javascript
 tags:
   - media queries
   - responsive design
@@ -34,7 +34,7 @@ Let's first talk about how a firework gets launched into the air first. If you g
 
 (show gif of Coyote getting blown up on fuse)
 
-Fireworks use a fuse system, where an ignition source is needed to light the rope. We can break down the steps from start to finish, of how an operator launches a firework:
+Fireworks use a fuse system, where an ignition source is needed to light the rope. We can break down the steps from start to finish, of how an person launches a firework:
 
 1. Take a heat source
 2. Light up the rope
