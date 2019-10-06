@@ -17,11 +17,12 @@ What is it you might ask?
 
 Imagine if you took your favorite chrome extension and made it even better(sort of). [Userscripts](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) are javascript injections on a webpage. They don't have access to chrome's extension APIs so you don't get dedicated toolbar icons like this:
 
-![](5b7d7b324645a_f5n0EUN.png)
+![](./images/userscript_1.png)
 
 But, because it aren't restricted to chrome, they can be used in any browser such as IE, firefox, opera, etc. Userscripts are also much more extensible - with javascript you can also inject HTML and CSS on a webpage too. Chrome Extensions have restrictions against these because otherwise they would be abused to produce this monstrosity
 
-[caption id="" align="alignnone" width="594"]![](5b7d7b3672020_sv3HE5B.png) _the infamous internet explorer toolbar spam_[/caption]
+[caption id="" align="alignnone" width="594"]![](./images/userscript_2.png)
+ _the infamous internet explorer toolbar spam_[/caption]
 
 ## 
 
@@ -37,10 +38,12 @@ Whenever I use a tool long enough I always end up writing an extension for it. I
 
 In this theme, I had it limit the display size of images I uploaded. While also respecting aspect ratio. The CSS  looked like this:
 
-    img {
-    max-width: 600px;
-    max-height: 600px;
-    }
+```css
+img {
+  max-width: 600px;
+  max-height: 600px;
+}
+```
 
 The problem I had was that not all images were created equally. Images have different informational density, different sizes, etc. I found myself constantly going back to my custom theme tweaking max-width and max-height of images.
 
@@ -48,11 +51,11 @@ What I needed was a slider that would let me pick max image sizes on the fly. Bu
 
 My solution was to overlay a UI button slider at the topleft of the screen. Here is what the final product looks like, using a 1200x1200 image.
 
-![](5b7d7b37a2269_dMXXpmI.gif)
+![](./images/userscript_3.gif)
 
-For reference this is what it looks like WITHOUT my extension:
+For reference this is what it looks like without my extension:
 
-![](5b7d7b38b4a46_GAolGnY.png)
+![](./images/userscript_4.png)
 
 ## My adventures in writing my first usercript
 
@@ -91,7 +94,7 @@ I had to dial back and figure something else out. I remembered how when I wrote 
 
 I analyzed the original theme I wrote and the userscript version variant. From here, I was able to discern how the CSS was being loaded in. The javascript looks like this:
 
-![](5b7d7b3921b69_Xkq8ZW8.png)
+![](./images/userscript_5.png)
 
 What it did was the following:
 
@@ -107,15 +110,15 @@ I ended up tweaking this template and applied it globally to every website. This
 
 Discourse forums was the only one that worked.
 
-![](4hxDNDMp0Mw849wEuok0ZRcu)
+![](./images/userscript_6.png)
 
 Next, I needed to add a `position: fixed` element that sat on top of everything else and put everything together.
 
-![](5b7d7b3ae500d_ZOWUv2T.gif)
+![](./images/userscript_7.gif)
 
 I just had to fine tune the CSS at this point in time. The final slider I added a fade transition so I wouldn't constantly see the image width value.
 
-![](5b7d7b3b565d4_jfgSyMH.gif)
+![](./images/userscript_8.gif)
 
 ## More problems
 
