@@ -60,10 +60,6 @@ When I decided that I would do this topic, it intrinsically made sense to me. SV
 
 But how do you explain that to an audience?
 
-"It takes experience to sift this out"?
-
-That's not a very useful way of phrasing things. It doesn't enlighten the audience at all. You might as well be stroking your ego at that point. They can't abstract away that information to something practical.
-
 I used the [feyman technique](https://mattyford.com/blog/2014/1/23/the-feynman-technique-model)[2] to explain it to a rubber ducky multiple times. Once I hashed most of the bits, I had some help in proofreading my talk. But that was literally the day beforehand, so I didn't plan appropiately
 
 I started to break things out into it's smallest component form. This is something I do all the time with dynalist.io, but I used google doc instead. Because I had to share my draft proposal to the meetup organizer. This way they can see what the "course syllabus" would look like, and process would be transparent
