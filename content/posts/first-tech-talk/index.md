@@ -102,7 +102,7 @@ The syntax is actually the same. I looked through special effects blogs for a go
 
 I present you, a harry potter scene. _(to my surprise, only half the audience watched harry potter)_
 
-![](ZKRkKAD.png)
+![](./images/scene-lights-action.png)
 
 How it works is like this
 
