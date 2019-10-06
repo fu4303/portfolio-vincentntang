@@ -2,15 +2,11 @@
 
 Personal website running on Gatsby, React, and Node.js.
 
-- [Read about it on the official Gatsby blog!](https://www.gatsbyjs.org/blog/2019-03-21-migrating-from-wordpress-to-gatsby/)
-
 ## Installation
 
 Run local server:
 
 ```bash
-git clone https://github.com/taniarascia/taniarascia.com
-cd taniarascia.com
 yarn
 yarn run dev
 ```
@@ -35,10 +31,6 @@ If you see any typos or formatting errors in a post, or any other issue that nee
 - Ruben Harutyunyan - [Gatsby Advanced Starter](https://github.com/vagr9k/gatsby-advanced-starter/)
 - Muhammad Muhsin - [Using React Context API with Gatsby](https://www.gatsbyjs.org/blog/2019-01-31-using-react-context-api-with-gatsby/)
 - Thomas Frössman - [ExitWP](https://github.com/thomasf/exitwp) - WordPress XML to Markdown
-
-## Author
-
-- [Tania Rascia](https://www.taniarascia.com)
 
 ## License
 
@@ -74,3 +66,9 @@ childImageSharp {
   }
 }
 ```
+
+## More Notes
+
+When you update the `speaking.json` file, it breaks the `/speaking` page
+
+Run `yarn clean` to remove the cache, `yarn dev` to rerun it again

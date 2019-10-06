@@ -1,5 +1,16 @@
 [
   {
+    "date": "October 5th 2019",
+    "location": "Tampa, FL",
+    "title": "Level Up with Hackathons",
+    "venue": "Barcamp Tampa Bay",
+    "path": "https://barcamptampabay.org/",
+    "fullImg": "./images/barcamp-tampabay.png",
+    "links": {
+      "site": "https://slides.com/vincentntang/level-up-with-hackthons"
+    }
+  },
+  {
     "date": "July 22 2019",
     "location": "St Louis, MO",
     "title": "Pill Dispensing System",
