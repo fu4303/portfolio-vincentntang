@@ -70,15 +70,24 @@ My first train of thought was to just go on stackoverflow and google ["how to in
 
 I decided I needed an isolated environment to do a proof of concept. I ended up making a few simplified codepen examples for this:
 
-[codepen_embed height="300" theme_id="33644" slug_hash="eKKzMO" default_tab="js,result" user="Kagerjay"]See the Pen <a href='https://codepen.io/Kagerjay/pen/eKKzMO/'>userscript Injection Pt1</a> by Vincent Tang (<a href='https://codepen.io/Kagerjay'>@Kagerjay</a>) on <a href='https://codepen.io'>CodePen</a>.[/codepen_embed]
+<iframe height="300" style="width: 100%;" scrolling="no" title="Tamperscript Injection Pt1" src="https://codepen.io/vincentntang/embed/eKKzMO?height=300&theme-id=34950&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/vincentntang/pen/eKKzMO'>Tamperscript Injection Pt1</a> by Vincent Tang
+  (<a href='https://codepen.io/vincentntang'>@vincentntang</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 The first example is just using a basic querySelector to append a div element. Then targeting the CSS after.
 
-[codepen_embed height="300" theme_id="33644" slug_hash="XYYKoX" default_tab="js,result" user="Kagerjay"]See the Pen <a href='https://codepen.io/Kagerjay/pen/XYYKoX/'>userscript Injection Pt2</a> by Vincent Tang (<a href='https://codepen.io/Kagerjay'>@Kagerjay</a>) on <a href='https://codepen.io'>CodePen</a>.[/codepen_embed]
+<iframe height="300" style="width: 100%;" scrolling="no" title="Tamperscript Injection Pt2" src="https://codepen.io/vincentntang/embed/XYYKoX?height=300&theme-id=34950&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/vincentntang/pen/XYYKoX'>Tamperscript Injection Pt2</a> by Vincent Tang
+  (<a href='https://codepen.io/vincentntang'>@vincentntang</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 The 2nd example was to import the stackoverflow code so I could write natural CSS in a javascript file.
 
-[codepen_embed height="300" theme_id="33644" slug_hash="NzzBOO" default_tab="js,result" user="Kagerjay"]See the Pen <a href='https://codepen.io/Kagerjay/pen/NzzBOO/'>userscript Injection Pt3</a> by Vincent Tang (<a href='https://codepen.io/Kagerjay'>@Kagerjay</a>) on <a href='https://codepen.io'>CodePen</a>.[/codepen_embed]
+<iframe height="300" style="width: 100%;" scrolling="no" title="Tamperscript Injection Pt3" src="https://codepen.io/vincentntang/embed/NzzBOO?height=300&theme-id=34950&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/vincentntang/pen/NzzBOO'>Tamperscript Injection Pt3</a> by Vincent Tang
+  (<a href='https://codepen.io/vincentntang'>@vincentntang</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 The 3rd example was to put it all together to create the full prototype of what it would look like. I had to borrow some boilerplate jquery slider code [here](https://codepen.io/tutsplus/pen/bdxWbB) because the jquery doc examples were terrible.
 
