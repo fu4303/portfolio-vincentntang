@@ -57,6 +57,10 @@ ul li ul {
 ol li ol {
   margin-bottom: 0;
 }
+// Fix the ol
+ol {
+  padding-left: 40px;
+}
 
 // Headings
 h1,

@@ -3,9 +3,9 @@ date: 2019-10-15
 title: 'Building a NodeJS Express MongoDB API'
 template: post
 thumbnail: '../../thumbnails/sass.png'
-slug: sass-media-queries
+slug: building-a-nodejs-express-mongodb-api
 categories:
-  - CSS
+  - Javascript
 tags:
   - media queries
   - responsive design
