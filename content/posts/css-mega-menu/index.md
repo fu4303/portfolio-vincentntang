@@ -15,13 +15,13 @@ Megamenu's are an essential frontend component found in many sites. From sites l
 
 <!--more-->
 
-![](5bd132df12dc0_R7HMrqp.gif)![](R7HMrqp.gif)
+![](./images/css-mega-menu.gif)
 
 Navigating to one tab expands the a dropdown across the entire navbar. Essentially, it gives you another way of shopping. You could have clicked "mens" → "jordans" to find the newest release of air jordans. Or just move your mouse a bit and click the tab you want.
 
 Megamenu's save time for the end user, thereby increasing conversion rate. Nobody likes a site that takes forever to navigate, and a megamenu is one way to solve this.
 
-> So how do you build a megamenu using only CSS?
+### So how do you build a megamenu using only CSS?
 
 The question first is to break down how a responsive navigation bar works. Here is an example:
 
@@ -84,7 +84,10 @@ a {
 }
 ```
 
-[codepen_embed height="357" theme_id="34950" slug_hash="eKMBQq" default_tab="result" user="vincentntang" preview="true" data-preview="true"]See the Pen <a href='https://codepen.io/vincentntang/pen/eKMBQq/'>CSS Responsive Navbar Pt1</a> by Vincent Tang (<a href='https://codepen.io/vincentntang'>@vincentntang</a>) on <a href='https://codepen.io'>CodePen</a>.[/codepen_embed]
+<iframe height="300" style="width: 100%;" scrolling="no" title="CSS Responsive Navbar Pt1" src="https://codepen.io/vincentntang/embed/eKMBQq?height=300&theme-id=34950&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/vincentntang/pen/eKMBQq'>CSS Responsive Navbar Pt1</a> by Vincent Tang
+  (<a href='https://codepen.io/vincentntang'>@vincentntang</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 Now modify and add the megamenu HTML portion. Do this by adding a `<megamenu>` class with two `<p>` children underneath. Add the following CSS, which controls the dropdown transition.
 
@@ -146,7 +149,10 @@ a:hover {
 }
 ```
 
-[codepen_embed height="385" theme_id="34950" slug_hash="ZRogMy" default_tab="result" user="vincentntang" preview="true" data-preview="true"]See the Pen [CSS Mega Menu Dropdown Navigation Responsive Pt2](https://codepen.io/vincentntang/pen/ZRogMy/) by Vincent Tang ([@vincentntang](https://codepen.io/vincentntang)) on [CodePen](https://codepen.io).[/codepen_embed]
+<iframe height="300" style="width: 100%;" scrolling="no" title="CSS Mega Menu Dropdown Navigation Responsive Pt2" src="https://codepen.io/vincentntang/embed/ZRogMy?height=300&theme-id=34950&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/vincentntang/pen/ZRogMy'>CSS Mega Menu Dropdown Navigation Responsive Pt2</a> by Vincent Tang
+  (<a href='https://codepen.io/vincentntang'>@vincentntang</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 Try hovering over the text. It should show "hello world"
 
@@ -158,4 +164,7 @@ How it works is the following:
 
 You can make more complex menus than this. Here are other examples:
 
-[codepen_embed height="478" theme_id="34950" slug_hash="OEEPWG" default_tab="result" user="vincentntang" preview="true" data-preview="true"]See the Pen <a href='https://codepen.io/vincentntang/pen/OEEPWG/'>CSS Mega Menu Dropdown Navigation Responsive Pt5</a> by Vincent Tang (<a href='https://codepen.io/vincentntang'>@vincentntang</a>) on <a href='https://codepen.io'>CodePen</a>.[/codepen_embed]
+<iframe height="300" style="width: 100%;" scrolling="no" title="CSS Mega Menu Dropdown Navigation Responsive Pt5" src="https://codepen.io/vincentntang/embed/OEEPWG?height=300&theme-id=34950&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/vincentntang/pen/OEEPWG'>CSS Mega Menu Dropdown Navigation Responsive Pt5</a> by Vincent Tang
+  (<a href='https://codepen.io/vincentntang'>@vincentntang</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
