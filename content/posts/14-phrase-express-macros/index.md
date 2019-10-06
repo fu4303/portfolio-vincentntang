@@ -22,7 +22,7 @@ It is a program that automates common tasks. One of my favorite software package
 
 What does a macro look like?
 
-![7e4qcq2[1].gif](7e4qcq21.gif)
+![](./images/phrase_1.gif)
 
 That's one simple example of what a phrase-express can do. Text expansion with a keyword like "btw#" to output "By the way". But it can do much more than that.
 
@@ -36,7 +36,7 @@ My number one go to use of phrase-express is my email signature. At work, I run 
 
 That was when I first started to look for a tool to automate some common tasks I had. Below is how I sign emails now:
 
-![6b5BKNL[1].gif](6b5BKNL1.gif)
+![](./images/phrase_2.gif)
 
 I trigger my command by typing "VT#", which is my first initial, my last initial, and the "#" sign. This ensures that I don't type "VT" out of context for any reason. For instance, I typing in a shipping address in Vermont, and the state's abbreviation is VT. By adding a # it foolproofs my macro. I don't add the # to the beginning since its common to use social media hashtags this way.
 
@@ -44,7 +44,7 @@ Also, I set so that it only works on Thunderbird. This ensures I don't type out 
 
 Below are my settings for this macro
 
-![bKn9f3l[1].png](bKn9f3l1.png)
+![](./images/phrase_3.png)
 
 ## 2. Unicode / Emoji Snippets (Text expansion)
 
@@ -72,7 +72,7 @@ Emojis also serve as a form of commenting "signature" as well.
 
 This is my setting for the `→` unicode. The other symbols are similar in nature, so I omitted them.
 
-![nREYAcy[1].png](nREYAcy1.png)
+![](./images/phrase_4.png)
 
 ## 3: Binding to windows hotkey (remapping keys)
 
@@ -80,11 +80,11 @@ I rarely use my F1 and F2 keys for native applications. The reason is because ev
 
 What I do use for F1 and F2 is a dedicated firefox and chrome app (in this case, my journal app dynalist)
 
-![](T1Lzu78.png)
+![](./images/phrase_5.png)
 
 I have it mapped to windows native **⊞ + 1** and **⊞ +2** keys
 
-![](PcFRiAs.png)
+![](./images/phrase_6.png)
 
 ## 4. Binding Hotkey (set application focus)
 
@@ -94,7 +94,7 @@ End result is a messy taskbar with icons everywhere. Some icons like my developm
 
 I end up losing time navigating through the wasteland I created.
 
-![](dOa3Bzo.png)
+![](./images/phrase_7.png)
 
 So if I wanted to find which one of my atom windows is called "code snippets", I can't. The name of each folder is concatenated, so its no longer readable. I have to hover over eacn window to find out
 
@@ -106,9 +106,9 @@ I have these macros binded to my F3,F4 keys because I never use them. The only t
 
 If this happens I can turn off phrase-express temporarily. Or set restrict its usage under to certain apps only.
 
-![](JwJTeNB.png)
+![](./images/phrase_8.png)
 
-![](BnluXg5.png)
+![](./images/phrase_9.png)
 
 ## 5. Documentation Snippets (Text-expansion)
 
@@ -116,11 +116,13 @@ Many times I'll publish a markdown document and write out what each folder does.
 
 For example this:
 
-> repo-base
-> ├── .git
-> ├── Folder structure
-> │ └── info.rkt ; meta package depends on my-lang-lib
-> └── my-lang-lib ; run `raco pkg install` here
+```s
+repo-base
+├── .git
+├── Folder structure
+│ └── info.rkt ; meta package depends on my-lang-lib
+└── my-lang-lib ; run `raco pkg install` here
+```
 
 Writing this out by hand is time consuming. Or having to find a document to copypaste this takes too long.
 
@@ -130,25 +132,27 @@ Developing often times requires you to use dummy-data as a placeholder. This mig
 
 Instead of using a lorem ipsum generator, you can use a macro instead.
 
-![](224oK7X.png)
+![](./images/phrase_10.png)
 
 ## 7. Comment Blocks (Text-expansion)
 
 Writing out easy to read placeholder comment blocks can be done with phrase-express. This is helpful if you need to declare what each variable is used for, what the function return value is for, etc.
 
-![](ymSJbab.png)
+![](./images/phrase_11.png)
 
 ## 8. Github Tools (text-expansion)
 
 There are many tools that integrate with either github or gist files. For example
 
-> ​​​​​http://htmlpreview.github.io/? + github.com/user/repo/index.html
+```
+​​​​http://htmlpreview.github.io/? + github.com/user/repo/index.html
+```
 
 lets you view that site. I have this set to `html#`
 
 This way I can copy the URL I'm on, type `html#` after, and paste to go to that public index.html file
 
-![](d4MCfpd.png)
+![](./images/phrase_12.png)
 
 ## 9. Latex Math Formulas (text-expansion)
 
@@ -158,33 +162,35 @@ However, latex takes way too long to write. Its also rather hard to remember wha
 
 Example of writing set notation
 
-![](3y1Vcdk.png)
+![](./images/phrase_13.png)
 
 Demonstration
 
-![](EQp1gHM.gif)
+![](./images/phrase_14.gif)
 
 ## 10. Writing unit test cases quickly
 
-On another blog I wrote about this here [Write Unit](https://vincentntang.com/2018/04/12/write-unit-tests-faster-with-this-macro/) [Tests Faster with this Macro](https://vincentntang.com/2018/04/12/write-unit-tests-faster-with-this-macro/)
+You can write unit tests quickly too.
 
 Here is the demonstration of it in action
 
-![](yPLNoBm1.gif)
+![](./images/phrase_15.gif)
 
 ## 11. Markdown images (text expansion)
 
 One of my most common usages of phrase-express is to make markdown images.
 
-![](7Gb72vs.png)
+![](./images/phrase_16.png)
 
 ## 12. Image placeholders (text-expansion)
 
 I use **img#** to trigger this image placeholder. Same use case with lorem ipsum, its a content holder for web / app development
 
-> http://via.placeholder.com/350x150/0ff
+```
+http://via.placeholder.com/350x150/0ff
+```
 
-![](4nF9gGy.png)
+![](./images/phrase_17.png)
 
 ## 13. Timestamp (macro automation)
 
@@ -192,37 +198,20 @@ Many times I'll put a timestamp on whatever document I am on. This is especially
 
 Example:
 
-<div><span style="color: #000000;">`!(5/31/2018 14:15)`</span></div>
+`!(5/31/2018 14:15)`
 
-<div></div>
+![](./images/phrase_18.png)
 
-<div>Setup</div>
-
-<div>![](gSNf5jk.png)</div>
-
-<div></div>
-
-<div>
 
 ## 14. Open specific website (automation)
 
-</div>
+Sometimes I have a specific website for a webtool I use.
 
-<div></div>
+Example with reddit.com
 
-<div>Sometimes I have a specific website for a webtool I use.</div>
 
-<div></div>
+![](./images/phrase_19.png)
 
-<div>Example with reddit.com</div>
-
-<div></div>
-
-<div>![](ZoCDaHA.png)</div>
-
-<div></div>
-
-<div></div>
 
 ## Final Notes
 
@@ -250,5 +239,3 @@ In any case its hard to remember more than 10 macros at a time, so I don't commi
 Also, here are some useful articles for other ideas related to task automation:
 
 *   Macro Recording - Check out this [article](https://community.airtable.com/t/bulk-image-uploader-kb-mouse-macro-to-reupload-your-imageurls-localfilepath-images-to-airtable/4503) I wrote here about automation
-
-&nbsp;
