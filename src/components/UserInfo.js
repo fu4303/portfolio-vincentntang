@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import vincent from '../../content/common/vincentwarm.jpg';
 import patreon from '../../content/thumbnails/patreon.png';
+import twitter from '../../content/thumbnails/twitter.png'
+import github from '../../content/thumbnails/github.png'
 import kofi from '../../content/thumbnails/kofi.png';
 
 export default class UserInfo extends Component {
@@ -19,7 +21,7 @@ export default class UserInfo extends Component {
               developers daily`}
               </p>
 
-              <div className="flex">
+              {/* <div className="flex">
                 <a
                   href="https://ko-fi.com/vincentntang"
                   className="donate-button"
@@ -36,6 +38,26 @@ export default class UserInfo extends Component {
                   rel="noopener noreferrer"
                 >
                   <img src={patreon} height="50" width="50" /> Patreon
+                </a>
+              </div> */}
+              <div className="flex">
+                <a
+                  href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Flocalhost%3A8000%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=vincentntang&tw_p=followbutton"
+                  className="donate-button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {/* <img src={twitter} className="coffee-icon" alt="Coffee icon" /> */}
+                  Follow on Twitter
+                </a>
+                <a
+                  className="patreon-button"
+                  href="https://github.com/vincentntang/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {/* <img src={github} height="50" width="50" />  */}
+                  Follow on Github
                 </a>
               </div>
             </div>
