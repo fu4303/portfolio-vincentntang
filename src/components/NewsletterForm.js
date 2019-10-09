@@ -6,7 +6,7 @@ export default class NewsletterForm extends Component {
       <form
         id="newsletter-form"
         className="newsletter-form"
-        action="https://newsletter.taniarascia.com/sendy/subscribe"
+        action="https://newsletter.vincentntang.com/sendy/subscribe"
         method="POST"
         acceptCharset="utf-8"
         target="_blank"
