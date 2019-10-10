@@ -20,17 +20,19 @@ I've come up with an analogy that has finally clicked it to me, and my hope is i
 
 ## How does it work?
 
-Let's step back away from Javascript land for one moment. Heck, let's go away from webdevelopment in general. Bear with me for a moment while I talk about a completely unrelated topic to build the analogy:
+Let's step back away from Javascript land for one moment. Heck, let's go away from webdevelopment in general. Bear with me for a moment while I talk about a completely unrelated topic to build the analogy - fireworks:
 
-FIREWORKS
+![](./images/fireworks.gif)
 
 You've seen them on New Year's, and if you're American possibly on July 4th as well. These dazzling spectacles adorn the night sky with shining fervor, into a night show that's hard to forget.
 
-A fireworks show is comprised of many types of fireworks. The most common one is an aerial shell, which looks like this:
+A fireworks show is comprised of many types of fireworks. The most common one is an aerial shell:
 
 (show gif)
 
-Let's first talk about how a firework gets launched into the air first. If you grew up when Coyote and Roadrunner was a thing, you may have seen cartoons like this:
+Aerial shells 
+
+Let's talk about how a firework gets launched into the air. If you grew up when Coyote and Roadrunner was a thing, 
 
 (show gif of Coyote getting blown up on fuse)
 
