@@ -24,15 +24,52 @@ Let's step back away from Javascript land for one moment. Heck, let's go away fr
 
 ![](./images/fireworks_1.gif)
 
-You've seen these before. Maybe it was with friends and family on New Year's Eve. Maybe you watched them nightly outside your window because you grew up near Disneyworld. Or maybe you just didn't get out of the house, and watched it on TV.
+You've seen these before. Maybe it was with friends and family on New Year's Eve. Maybe you watched them nightly outside your window because you grew up near Disneyworld. Or maybe you just didn't get out of the house, and watched it on TV *(don't worry I did that in my parent's basement too)*.
 
 Watching may be one thing, but it's possibly you've launched your own fireworks. Took a match, lit up fuse, ran away, and watched it fly up in the air before exploding. It's hard to forget that feeling that you made something cool happen, and annoyed your neighbors while you were at it. It may have seem like fun and games at the time, but I assure you its not.
 
 Because launching fireworks is bascally how Javascript Promises work.
 
-Before I delve into programming land, let's talk about how
+Wait what?
+
+![](./images/coyote_boom.gif)
+
+Let's take a deeper look into how an aerial shell firework is launched. By breaking down each step that happens _(the Coyote gif)_
+
+1. You light a match
+2. Light the rope
+3. Rope burns through
+4. This ignites a payload
+5. Payload explodes and firework is launched
+
+Notice how once you lit the rocket, your work is done. You have to wait for the rope to burn, until it reaches the payload to launch the fireowrk. This is what we call an asychronous process.
+
+Now let's actually look at some code. Javascript promises 
+```javascript
+function getDataPromise() {
+    return axios({
+            url: 'https://jsonplaceholder.typicode.com/posts/1',
+            method: 'get',
+            timeout: 8000,
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        })
+       .then(res => res.data)
+       .catch (err => console.error(err))
+    }
+
+
+getDataPromise()
+.then(res => console.log(res))
+```
+
+<!-- Before I delve into programming land, let's talk about how
 
 I've had my fair share of hauls buying fireworks from a random popup store in the middle of the road. Time was not wasted here my friend, because this is how I'm going to explain Javascript Promises.
+
+Promises can be explained in the context of fireworks
+(bel
 
 Launching Fireworks is basically how they work.
 
@@ -91,4 +128,4 @@ put code here, with promise then
 
 ```
 
-Promises
+Promises -->
