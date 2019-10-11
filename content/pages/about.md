@@ -73,6 +73,23 @@ PROJECTS
 - In the modal... 
   - do whatever. Copy devpost's carousel style exactly? First item... is the video itself. Next screens are images. Copy the "How I built it links whatever etc.
 
+Any other improvements...
+
+- Architect UI transition group, I dig the CSS transition group property on each page. I want to add that too
+- "Subscribe for newsletter" `animate.css` from kentcdodds. I'm using a sticky navbar, but it seems like it'd work poorly with stickynav. Perhaps...
+if i did away with stickynav, I could also add a `css-tricks` weathervane icon.... (make it a laptop, with a GEAR inside of it? too much info for such a small space?)
+- What about a cool gitlabs logo? Tanuki? Highlighting over differtent parts of the svg. Heck, why not have a gitlabs style SVG that also rotates? Gears... could do that too. Are there better logos I can use?
+  - Or if I removed the stickynavbar from tania's site, should I go kentcdodds on profile pic instead?
+
+Removing sticky...consequences:
+- If I remove the sticky, nightmode will no longer be an option
+- I get the subscribe letter, it doesn't conflict with space on screen
+- User can read more content at a time
+- If I remove sticky, my options are bit greater for layout, I can do kentcdodd's style approach to layout
+- swyx -> his new style is a bit bigger on screen
+
+Other thoughts
+- swyx -> not really my writing style I think, - too unfiltered like reddit. I prefer kentcdodds style
 
 <!-- - **[Dribbble](https://dribbble.com/vincentntang)**: Wannabe designer -->
 
