@@ -24,45 +24,76 @@ Let's step back away from Javascript land for one moment. Heck, let's go away fr
 
 ![](./images/fireworks_1.gif)
 
-You've seen these before. Maybe it was with friends and family on New Year's Eve. Maybe you watched them nightly outside your window because you grew up near Disneyworld. Or maybe you just didn't get out of the house, and watched it on TV *(don't worry I did that in my parent's basement too)*.
+You've seen these before. Maybe it was with friends and family on New Year's Eve. Maybe you watched them nightly outside your window because you grew up near Disneyworld. Or maybe you just didn't get out of the house, and watched it on TV.
 
-Watching may be one thing, but it's possibly you've launched your own fireworks. Took a match, lit up fuse, ran away, and watched it fly up in the air before exploding. It's hard to forget that feeling that you made something cool happen, and annoyed your neighbors while you were at it. It may have seem like fun and games at the time, but I assure you its not.
+Watching may be one thing, but it's possibly you've launched your own fireworks. It's hard to forget that feeling that you made something cool happen, and annoyed your neighbors while you were at it. It may have seem like fun and games at the time, but I assure you its not.
 
 Because launching fireworks is bascally how Javascript Promises work.
 
-Wait what?
-
 ![](./images/coyote_boom.gif)
 
-Let's take a deeper look into how an aerial shell firework is launched. By breaking down each step that happens _(the Coyote gif)_
+Let's take a deeper look into how a common aerial shell firework is launched. By breaking down each step that happens. This Coyote and Roadrunner gif illustrates how this process works:
 
-1. You light a match
-2. Light the rope
-3. Rope burns through
-4. This ignites a payload
-5. Payload explodes and firework is launched
+1. Light the rope
+2. Rope burns
+3. Firework is launched
 
-Notice how once you lit the rocket, your work is done. You have to wait for the rope to burn, until it reaches the payload to launch the fireowrk. This is what we call an asychronous process.
+Notice how once you lit the rocket, you wait until the explosion happens. That's a Javascript promise, the rope is pinky swearing that it will `resolve` into a launched rocket. If it's a rainy day, the rope will `reject` the promise.
 
-Now let's actually look at some code. Javascript promises 
+We're not launching rockets. But we are fetching data from external sources, via promises.
+
+When you first set out to learn webdevelopment you may have come across the json placeholder API. It's a free service for learning how to connect to a backend. For instance, if you were to go to https://jsonplaceholder.typicode.com/posts/1, you'll see a list of data like so:
+
+```json
+{
+  userId: 1,
+  id: 1,
+  title: "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  body: "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto"
+}
+```
+
+On our client, your `index.html` or `scripts.js` file, you can fetch that data like so:
+
 ```javascript
-function getDataPromise() {
+// 1. Light the rope
     return axios({
-            url: 'https://jsonplaceholder.typicode.com/posts/1',
+            url: 'https://jsonplaceholder.typicode.com/posts/1', 
             method: 'get',
             timeout: 8000,
             headers: {
                 'Content-Type': 'application/json',
             }
         })
-       .then(res => res.data)
-       .catch (err => console.error(err))
+        // 2. Rope burns
+       .then(res => res.data) // 3. rocket launches
+       .catch (err => console.error(err)) // 3. rocket NOT launched
+    }
+```
+
+```javascript
+function getPromise() {
+
+    // 1. Light the rope
+    return axios({
+            url: 'https://jsonplaceholder.typicode.com/posts/1', 
+            method: 'get',
+            timeout: 8000,
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        })
+        // 2. Rope burns
+       .then(res => res.data) // 3. rocket launches
+       .catch (err => console.error(err)) // 3. rocket NOT launched
     }
 
 
-getDataPromise()
-.then(res => console.log(res))
+getPromise()
+  .then(res => console.log(res))
 ```
+
+The above example is a common example of how promises are used. 
 
 <!-- Before I delve into programming land, let's talk about how
 

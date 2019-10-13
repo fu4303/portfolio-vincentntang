@@ -115,11 +115,12 @@ export default class PostTemplate extends Component {
             className="post"
             dangerouslySetInnerHTML={{ __html: postNode.html }}
           />
+          <NewsletterForm />
         </article>
 
         <UserInfo config={config} />
 
-        <div className="container">
+        {/* <div className="container">
           {!error && <Comments commentsList={comments} slug={commentSlug} />}
 
           <h3>Join the newsletter</h3>
@@ -129,7 +130,7 @@ export default class PostTemplate extends Component {
             whenever. <b>Never any spam, ads, or affiliate links.</b>
           </p>
           <NewsletterForm />
-        </div>
+        </div> */}
       </Layout>
     );
   }

@@ -19,16 +19,20 @@ const config = {
   userTwitter: 'vincentntang',
   menuLinks: [
     {
-      name: 'Writing',
+      name: 'Blog',
       link: '/blog/',
     },
     {
-      name: 'Speaking',
+      name: 'Talks',
       link: '/speaking/'
     },
     {
       name: 'About',
       link: '/about/',
+    },
+    {
+      name: 'Contact',
+      link: '/contact',
     },
     // {
     //   name: 'Contact',
