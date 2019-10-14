@@ -6,7 +6,7 @@ export default class NewsletterForm extends Component {
       <div className="centered-iframe">
         <iframe
           width="480"
-          height="150"
+          height="180"
           src="https://vincentntang.substack.com/embed"
           frameborder="0"
           scrolling="no"
