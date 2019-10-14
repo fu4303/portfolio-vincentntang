@@ -90,7 +90,7 @@ export default class Speaking extends Component {
               )
             })}
           </div>
-          <div className="speaking-wrapper">
+          {/* <div className="speaking-wrapper"> */}
             {/* Old content */}
             {/* {speakingData.map(item => {
               return (
@@ -107,7 +107,7 @@ export default class Speaking extends Component {
                 </div>
               )
             })} */}
-          </div>
+          {/* </div> */}
         </div>
       </Layout>
     )
@@ -129,7 +129,6 @@ export const pageQuery = graphql`
                 src
                 srcSet
                 aspectRatio
-                # base64
                 tracedSVG
               }
               fixed(width: 400, height: 200) {
@@ -137,10 +136,18 @@ export const pageQuery = graphql`
                 srcSet
                 height
                 width
-                # base64
                 tracedSVG
               }
             }
+          }
+          date
+          title
+          links {
+            demo
+            repo
+            slides
+            site
+            video
           }
         }
       }
