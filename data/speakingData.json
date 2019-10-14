@@ -1,13 +1,23 @@
 [
   {
+    "date": "October 10th 2019",
+    "location": "Orlando, FL",
+    "title": "Roundtable - Staying current with the Javascript ecosystem",
+    "venue": "Orlando JS",
+    "fullImg": "./images/roundtableDiscussion.png",
+    "links": {
+      "site": "https://www.meetup.com/OrlandoJS/events/265119278/"
+    }
+  },
+  {
     "date": "October 5th 2019",
     "location": "Tampa, FL",
     "title": "Level Up with Hackathons",
     "venue": "Barcamp Tampa Bay",
-    "path": "https://barcamptampabay.org/",
     "fullImg": "./images/barcamp-tampabay.png",
     "links": {
-      "site": "https://slides.com/vincentntang/level-up-with-hackthons"
+      "site": "https://barcamptampabay.org/",
+      "slides": "https://slides.com/vincentntang/level-up-with-hackthons"
     }
   },
   {
@@ -15,7 +25,6 @@
     "location": "St Louis, MO",
     "title": "Pill Dispensing System",
     "venue": "Healthcare Hacks 2019",
-    "path": "https://builtonair.com/boa-podcast-s02e08-vincent-tang-airtable-super-producer/",
     "fullImg": "./images/hackathonRadose.jpg",
     "links": {
       "site": "https://devpost.com/software/remote-pharmacy"
@@ -26,7 +35,6 @@
     "location": "The Internet",
     "title": "Plugin spotlights from a super producer",
     "venue": "Airtable",
-    "path": "https://builtonair.com/boa-podcast-s02e08-vincent-tang-airtable-super-producer/",
     "fullImg": "./images/built-on-air.png",
     "links": {
       "site": "https://airtable.com",
@@ -39,7 +47,6 @@
     "location": "Orlando, FL",
     "title": "Programmable Communications with Hackathons",
     "venue": "Enterprise Connect",
-    "path": "https://schedule.enterpriseconnect.com/search/vincent+tang",
     "fullImg": "./images/enterprise-connect.png",
     "links": {
       "site": "https://schedule.enterpriseconnect.com/search/vincent+tang",
@@ -52,7 +59,6 @@
     "location": "Orlando, FL",
     "title": "Rendering Tale: Comparing Canvas, SVG, WebGL, and CSS",
     "venue": "Orlando JS",
-    "path": "https://www.meetup.com/OrlandoJS/",
     "fullImg": "./images/render-tale.png",
     "links": {
       "slides": "https://slides.com/vincentntang/comparing-svg-canvas-webgl-css#/",
@@ -64,7 +70,6 @@
     "location": "Orlando, FL",
     "title": "3D Rendering Engine in HTML Canvas",
     "venue": "Orlando JS",
-    "path": "https://schedule.enterpriseconnect.com/search/vincent+tang",
     "fullImg": "./images/orlandoJs.png",
     "links": {
       "slides": "https://slides.com/vincentntang/vanishing-points-html-canvas#/",
@@ -77,7 +82,6 @@
     "location": "Orlando, FL",
     "title": "Injecting Javascript Anywhere",
     "venue": "Orlando JS",
-    "path": "https://schedule.enterpriseconnect.com/search/vincent+tang",
     "fullImg": "./images/orlandoJs.png",
     "links": {
       "slides": "https://slides.com/vincentntang/userscripts-with-tampermonkey"
@@ -88,7 +92,6 @@
     "location": "Orlando, FL",
     "title": "Startup Weekend Orlando",
     "venue": "Techstars",
-    "path": "https://www.techstars.com/content/uncategorized/startupweekendorlando2018recap/",
     "fullImg": "./images/startup-weekend.jpg",
     "links": {
       "site": "https://devpost.com/software/sensae-app",
@@ -101,7 +104,6 @@
     "location": "Orlando, FL",
     "title": "Exploring the Earth",
     "venue": "NASA Space Apps",
-    "path": "https://www.techstars.com/content/uncategorized/startupweekendorlando2018recap/",
     "fullImg": "./images/nasaEarth.png",
     "links": {
       "site": "https://devpost.com/software/nasa-space-apps-2018",

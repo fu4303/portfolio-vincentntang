@@ -73,14 +73,20 @@ export default class Speaking extends Component {
           <div className="speaking-wrapper">
             {/* New Content */}
             {this.props.data.allSpeakingDataJson.edges.map(item => {
+              console.log(item,"item");
               return (
-                <div className="speaking-card">
+                <div name={item.node.title} className="speaking-card">
                   {/* <img src={item.fullImg} alt="text"/> */}
                   {/* <Img fixed={item.node.fullImg.childImageSharp.fixed}/> */}
-                  <Img fluid={item.node.fullImg.childImageSharp.fluid}/>
+                  <Img className="mb-2" fluid={item.node.fullImg.childImageSharp.fluid}/>
                   <div>{item.node.venue}</div>
                   <div className="text-13 mb-2">{item.node.date} — {item.node.location}</div>
-                  <div className="text-14">{item.node.title}</div>
+                  <div className="text-15" style={{height:'72px'}}>{item.node.title}</div>
+                  {Object.keys(item.node.links).map((key) => {
+                    if(item.node.links[key] !== null){
+                      return <li><a key={key} href={item.node.links[key]}>{key}</a></li>
+                    }
+                  })}
                   {/* <ul className="text-14">
                     {item.node.links && Object.keys(item.node.links).map(key => {
                       return <li><a href={item.node.links[key]}>{key}</a></li>
@@ -120,7 +126,7 @@ export const pageQuery = graphql`
     allSpeakingDataJson {
       edges {
         node {
-          path
+          # path
           location
           venue
           fullImg {
