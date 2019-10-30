@@ -1,5 +1,16 @@
 [
   {
+    "date": "October 26th 2019",
+    "location": "Tampa, FL",
+    "title": "Fullstack GraphQL NodeJS with React",
+    "venue": "TampaCC",
+    "fullImg": "./images/tampacc_graphql_2019v1.png",
+    "links": {
+      "slides": "https://slides.com/vincentntang/fullstack-graphql-nodejs-react",
+      "demo": "https://github.com/vincentntang/graphql-movie-quotes"
+    }
+  },
+  {
     "date": "October 10th 2019",
     "location": "Orlando, FL",
     "title": "Roundtable - Staying current with the Javascript ecosystem",
@@ -17,7 +28,6 @@
     "venue": "Barcamp Tampa Bay",
     "fullImg": "./images/barcamp-tampabay2.png",
     "links": {
-      "site": "https://barcamptampabay.org/",
       "slides": "https://slides.com/vincentntang/level-up-with-hackthons",
       "video": "https://www.youtube.com/watch?v=fEXpBFBuHkA&feature=youtu.be"
     }
@@ -29,7 +39,7 @@
     "venue": "Healthcare Hacks 2019",
     "fullImg": "./images/hackathonRadose.jpg",
     "links": {
-      "site": "https://devpost.com/software/remote-pharmacy"
+      "demo": "https://devpost.com/software/remote-pharmacy"
     }
   },
   {
@@ -39,7 +49,6 @@
     "venue": "Airtable",
     "fullImg": "./images/built-on-air.png",
     "links": {
-      "site": "https://airtable.com",
       "slides": "https://slides.com/vincentntang/built-on-air-airtable#/",
       "video": "https://builtonair.com/boa-podcast-s02e08-vincent-tang-airtable-super-producer/"
     }
@@ -51,7 +60,6 @@
     "venue": "Enterprise Connect",
     "fullImg": "./images/enterprise-connect.png",
     "links": {
-      "site": "https://schedule.enterpriseconnect.com/search/vincent+tang",
       "slides": "https://docs.google.com/presentation/d/1DiH_JI8Wx_OpyJPvM23HCtdcA2oy9zkUj_p3RT_bkFs/edit?usp=sharing",
       "demo": "https://vimeo.com/326350210"
     }
@@ -96,7 +104,6 @@
     "venue": "Techstars",
     "fullImg": "./images/startup-weekend.jpg",
     "links": {
-      "site": "https://devpost.com/software/sensae-app",
       "repo": "github.com/vincentntang/sensae-app/",
       "demo": "https://sensaeapp.co/quiz"
     }
@@ -108,7 +115,7 @@
     "venue": "NASA Space Apps",
     "fullImg": "./images/nasaEarth.png",
     "links": {
-      "site": "https://devpost.com/software/nasa-space-apps-2018",
+      "repo": "https://devpost.com/software/nasa-space-apps-2018",
       "demo": "https://nasa-space-app-2018.herokuapp.com/"
     }
   }

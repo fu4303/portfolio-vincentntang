@@ -22,8 +22,6 @@ My goal is to become the best engineer that I can be, through projects that have
 
 ### Public Work
 
-Public work projects
-
 - [Cherripick](/https://www.producthunt.com/posts/cherripick) - React Native app, earn cashback on grocery food nearing expiration
 - [Restaurant Ecommerce](/https://fairwayeq-com.3dcartstores.com/) - 80k product ecommerce store
 

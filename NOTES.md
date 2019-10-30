@@ -1,5 +1,11 @@
 ## TODO - A list of todos
 
+TODOS ongoing
+
+- On talks -> hard link the ahref via the actual venue name specified (needs a key for this, not in the seperate links object)
+
+- resize some of the photos to center image on me (TAMPA CC)
+
 ABOUT ME
 
 - Use the Kentcdodds style footer and subscriber bleed in, remove all the social icons to the very bottom
