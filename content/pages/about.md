@@ -14,7 +14,7 @@ My goal is to become the best engineer that I can be, through projects that have
 
 ### OpenSource Projects
 
-- [Asteroid Battlegrounds](https://github.com/vincentntang/asteroid_battlegrounds) - Typescript PhaserJS game based on the ATARI classic, Asteroids
+- [Asteroid Battlegrounds](https://github.com/vincentntang/asteroid_battlegrounds) - Typescript PhaserJS game based on ATARI Asteroids
 - [Earthly](https://github.com/vincentntang/2018spaceappschallenge) - NASA 3D visualization exploration app
 - [3D Box](https://github.com/vincentntang/canvas-vanishing-points) - 3D renderer built on 2D HTML Canvas
 - [Movie Quotes](https://github.com/vincentntang/graphql-movie-quotes) - GraphQL NodeJS React App Tutorial for a conference talk
