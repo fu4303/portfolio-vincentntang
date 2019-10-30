@@ -41,5 +41,3 @@ Short bulletpoints here. Same with indesign resume, link here?
 Put a TROPHY icon on resume for bulletpoint accomplishments?
 
 Speaker note on talking points?
-
-#

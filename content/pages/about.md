@@ -18,6 +18,7 @@ My goal is to become the best engineer that I can be, through projects that have
 - [Earthly](https://github.com/vincentntang/2018spaceappschallenge) - NASA 3D visualization exploration app
 - [3D Box](https://github.com/vincentntang/canvas-vanishing-points) - 3D renderer built on 2D HTML Canvas
 - [Movie Quotes](https://github.com/vincentntang/graphql-movie-quotes) - GraphQL NodeJS React App Tutorial for a conference talk
+- [Vue Desk Configurator](https://codepen.io/vincentntang/pen/LKgWbv) - Vue App featured on frontpage of Codepen
 - [vincent.dev](https://www.vincentntang.com/) - Gatsby site
 
 ### Public Work
@@ -32,6 +33,7 @@ My username is "vincentntang" across the web.
 - 💾 **[GitHub](https://github.com/vincentntang)**: Open source projects
 - 💾 **[Codepen](https://codepen.io/vincentntang)**: Web doodles
 - 💾 **[Devpost](https://devpost.com/vincentntang)**: Hackathon projects
+- 💾 **[Stackoverflow](https://stackoverflow.com/users/3258462/vincent-tang)**: Knowledge wiki
 <!-- - ⚙️ **[Uses](/uses)** - Tools I use
 - ⚙️ **[Appearances](/appearances)** - Podcasts / Interviews / etc I'm featured in -->
 - 👋 **[Twitter](https://twitter.com/vincentntang)**
