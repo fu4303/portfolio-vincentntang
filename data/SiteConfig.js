@@ -11,7 +11,7 @@ const config = {
   siteDescription:
     'Vincent Tang is web developer and writer specializing in modern JavaScript who breaks down complex concepts in an accessible and intuitive way.',
   siteRss: '/rss.xml',
-  googleAnalyticsID: 'UA-42068444-1',
+  googleAnalyticsID: 'UA-125472858-2',
   postDefaultCategoryID: 'Tech',
   commentsApi: 'https://tania-comments-api.herokuapp.com/comments',
   userName: 'Vincent',
