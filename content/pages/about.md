@@ -12,7 +12,7 @@ My goal is to become the best engineer that I can be, through projects that have
 
 ![Me](../common/vincentIDGAF.jpg)
 
-### Opensource Side Projects
+### OpenSource Projects
 
 - [Asteroid Battlegrounds](https://github.com/vincentntang/asteroid_battlegrounds) - Typescript PhaserJS game based on the ATARI classic, Asteroids
 - [Earthly](https://github.com/vincentntang/2018spaceappschallenge) - NASA 3D visualization exploration app
@@ -20,7 +20,7 @@ My goal is to become the best engineer that I can be, through projects that have
 - [Movie Quotes](https://github.com/vincentntang/graphql-movie-quotes) - GraphQL NodeJS React App Tutorial for a conference talk
 - [vincent.dev](https://www.vincentntang.com/) - Gatsby site
 
-### Work
+### Public Work
 
 Public work projects
 
