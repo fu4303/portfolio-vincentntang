@@ -16,7 +16,7 @@ export default class Contact extends Component {
           <li>
             <strong>Email</strong>:{' '}
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/vincentntang">
-              vincentntang@gmail.com [edit to hello@vincentntang.com]
+              vincentntang@gmail.com
             </a>
           </li>
           <li>
