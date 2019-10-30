@@ -1,7 +1,7 @@
 export default [
   {
     name: 'Javi',
-    quote: `"I learn something new from Vincent's tech presentations`,
+    quote: `"I learn something new from Vincent's tech presentations“`,
   },
   {
     name: 'German',
