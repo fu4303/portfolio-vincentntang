@@ -39,7 +39,7 @@ My username is "vincentntang" across the web.
 - 👋 **[Twitter](https://twitter.com/vincentntang)**
 - 👋 **[Instagram](https://instagram.com/vincentntang)**
 - 👋 **[Linkedin](https://linkedin.com/in/vincentntang)**
-- 👋 **[Email](mailto:vincentntang+mydomain@gmail.com)**: hello@vincentntang.com
+- 👋 **[Email](mailto:vincentntang+mydomain@gmail.com)**
 
 <br/>
 <br/>
