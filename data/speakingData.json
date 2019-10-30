@@ -4,7 +4,7 @@
     "location": "Tampa, FL",
     "title": "Fullstack GraphQL NodeJS with React",
     "venue": "TampaCC",
-    "fullImg": "./images/tampacc_graphql_2019v1.png",
+    "fullImg": "./images/tampacc_graphql_2019v2.png",
     "links": {
       "slides": "https://slides.com/vincentntang/fullstack-graphql-nodejs-react",
       "demo": "https://github.com/vincentntang/graphql-movie-quotes"
@@ -15,7 +15,7 @@
     "location": "Orlando, FL",
     "title": "Roundtable - Staying current with the Javascript ecosystem",
     "venue": "Orlando JS",
-    "fullImg": "./images/roundtableDiscussion2.png",
+    "fullImg": "./images/roundtableDiscussion3.png",
     "links": {
       "site": "https://www.meetup.com/OrlandoJS/events/265119278/",
       "video": "https://www.youtube.com/watch?v=F0luzs5cEpk&feature=youtu.be"
