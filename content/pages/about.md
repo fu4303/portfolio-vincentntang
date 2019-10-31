@@ -34,6 +34,7 @@ My username is "vincentntang" across the web.
 - 💾 **[Codepen](https://codepen.io/vincentntang)**: Web doodles
 - 💾 **[Devpost](https://devpost.com/vincentntang)**: Hackathon projects
 - 💾 **[Stackoverflow](https://stackoverflow.com/users/3258462/vincent-tang)**: Knowledge wiki
+- 💾 **[Slides](https://slides.com/vincentntang/)**: Presentation slidedecks
 <!-- - ⚙️ **[Uses](/uses)** - Tools I use
 - ⚙️ **[Appearances](/appearances)** - Podcasts / Interviews / etc I'm featured in -->
 - 👋 **[Twitter](https://twitter.com/vincentntang)**
