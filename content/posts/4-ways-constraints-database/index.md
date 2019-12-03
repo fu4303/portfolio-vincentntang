@@ -3,12 +3,13 @@ date: 2019-12-03
 title: 'Four Ways to Protect Against Bad Data In Your Database'
 template: post
 thumbnail: '../../thumbnails/sql.png'
-slug: 4-ways-ensure-good-data-in-database
+slug: four-ways-to-protect-against-bad-data-in-your-database
 categories:
-  - Javascript
+  - Backend
 tags:
-  - nodeJS
-  - javascript
+  - Postgres
+  - SQL
+  - SQLite
 ---
 
 Databases are used to store data, one of these is called a relational database. Data can get messy in the application fairly fast, for a number of reasons. Sometimes the backend code doesn't validate the information coming from the frontend. For instance, you might have a user inputting bad data on a form. This could be something like an email field requiring an email address. Instead of adding an email, something like `testing@gmail.com`, they may have misspelled it to `testing.com`. 
