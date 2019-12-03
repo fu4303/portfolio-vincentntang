@@ -79,7 +79,7 @@ These constraints occur at the database level. In this case, you'll still have a
 | email_address | bobdoe@gmail.com                     |
 | gender        | male                                 |
 
-Under the gender column itself, you can add `checks` against this column only. More information found on it over here `https://www.w3resource.com/PostgreSQL/check.php`
+Under the gender column itself, you can add `checks` against this column only. More information found on it over here [https://www.w3resource.com/PostgreSQL/check.php](https://www.w3resource.com/PostgreSQL/check.ph)
 
 ## 4. Building typechecks in your code
 
@@ -103,7 +103,7 @@ function test(a: string, b: number) {
 
 `a` will always be a string in this case, `b` will always be a number. If it does not you'll get an error
 
-Lastly, if you use GraphQL there's also type schemas as well
+Lastly, if you use [GraphQL](https://graphql.org/learn/schema/) there's also type schemas as well
 
 ## Summary
 
