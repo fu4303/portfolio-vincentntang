@@ -11,9 +11,9 @@ tags:
   - javascript
 ---
 
-You know basic Javascript. Your digging into the fundamentals of NodeJS, or server-side javascript. One of the first things you need to learn is how to read a local file on your computer.
+You know basic Javascript. You're digging into the fundamentals of NodeJS, or server-side javascript. One of the first things you need to learn is how to read a local file on your computer.
 
-This is useful if you are running isolated test in a list of inputs. Examples include solving Advent of Code problems, or coding puzzles in your favorite IDE. Or maybe taking a list of CSV inputs and hitting API endpoints with it
+This is useful if you are running an isolated test in a list of inputs. Examples include solving coding puzzles in your favorite code editor. Or maybe taking a list of CSV inputs and hitting API endpoints with it
 
 ## Instructions
 
@@ -53,9 +53,7 @@ console.log(readMe,"readMe");
 
 nodeJS comes preconfigured with a set of standard library tools you can use. One is called the `fs` module, which grants you methods for reading local files. First, you require the module. Next, you need to specify the encoding, in this case `utf-8`. Because each input value is across a new line input, you need to use Javascript's `split` method. This creates an array seperated by each new line designated by `\n`
 
-Lastly, `console.log` the result.
-
-You need to run the file afterwards. Open up a terminal within the same directory. If you use visual studio code, press <kbd>cmd \`</kbd> and this will open a terminal.
+You need to run the file afterwards. If you use visual studio code, press <kbd>cmd \`</kbd> and this will open a terminal.
 
 Type this command and hit enter
 
