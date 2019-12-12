@@ -1,9 +1,9 @@
 ---
 date: 2019-12-03
-title: 'Four Ways to Protect Against Bad Data In Your Database'
+title: 'Four Ways to Ensure Good Data In Your Database'
 template: post
 thumbnail: '../../thumbnails/sql.png'
-slug: four-ways-to-protect-against-bad-data-in-your-database
+slug: four-ways-to-ensure-good-data-in-your-database
 categories:
   - Backend
 tags:
