@@ -46,22 +46,24 @@ One of the rules of good database design is to assume the worst case scenario, i
 
 Here's an example. In most applications, there is generally a `users` and a `role` table. For instance, someone who logs into a website might have admin privilages, in this case they are of role `admin`. So they have the ability to delete / update user profiles that a nonadmin should not have.
 
-Here's an example of how that `admin` user gets stored in the database, using foreign key constraints
+Here's an example of how that `admin` user gets stored in the database. 
 
-|  Users Table  | Ex.                                  |
+| Users Columns | Example Values                       |
 |:-------------:|--------------------------------------|
-| users_id      | dc1b9a56-350e-4d0d-af6a-9079d0323c48 |
-| roles_id      | 8dcb786e-6f9c-4bf2-82e7-c5a17abe4a55 |
+| users_id (PK) | dc1b9a56-350e-4d0d-af6a-9079d0323c48 |
+| roles_id (FK) | 8dcb786e-6f9c-4bf2-82e7-c5a17abe4a55 |
 | user_name     | bobdoe                               |
 | email_address | bobdoe@gmail.com                     |
 
 
-| Roles Table | Ex.                                  |
-|:-----------:|--------------------------------------|
-| roles_id    | 8dcb786e-6f9c-4bf2-82e7-c5a17abe4a55 |
-| role_name   | admin                                |
+| Roles Columns | Example Values                       |
+|:-------------:|--------------------------------------|
+| roles_id (PK) | 8dcb786e-6f9c-4bf2-82e7-c5a17abe4a55 |
+| role_name     | admin                                |
 
-Our user `bobdoe` is an admin here, via the `roles_id`, as this is how the two tables are connected to each other. `Bobdoe` has a `roles_id` of `8dcb786e-6f9c-4bf2-82e7-c5a17abe4a55` that also exists in the roles table
+Our user `bobdoe` is an admin here, via the `roles_id`, as this is how the two tables are connected to each other. `Bobdoe` has a `roles_id` of `8dcb786e-6f9c-4bf2-82e7-c5a17abe4a55` that also exists in the roles table. 
+
+Values like these `8dcb786e-6f9c-4bf2-82e7-c5a17abe4a55` are non-incrementing [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier), which are randomly generated unique 32 alphanumeric characters. The alternative is auto-numbered integers.
 
 ## 3. Building check constraints against column fields
 
@@ -72,7 +74,7 @@ It might make more sense to build a constraint instead, against a new column in 
 These constraints occur at the database level. In this case, you'll still have a `users_table`, but add a new column:
 
 
-|  Users Table  | Ex.                                  |
+| Users Columns | Example values                       |
 |:-------------:|--------------------------------------|
 | users_id      | dc1b9a56-350e-4d0d-af6a-9079d0323c48 |
 | roles_id      | 8dcb786e-6f9c-4bf2-82e7-c5a17abe4a55 |
