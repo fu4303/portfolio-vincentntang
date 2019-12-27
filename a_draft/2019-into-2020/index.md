@@ -14,7 +14,7 @@ tags:
 
 Every year I've written things I did/learned this year, and where I want to move forward for the next year. My previous post is for 2018 is here[2018-into-2019](https://vincentntang.com/). The tradition continues on this year again :)
 
-## I gave 10 talks
+## I gave X talks
 
 In 2018 I didn't really know that much about software development. Luckily I had great mentors from the open source community, hackathons, and devs locally teach me all sorts of cool things. I'm eternally grateful for their support, so as thanks I wanted to give back to the tech community at large.
 
@@ -38,14 +38,18 @@ I've started to write again on this blog about things I learn. Mostly tailored t
 
 ## I learned database development
 
+Fullstack developer is frontend, backend, and database development. I never really had a clear grasp of how databases were created in the real world. It wasn't until I wrote my first seeder and migration that everything just *clicked* [TODO- make a blog post on this]. I did spend time reading database design theory books on this topic. Like how database relations work, etc.
 
+But in this current role that I'm at, I got to see a greenfield project go from nothing to pretty much completed in a span of 4 months. I'm happy to say that I contributed a lot to the coding patterns used in this application. 
 
 ## I learned several new technologies
 
-Sometimes fizzbuzz 
+I learned
 
-## I learned how databases were created
+## I competed in X hackathons
 
-## I taught myself fullstack development
+
 
 ## 2020 and onwards
+
+So this concludes my review of 2019! There are a few topics that I wish to learn and
