@@ -28,4 +28,8 @@ npm install -g sequelize-cli
 npm install sequelize
 ```
 
-Sequelize-cli is a standalone tool that let's you execute migrations. Mi
+Sequelize-cli is a standalone tool that let's you execute migrations.
+
+## Notes
+
+add something about sequelize migrations being used for branches / down migrations when you need to go to different branch

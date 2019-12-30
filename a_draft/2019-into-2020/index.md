@@ -50,6 +50,7 @@ I learned
 
 
 
+
 ## 2020 and onwards
 
 So this concludes my review of 2019! There are a few topics that I wish to learn and
