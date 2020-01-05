@@ -3,16 +3,14 @@ date: 2019-12-31
 title: '2019 into 2020'
 template: post
 thumbnail: '../../thumbnails/js.png'
-slug: demystifying-javascript-promises-async-await
+slug: 2019-into-2020
 categories:
-  - Javascript
+  - Personal
 tags:
-  - media queries
-  - responsive design
-  - workflow
+  - reflection
 ---
 
-Every year I've written things I did/learned this year, and where I want to move forward for the next year. My previous post is for 2018 is here[2018-into-2019](https://vincentntang.com/). The tradition continues on this year again :)
+Every year I've written things I did/learned this year, and where I want to move forward for the next year. My previous post is for 2018 is here[2018-into-2019](/2018-into-2019). The tradition continues on this year again :)
 
 ## I gave 7 talks
 
@@ -32,23 +30,17 @@ Most of the talks I did revolved around things I found interesting, or learned f
 
 ## I started a new job in a new city
 
-I might be a late bloomer here, but I've never really ventured too far from home. I grew up in Orlando, FL and lived there most of my life, supporting my family's business. The first software gig I worked at in Orlando, didn't work out, so I ventured out to other cities. When I had the opportunity to move to Tampa, it was like a dream come true. Life goes on and I could do pretty much whatever I wanted, and the adventures never stop there. There's something fun about not knowing what you'll be doing the next day, or who you'll end up meeting. My free time as of now is spent exploring new hobbies and interests, and I've taken a liking to rock climbing and many other sports. I still haven't fully situated myself in town, so my priorities have shifted away from software development for the time being. I haven't looked at a web tutorial in several months, or done much blogging lately, but I intend on changing that :)
+I am a late bloomer here, but I've never really ventured too far from home. I grew up in Orlando, FL and lived there most of my life, supporting my family's business. The first software gig I worked at in Orlando, didn't work out, so I ventured out to other cities. When I had the opportunity to move to Tampa, it was like a dream come true. Life goes on and I could do pretty much whatever I wanted, and the adventures never stop there. There's something fun about not knowing what you'll be doing the next day, or who you'll end up meeting. My free time as of now is spent exploring new hobbies and interests, and I've taken a liking to rock climbing and many other sports. I still haven't fully situated myself in town, so my priorities have shifted away from software development for the time being. I haven't looked at a web tutorial in several months, or done much blogging lately, but I intend on changing that :)
 
 ## I reached the frontpage of Codepen 2 times
 
-I'm a web doodler at heart. As [sarah drasner](./SARAH) puts it, I like making and breaking things. Most of what I know about UI/UX development has been through replicating features online. Sometimes it was for [work](./ECOMMERCE SITE), other times it was for just because I wanted to experiment. Those fun little moments came mostly through something inspiring and cool I found while shopping for things online. 
+I'm a web doodler at heart. As [Sarah Drasner](https://codepen.io/sdras/) puts it, I like making and breaking things. Most of what I know about UI/UX development has been through replicating features online. Sometimes it was for work, other times it was for just because I wanted to experiment. Those fun little moments came mostly through something inspiring and cool I found while shopping for things online. 
 <!-- It's how I got started in development in the first place [my first project people used was an excel-VBA script!](./INSERT NOTES).  -->
 
 Here's those two codepens:
 
-- [Amazon Snow Winter Banner](./ADD SNOW WINTER BANNER) -
-- [VueJS - Ecommerce Product Configurator](./ADD LINK HERE) - 
-
-## I made 1 popular blog post
-
-Ironically not on this blog, but on dev.to. Learning Vue as React Dev
-
-TODO
+- [Amazon Snow Winter Banner](https://codepen.io/vincentntang/pen/YdVxxY)
+- [VueJS - Ecommerce Product Configurator](https://codepen.io/vincentntang/pen/LKgWbv) - Inspired by shopping for a standing desk
 
 ## I learned how to do backend development
 
@@ -89,11 +81,14 @@ Things I played around with and developed some proficiency
 - NextJS / Redux
 - Laravel / PHP
 
-## I competed in X hackathons
+## I competed in 4 Hackathons (and won in some too!)
 
-I did my first hackathon in 2019. It wasn't just XYZ.
+Last year I competed in two hackathons (NASA Space Apps 2018, and techstars). This year I got to explore on topics related to game design, telecommunications, and much more! One of the apps we built was a speed-dating chat-roullete app, that won first place and we gave a talk at a conference the next day on it.
 
-TODO
+- [Asteroid Battlegrounds](https://devpost.com/software/asteroid-battlegrounds) - HTML5 Video Game based on the ATARI classic Asteroids
+- [Cherri Pick](https://devpost.com/software/cherri-pick) - Saving money on grocery by buying nearly expired goods
+- [Callnection](https://devpost.com/software/callnection) - Speed Dating Chat Roulette based telecomm app
+- [Remote Pharmacy](https://devpost.com/software/remote-pharmacy) - Dog Dating App
 
 ## 2020 Goals
 
@@ -101,13 +96,13 @@ So this concludes my review of 2019! I feel like I've learned and accomplished a
 
 I'm not sure what 2020 will bring. I could never really answer the question of where I see myself in 5 years. Decision making has never been my forte. But if there's one thing that I've learned in this journey, it's to never stop building things and learning.
 
-For learning, I take inspiration from [Ben Awad](./ASDF), one of the youtubers I follow for software development. It's important not to set too many goals down, else you can't reach all of them. I did this in [2018](./BLOG POST), and never got around to learning X,Y,Z. Here's a list of things I do wish to learn. 
+For learning, I take inspiration from [Ben Awad](/https://www.youtube.com/channel/UC-8QAzbLcRglXeN_MY9blyw), one of the youtubers I follow for software development. It's important not to set too many goals down, else you can't reach all of them. I did this in [2018](/2018-into-2019), and never got around to learning X,Y,Z. Here's a list of things I do wish to learn. 
 
 - C# Development
 - Typescript
 - DevOps / AWS
 
-Just those 4 things for the time being. C#, because I haven't done much programming in a statically typed language, and I have found that I enjoyed game development from the first game I [made](./ASDFASDF). Typescript because I think it will simplify my backend workflow and make scaling applications easier. DevOps because I want to learn how websites are actually optimized and deployed to the web.
+Just those 4 things for the time being. C#, because I haven't done much programming in a statically typed language, and I have found that I enjoyed game development from the first game I [made](/https://devpost.com/software/asteroid-battlegrounds). Typescript because I think it will simplify my backend workflow and make scaling applications easier. DevOps because I want to learn how websites are actually optimized and deployed to the web.
 
 There's a list of other topics I may wish to learn. Here they are:
 
@@ -116,4 +111,4 @@ There's a list of other topics I may wish to learn. Here they are:
 - IoT development
 - Computer Science Topics
 
-Those are my goals in 2020 moving forward!
+That's my 20/20 vision for this year!

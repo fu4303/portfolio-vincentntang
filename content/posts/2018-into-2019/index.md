@@ -21,25 +21,18 @@ I made a commitment last year to explore the community around me. Despite growin
 
 <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">Topics ranged from how to build your own frontend framework, to using google's machine learning tools. And meeting really cool companies and people:)</span>
 
-## <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">I wrote <span style="color: #ff0000;">13</span> articles</span>
+## <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">I wrote <span style="color: #ff0000;">6</span> articles</span>
 
 <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">Mostly centered around tooling, and lessons learned. I did my best to focus mostly on quality over quantity. My writing is not perfect by any means, but I still try. Thanks to all the readers / comments that have made it so far on this blog :). This year I'll focus on mostly web/software development</span>
 
 Topics
 
-*   [Things I Wish I Knew at My First Tech Talk](https://vincentntang.com/things-wish-knew-first-tech-talk/ "Things I Wish I Knew at My First Tech Talk")
-*   [How to Build a HTML Canvas Vanishing Point Cube](https://vincentntang.com/build-html-canvas-vanishing-point-cube/ "How to Build a HTML Canvas Vanishing Point Cube")
-*   [Modular Sass Media Queries for Responsive Webdesign](https://vincentntang.com/modular-media-queries-with-sass-mixins-for-responsive-webdesign/ "Modular Sass Media Queries for Responsive Webdesign")
-*   [How to Make a CSS Mega Menu](https://vincentntang.com/make-css-mega-menu/ "How to Make a CSS Mega Menu")
-*   [How to add PrismJS Codesnippets To Wordpress](https://vincentntang.com/add-prismjs-codesnippets-wordpress/ "How to add PrismJS Codesnippets To Wordpress")
-*   [Windows VS MacOs for Development](https://vincentntang.com/windows-vs-macos-for-development/ "Windows VS MacOs for Development")
-*   [Adventures in Writing a Tampermonkey Script Extension](https://vincentntang.com/adventures-in-writing-a-tampermonkey-script-extension/ "Adventures in Writing a Tampermonkey Script Extension")
-*   [Dedicated Desktop Icon Shortcut Keys](https://vincentntang.com/dedicated-desktop-icon-macros/ "Dedicated Desktop Icon Shortcut Keys")
-*   [14 Useful Phrase Express Macros For Developers](https://vincentntang.com/14-useful-phrase-express-macros-for-developers/ "14 Useful Phrase Express Macros For Developers")
-*   [My review on Watch And Code](https://vincentntang.com/my-review-on-watch-and-code/ "My review on Watch And Code")
-*   [Write Unit Tests Faster with this Macro](https://vincentntang.com/write-unit-tests-faster-with-this-macro/ "Write Unit Tests Faster with this Macro")
-*   [My Sloppy Excel VBA Code](https://vincentntang.com/my-sloppy-excel-vba-code/ "My Sloppy Excel VBA Code")
-*   [5 Best Features in Directory Opus](https://vincentntang.com/5-best-features-in-directory-opus/ "5 Best Features in Directory Opus")
+*   [Things I Wish I Knew at My First Tech Talk](/things-wish-knew-first-tech-talk/ "Things I Wish I Knew at My First Tech Talk")
+*   [How to Build a HTML Canvas Vanishing Point Cube](/build-html-canvas-vanishing-point-cube/ "How to Build a HTML Canvas Vanishing Point Cube")
+*   [Modular Sass Media Queries for Responsive Webdesign](/modular-media-queries-with-sass-mixins-for-responsive-webdesign/ "Modular Sass Media Queries for Responsive Webdesign")
+*   [How to Make a CSS Mega Menu](/make-css-mega-menu/ "How to Make a CSS Mega Menu")
+*   [Adventures in Writing a Tampermonkey Script Extension](/adventures-in-writing-a-tampermonkey-script-extension/ "Adventures in Writing a Tampermonkey Script Extension")
+*   [14 Useful Phrase Express Macros For Developers](/14-useful-phrase-express-macros-for-developers/ "14 Useful Phrase Express Macros For Developers")
 
 ## I worked on <span style="color: #ff0000;">6</span> collabarative side projects
 
@@ -96,7 +89,7 @@ It's not much but at least someone finds value in things I write! I've met quite
 
 Traffic has mostly been organic and occasional links through hackernews.
 
-## Fitness Milestones Made:
+<!-- ## Fitness Milestones Made:
 
 I didn't meet most of my fitness goals this year, despite working on it everyday + macros/creatine bulking. I'm currently have been sick for a few weeks so progress has slowed. Plus I'm naturally weak _(for reference this is what I looked like [growing up](https://i.imgur.com/qjOrm7N.png))_. I swapped from a r/recommendedroutine to a 5 day workout-split
 
@@ -105,7 +98,7 @@ I didn't meet most of my fitness goals this year, despite working on it everyday
 *   70 lb shoulder total _(originally closer to 30 lb)_
 *   My first unassisted, wide grip pullup _(before it was unassisted chinups)_
 *   90 lb lunges total _(originally just 30lb)_
-*   Parallel ground rows unassisted _(originally 60 degrees)_
+*   Parallel ground rows unassisted _(originally 60 degrees)_ -->
 
 ## Things I learned in 2018:
 
@@ -128,7 +121,6 @@ The most valuable skill I learned was how to hire developers, and manage project
 *   How nonprofits operate
 *   Building a chrome extension / userscript
 *   Discrete math
-*   Playing the piano and ukelele
 
 ## Things I hope to learn in 2019:
 
@@ -157,6 +149,5 @@ The most valuable skill I learned was how to hire developers, and manage project
 *   Transition into a full time development career
 *   Make youtube tutorials
 *   Writing blog posts in well known webdev publications
-*   Delivering this _almost finished _enterprise ecommerce project at work
 
 Well that about wraps up 2018. It was a big year in which I stepped outside my comfort zone, and started trying out new things. I'm excited for 2019!
