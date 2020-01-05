@@ -2,7 +2,7 @@
 date: 2019-12-31
 title: '2019 into 2020'
 template: post
-thumbnail: '../../thumbnails/js.png'
+thumbnail: '../../thumbnails/VT_yellowBG.png'
 slug: 2019-into-2020
 categories:
   - Personal
