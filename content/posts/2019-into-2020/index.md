@@ -96,7 +96,7 @@ So this concludes my review of 2019! I feel like I've learned and accomplished a
 
 I'm not sure what 2020 will bring. I could never really answer the question of where I see myself in 5 years. Decision making has never been my forte. But if there's one thing that I've learned in this journey, it's to never stop building things and learning.
 
-For learning, I take inspiration from [Ben Awad](/https://www.youtube.com/channel/UC-8QAzbLcRglXeN_MY9blyw), one of the youtubers I follow for software development. It's important not to set too many goals down, else you can't reach all of them. I did this in [2018](/2018-into-2019), and never got around to learning X,Y,Z. Here's a list of things I do wish to learn. 
+For learning, I take inspiration from [Ben Awad](/https://www.youtube.com/channel/UC-8QAzbLcRglXeN_MY9blyw), one of the youtubers I follow for software development. It's important not to set too many goals down, else you can't reach all of them. I did this in [2018](/2018-into-2019), and never got around to learning everything I wanted to learn. Here's a list of things I do wish to learn. 
 
 - C# Development
 - Typescript
