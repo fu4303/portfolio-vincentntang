@@ -72,3 +72,7 @@ childImageSharp {
 When you update the `speaking.json` file, it breaks the `/speaking` page
 
 Run `yarn clean` to remove the cache, `yarn dev` to rerun it again
+
+Make sure you name things correctly for image references on `/speaking`, the regeneration of cache files using `yarn dev` should take a minute on a macbook pro 2015
+
+image aspect ratio is 220px wide by 160px tall, when uploading images

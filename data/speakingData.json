@@ -1,5 +1,16 @@
 [
   {
+    "date": "November 15th 2019",
+    "location": "Tampa, FL",
+    "title": "SVGs - Everything you should know",
+    "venue": "Frontend Design Tampa",
+    "fullImg": "./images/everything-you-should-know-svgs.jpg",
+    "links": {
+      "slides": "https://slides.com/vincentntang/svg-everything-you-should-know-about-it",
+      "video": "https://youtu.be/MWYIKGps75o"
+    }
+  },
+  {
     "date": "October 26th 2019",
     "location": "Tampa, FL",
     "title": "Fullstack GraphQL NodeJS with React",
