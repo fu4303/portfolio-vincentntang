@@ -113,6 +113,7 @@ Visual studio code is my favorite IDE. Here's all my favorite plugins. There's s
 
 - **Netlify** - Hosting Provider for frontend apps
 - **Azure** - Prefer this over AWS, less confusing to use
+- **Ngrok** - Port Forwarding, incase I need to bypass firewalls
 
 ---
 
