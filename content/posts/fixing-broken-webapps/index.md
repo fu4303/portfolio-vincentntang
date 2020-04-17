@@ -1,5 +1,5 @@
 ---
-date: 2019-04-16
+date: 2020-04-16
 title: 'Inheriting a Broken Javascript Webapp and How to Fix It'
 template: post
 thumbnail: '../../thumbnails/computer.png'
