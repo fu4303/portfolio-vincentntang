@@ -16,18 +16,9 @@ A little bit about myself:
 
 TODO - add picture of the space here
 
-## Notetaking Tools
+---
 
-- **Simplenote**: Daily driver, mostly as cross platform tool for taking unflavored notes quickly. Less features is more imo
-
-## Visual Studio Code Plugins
-
-Visual studio code is my favorite IDE. Here's all my favorite plugins. There's specific Angular/React/Vue tools I occasionally use, these are `Vue VS Code Extension Pack`, Angular I use John Papa's `Angular Essentials`. React 
-
-- **GitLens**: Scroll through commit message across each line is immensely helpful. It gives me superpower insights on who wrote the code and why, sometimes leading to a bigger story. Or when I need to go back in time to see what I worked on
-- **Bracket Pair Colorizer**: Let's me identify different {} closing brackets relative to where they are at. Super helpful when looking at alot of nested code
-- **Import Cost**: Let's me see if my import statements were done correctly, by showing the package size in node_modules. 
-- **Prettier**: Autoformatting tool. I run this manually everytime (highlight code -> format selection). Really useful when I encounter hard to read code
+# General Tools
 
 ## MacOS Hardware
 
@@ -43,14 +34,6 @@ Visual studio code is my favorite IDE. Here's all my favorite plugins. There's s
 - **Greenshot**: My choice of screenshot editing software, looking for something better
 - **Magnet**: Moving screens around between two monitors, etc. I never dock my windows in full-screen mode. Favorite keybinds: CMD+OPTIONS+ENTER to maximize window, CMD+→ to move my screen to right monitor (vice versa)
 
-## MacOS Software Tools
-
-- **Dbeaver**: Database tool. I use it for seeding data and visualizing database diagrams
-- **Postman**: RESTful endpoint test suite
-- **Insomnia**: GraphQL endpoint test suite
-- **SequelPro**: Best for importing .SQL files locally
-- **Iterm/oh-my-zsh**: Favorite terminal. Love having 10 different folders open here, it's my main means of swapping b/w projects. I type `code .` at the file directory to open it in visual-studio-code. I bound CTRL+OPTION+SPACEBAR to toggle visibility for all my terminals
-
 ## Windows Hardware
 
 - **24" Vertical Monitor** - Dell U2415 and move it into vertical mode
@@ -63,14 +46,7 @@ Visual studio code is my favorite IDE. Here's all my favorite plugins. There's s
 - **ShareX** - Gif recording
 - **Greenshot** - Screenshot edit recording
 
-## Windows Software Tools
-
-- **Visual Studio** - for C# development
-- **SSMS / SQL Server** - .NET development
-
-## Software Tools
-
-Tools that are online only, or are cross platform
+## Online Based Tools
 
 - **GoogleSuite** - GoogleDrive, GoogleDocs, GoogleSlides, etc. My defacto pick for working in projects, b/c everyone knows how to use it
 - **Dropbox** - Backing up important stuff
@@ -82,6 +58,7 @@ Tools that are online only, or are cross platform
 - **Figma**: Mockups, sometimes I'll use Sketch for macOs
 - **Draw.io**: Database Diagrams
 - **Excalidraw**: Hand drawn diagrams
+- **Simplenote**: Daily driver, mostly as cross platform tool for taking unflavored notes quickly. Less features is more imo
 
 ## Chrome Extensions
 
@@ -92,10 +69,54 @@ I find myself using these less and less. Partially b/c they're just giant securi
 - **Video Controller** - Controlling playback on web videos. I bound `[` and `]` for speed down, speed up respectively
 - **Google Dictionary** - Highlight the word to find it's definition
 - **Imagus** - Hover over image to see the full preview
-- **Loom** - Quick webinar recordings
 - **OctoTree** - Github folder navigator
 - **TabSnooze** - Remind myself later to look at something, using this less frequently now
 - **FullPageScreenshot** - Useful for screenshotting entire page, project status updates to work
+
+---
+
+# Coding Tools
+
+## MacOS Software Tools
+
+- **Dbeaver**: Database tool. I use it for seeding data and visualizing database diagrams
+- **Postman**: RESTful endpoint test suite
+- **Insomnia**: GraphQL endpoint test suite
+- **SequelPro**: Best for importing .SQL files locally
+- **Iterm/oh-my-zsh**: Favorite terminal. Love having 10 different folders open here, it's my main means of swapping b/w projects. I type `code .` at the file directory to open it in visual-studio-code. I bound CTRL+OPTION+SPACEBAR to toggle visibility for all my terminals
+
+## Windows Software Tools
+
+- **Visual Studio** - for C# development
+- **SSMS / SQL Server** - .NET development
+
+## Visual Studio Code Plugins
+
+Visual studio code is my favorite IDE. Here's all my favorite plugins. There's specific Angular/React/Vue tools I occasionally use, these are `Vue VS Code Extension Pack`, Angular I use John Papa's `Angular Essentials`. React 
+
+- **GitLens**: Scroll through commit message across each line is immensely helpful. It gives me superpower insights on who wrote the code and why, sometimes leading to a bigger story. Or when I need to go back in time to see what I worked on
+- **Bracket Pair Colorizer**: Let's me identify different {} closing brackets relative to where they are at. Super helpful when looking at alot of nested code
+- **Import Cost**: Let's me see if my import statements were done correctly, by showing the package size in node_modules. 
+- **Prettier**: Autoformatting tool. I run this manually everytime (highlight code -> format selection). Really useful when I encounter hard to read code
+
+## Javascript Libraries
+
+- **Bootstrap/Reactstrap** - Quickly making frontend applications
+- **Typescript** - Prefer writing javascript with types
+- **Tailwinds** - I make my own version of it for global utility styles
+- **Sass** - Precompiled CSS, for writing clean nested styles
+- **React** - My preference on frontend framework
+- **Gatsby** - JAMstack app powering this site! :)
+- [https://github.com/vincentntang?tab=stars](https://github.com/vincentntang?tab=stars) - Everything else here
+
+## Service Providers
+
+- **Netlify** - Hosting Provider for frontend apps
+- **Azure** - Prefer this over AWS, less confusing to use
+
+---
+
+# Recording Tools
 
 ## Sound/Video Hardware
 
@@ -116,6 +137,12 @@ I occasionally speak at tech conferences, and I'm currently starting a podcast w
 
 - **Audacity**: Sound Editing Tooling
 - **AdobeCC**: Video Editing Tooling
+- **OBS Studio**: Screen Recording
+- **Loom** - Quick webinar recordings
+
+---
+
+# Exploration
 
 ## Tools I'm exploring
 
