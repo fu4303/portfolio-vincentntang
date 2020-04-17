@@ -16,7 +16,7 @@ tags:
 
 Next month marks my first official anniversary as a software developer!
 
-So recently I got tasked with fixing a broken web application. I won't go into details about the projecet (I signed an NDA for a reason), but it has a frontend and backend component(s). As a developer that works at a web agency, it's not uncommon to get a broken web application handed to you. Sometimes the previous developer on the project got frustrated with the client, and left halfway in. No worries, it might be a steaming pile of ****, but we can make it beautiful again :)
+So recently I got tasked with fixing a broken web application. I won't go into details about the projecet (I signed an NDA for a reason 😃), but it has a frontend and backend component(s). As a developer that works at a web agency, it's not uncommon to get a broken web application handed to you. Sometimes the previous developer on the project got frustrated with the client, and left halfway in. No worries, it might be a steaming pile of 💩, but we can make it beautiful again :)
 
 Here's what I've learned in debugging a broken web application, and the steps I took to resolve it
 
@@ -27,7 +27,7 @@ First things first, is to get access to the github, bitbucket, or any other simi
 Digging through the code is one thing, but you really need to understand the thought process behind who wrote it. What was their last commit? Why did this guy add a comment here?
 When you have access to the repository, you can install a plugin in Visual Studio code called gitlens. Or any other editor for that matter
 
-This gives you superpowers in seeing the *history behind what changed over time. Sometimes those commit name could simply just say "Commit", (unfortunately I know someone that does that :facepalm:)
+This gives you superpowers in seeing the *history behind what changed over time. Sometimes those commit name could simply just say "Commit", (unfortunately I know someone that does that 🤦‍♂)
 But in other instances, it might give you a clue or insight of what changed over time.
 
 I had some burning questions when I got this broken webapp handed to me. How did this dude spin up a database? What are these random excel files that seemingly do nothing in the app do?
@@ -64,7 +64,7 @@ If this were a nodeJS application, you can immediately identify which route on t
 If you get lucky and still have access to the database, access it. Make a copy of the SQL database (if its relational), and analyze it's contents using a tool like SequelPro on MacOS. 
 It might take awhile, but it'll give you insights about how things are structured in the app. And what the backend is doing to grab said data
 
-Sometimes the data might look really weird, and might raise more questions. It could be totally denormalized (two cells of data in one cell). If you run a ORM (object relational mapper), you can see how this correlates over to the data itself.
+Sometimes the data might look really weird, and might raise more questions. It could be totally denormalized (two cells of data in one cell)/ If you run a ORM (object relational mapper), you can see how this correlates over to the data itself.
 
 I inherited a hugeee database file (well not huge, but still large). Only a few GB, some files spanning millions of rows (okay that's still not that big, jk). 
 
@@ -124,4 +124,4 @@ You might need to configure these ports manually to talk to your database too
 Just uncomment everything in the app, from where the app gets booted up. Reinitialize things one by one, checking your console and terminal for errors.
 It'll give you a better idea of what things are causing what errors.
 
-Take a break, take a walk, come back to it again. Or just start fresh if it's unsalvageable.
+Take a break, take a walk, come back to it again 😃. Or just start fresh if it's unsalvageable.
