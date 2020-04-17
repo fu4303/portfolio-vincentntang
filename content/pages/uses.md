@@ -62,7 +62,11 @@ Visual studio code is my favorite IDE. Here's all my favorite plugins. There's s
 
 - **ShareX** - Gif recording
 - **Greenshot** - Screenshot edit recording
-- **
+
+## Windows Software Tools
+
+- **Visual Studio** - for C# development
+- **SSMS / SQL Server** - .NET development
 
 ## Software Tools
 
