@@ -11,7 +11,7 @@ This website originally started as a way to document things I learn during a car
 Feel free to poke around the place. There's more links around the site here:
 
 - ⚙️ **[Uses](/uses)** - Tools I use
-- ⚙️ **[Uses](/today-i-learned)** - Stuff I learn
+- ⚙️ **[Uses](/today-i-learned)** - [WIP] Stuff I learn
 
 My username is "vincentntang" across social media:
 
