@@ -42,8 +42,7 @@ export default class Index extends Component {
             </a>
             <h1>{`Hi, I'm Vincent`}</h1>
             <p>
-              {`I'm a web developer and writer specializing in modern JavaScript. My writing is focused on things I learn in software development. 
-              Databases, frontend, backend, devops - the sky's the limit `}
+              {`I'm a web developer and writer specializing in modern JavaScript. This is my digital garden of topics I learn in backend, frontend, devops, and much more `}
             </p>
             <div className="social-buttons">
               <div>
