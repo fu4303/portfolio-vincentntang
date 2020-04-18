@@ -10,7 +10,8 @@ I started this website as a place to document everything I learned while going t
 
 My goal is to be best engineer that I can be, through projects that have a lasting impact. I aim to create a beautiful corner of the web free of ads, affiliate links, or sponsored posts.
 
-![Me](../common/vincentIDGAF.jpg)
+<!-- ![Me](../common/vincentIDGAF.jpg) -->
+![Teaching](../common/teaching.jpg)
 
 ### OpenSource Projects
 
