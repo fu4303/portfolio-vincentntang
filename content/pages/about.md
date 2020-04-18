@@ -8,10 +8,10 @@ template: page
 
 This website originally started as a way to document things I learn during a career change. But it's since changed. I love trying out new things, and this blog is a reflection of my [digital garden](https://joelhooks.com/digital-garden) where I learn in [public](https://www.swyx.io/writing/learn-in-public/).
 
-Feel free to poke around the place. There's more links around the site here:
+There's more links to this site:
 
 - ⚙️ **[Uses](/uses)** - Tools I use
-- ⚙️ **[Uses](/today-i-learned)** - [WIP] Stuff I learn
+- ⚙️ **[today-i-learned](/today-i-learned)** - [WIP] Stuff I learn
 
 My username is "vincentntang" across social media:
 

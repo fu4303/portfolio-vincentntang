@@ -42,8 +42,8 @@ export default class Index extends Component {
             </a>
             <h1>{`Hi, I'm Vincent`}</h1>
             <p>
-              {`I'm a web developer and writer specializing in modern JavaScript. I make things from scratch, contribute to open source, and write about
-                development in an accessible and intuitive way.`}
+              {`I'm a web developer and writer specializing in modern JavaScript. My writing is focused on things I learn in software development. 
+              Databases, frontend, backend, devops - the sky's the limit `}
             </p>
             <div className="social-buttons">
               <div>
@@ -111,7 +111,7 @@ export default class Index extends Component {
           <section className="newsletter-section section">
             <h2>Join the Newsletter</h2>
             <p>
-              I write about my journey in software development, javaScript, backend development and career development. Feel free to follow my journey by smashing that subscribe button.
+              I write about software development, javaScript, backend development and career development. Feel free to follow my journey by smashing that subscribe button.
               Unsubscribe whenever. If I send spam it's the Hawaiian kind.
             </p>
             <NewsletterForm />
