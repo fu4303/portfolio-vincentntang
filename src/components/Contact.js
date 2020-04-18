@@ -7,8 +7,7 @@ export default class Contact extends Component {
       <>
         <h1>Stay in Touch</h1>
         <p>
-          I write about JavaScript, programming, and front-end design. Get updates once or twice a
-          month when I write an article.
+          I write about my journies in software development. JavaScript, backend development, and much more. Get updates infrequently.
         </p>
         <NewsletterForm />
         <p>My username is "vincentntang" across the web.</p>
