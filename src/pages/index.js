@@ -111,9 +111,8 @@ export default class Index extends Component {
           <section className="newsletter-section section">
             <h2>Join the Newsletter</h2>
             <p>
-              I write about JavaScript, programming, and front-end design. Join
-              other developers in keeping up with my content. Unsubscribe
-              whenever. <b>Never any spam, ads, or affiliate links.</b>
+              I write about my journey in software development, javaScript, backend development and career development. Feel free to follow my journey by smashing that subscribe button.
+              Unsubscribe whenever. If I send spam it's the Hawaiian kind.
             </p>
             <NewsletterForm />
           </section>
