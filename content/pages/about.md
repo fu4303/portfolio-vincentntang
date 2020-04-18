@@ -21,14 +21,6 @@ My username is "vincentntang" across social media:
 - 👋 **[Linkedin](https://linkedin.com/in/vincentntang)**
 - 👋 **[Email](mailto:vincentntang+mydomain@gmail.com)**
 
-More coding related work / talks I've done found here:
-
-- 💾 **[Slides](https://slides.com/vincentntang/)**: Presentation slidedecks
-- 💾 **[GitHub](https://github.com/vincentntang)**: Open source projects
-- 💾 **[Codepen](https://codepen.io/vincentntang)**: Web doodles
-- 💾 **[Devpost](https://devpost.com/vincentntang)**: Hackathon projects
-- 💾 **[Stackoverflow](https://stackoverflow.com/users/3258462/vincent-tang)**: Knowledge wiki
-
 <!-- ![Me](../common/vincentIDGAF.jpg) -->
 ![Teaching](../common/teaching_bootcamp.jpg)
 
@@ -40,3 +32,11 @@ More coding related work / talks I've done found here:
 - [Movie Quotes](https://github.com/vincentntang/graphql-movie-quotes) - GraphQL NodeJS React App Tutorial for a conference talk
 - [Vue Desk Configurator](https://codepen.io/vincentntang/pen/LKgWbv) - Vue App featured on frontpage of Codepen
 - [vincent.dev](https://www.vincentntang.com/) - Gatsby site
+
+More coding related work / talks I've done found here:
+
+- 💾 **[Slides](https://slides.com/vincentntang/)**: Presentation slidedecks
+- 💾 **[GitHub](https://github.com/vincentntang)**: Open source projects
+- 💾 **[Codepen](https://codepen.io/vincentntang)**: Web doodles
+- 💾 **[Devpost](https://devpost.com/vincentntang)**: Hackathon projects
+- 💾 **[Stackoverflow](https://stackoverflow.com/users/3258462/vincent-tang)**: Knowledge wiki
