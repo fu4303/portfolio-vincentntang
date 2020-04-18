@@ -20,7 +20,7 @@ My username is "vincentntang" across social media:
 - 👋 **[Linkedin](https://linkedin.com/in/vincentntang)**
 - 👋 **[Email](mailto:vincentntang+mydomain@gmail.com)**
 
-More coding related work found here:
+More coding related work / talks I've done found here:
 
 - 💾 **[Slides](https://slides.com/vincentntang/)**: Presentation slidedecks
 - 💾 **[GitHub](https://github.com/vincentntang)**: Open source projects
