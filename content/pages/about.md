@@ -13,6 +13,7 @@ There's more links to this site:
 - ⚙️ **[Uses](/uses)** - Tools I use
 - ⚙️ **[today-i-learned](/today-i-learned)** - [WIP] Stuff I learn
 - ⚙️ **[appearance](/apperances)** - [WIP] - links to where I'm featured
+- ⚙️ **[mystory](/mystory)** - [WIP] - Story of my career transition
 
 My username is "vincentntang" across social media:
 
