@@ -20,10 +20,10 @@ This blog originally started as a way to document things I learn during a career
 - [Vue Desk Configurator](https://codepen.io/vincentntang/pen/LKgWbv) - Vue App featured on frontpage of Codepen
 - [vincent.dev](https://www.vincentntang.com/) - Gatsby site
 
-### Public Work
+<!-- ### Public Work
 
 - [Cherripick](/https://www.producthunt.com/posts/cherripick) - React Native app, earn cashback on grocery food nearing expiration
-- [Restaurant Ecommerce](/https://fairwayeq-com.3dcartstores.com/) - 80k product ecommerce store
+- [Restaurant Ecommerce](/https://fairwayeq-com.3dcartstores.com/) - 80k product ecommerce store -->
 
 ### Connect with me
 
