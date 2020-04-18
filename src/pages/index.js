@@ -96,7 +96,7 @@ export default class Index extends Component {
             <SimpleListing simple data={speaking} />
           </section>
 
-          <section className="section">
+          {/* <section className="section">
             <h2>{`Other People's Opinions`}</h2>
             <div className="quotations">
               {quotes.map(quote => (
@@ -106,7 +106,7 @@ export default class Index extends Component {
                 </blockquote>
               ))}
             </div>
-          </section>
+          </section> */}
 
           <section className="newsletter-section section">
             <h2>Join the Newsletter</h2>
