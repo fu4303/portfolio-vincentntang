@@ -2,8 +2,8 @@
 date: 2020-05-12
 title: 'React useEffect '
 template: post
-thumbnail: '../../thumbnails/js.png'
-slug: 3d-renderer-2d-html-canvas
+thumbnail: '../../thumbnails/react.png'
+slug: react-use-effect-explained
 categories:
   - Javascript
 tags:
