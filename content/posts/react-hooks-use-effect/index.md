@@ -1,6 +1,6 @@
 ---
 date: 2020-05-12
-title: 'React useEffect '
+title: 'React useEffect's comparison to componentDidMount and componentDidUpdate'
 template: post
 thumbnail: '../../thumbnails/react.png'
 slug: react-use-effect-explained
