@@ -1,6 +1,6 @@
 ---
 date: 2020-05-12
-title: 'React useEffect's comparison to componentDidMount and componentDidUpdate'
+title: 'React useEffect vs componentDidMount and componentDidUpdate'
 template: post
 thumbnail: '../../thumbnails/react.png'
 slug: react-use-effect-explained
@@ -129,6 +129,7 @@ import {useEffect} from "React";
 const App = (props) => {
  useEffect(()=> {
    // this is basically componentDidMount + componentDidUpdate combined
+   // it executes once on componentDidMount, and any when any state variables update from useState
  });
 }
 ```
