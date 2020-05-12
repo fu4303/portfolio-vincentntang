@@ -26,6 +26,10 @@ const config = {
       name: 'Talks',
       link: '/speaking/'
     },
+    { 
+      name: "Work",
+      link: "/work/"
+    },
     {
       name: 'About',
       link: '/about/',
