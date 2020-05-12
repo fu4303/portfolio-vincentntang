@@ -44,9 +44,9 @@ I didn't feel like spending a lot money on a 4 year degree, so I went instate at
 
 After working a few years in research labs, I realized that slow-paced environments weren't for me. I spent 100+ hours writing my dissertation on a theoretical subject that I didn't feel that much passion towards.
 
-My last year of school sucked. I had depression from getting burnt down from a government internship. Then I got fired as a resident assistant while being deathly ill. I decided to double down and work at an engineering CO-OP plus do my thesis at the same time. Bad idea, it was even more stressful.
+My last year of school sucked. My internship fell through, but I worked as a Resident Assistant that summer instead and ended up getting laid off. I decided to double down and work at an engineering CO-OP plus do my thesis at the same time. Bad idea, it was even more stressful.
 
-Burnt out I decided to do something I always wanted to do - start a youtube gaming channel [TODO - link]. At it's peak it reached 4000 subscribers and 400k views. That's not a lot by today's standards, but back in 2013 it was a big deal to me. I had written guides read by 1/2 million people and translated in multiple languages by fans. In my little tiny world, I was a big deal and ego got to me.
+Burnt out I decided to do something I always wanted to do - start a youtube gaming channel [TODO - link]. At it's peak it reached 4000 subscribers and 400k views. That's not a lot by today's standards, but back in 2013 it was a big deal to me. I had written guides read by 1/2 million people and translated in multiple languages by fans.
 
 I like to think back on one memorable comment I read - and it still sticks to me today. A surgeon from Germany had used my gaming tutorials to learn how to better improve ambidexterity in surgeries. It's made me realize that you can cause lasting positive impact in ways you don't forsee.
 
@@ -56,15 +56,15 @@ After that, I graduated from University. Still didn't know what to do.
 
 [TODO Pics Airtable]
 
-Interviewing for jobs was really hard for me. For one I sucked at it. The question of "What are you most proud of?" always got me. Truly and deeply, it was inspiring a surgeon in Germany to practice with video games. The thing is ... you can't tell anyone this, it's not treated seriously.
+Interviewing for jobs was really hard for me. For one I sucked at it. The question of "What are you most proud of?" always got me. It was inspiring a surgeon in Germany to practice with video games. The thing is ... it's not treated seriously. I learned about it the hard way. 
 
-So I learned about it the hard way. I failed every interview after that. I never reflected on anything I did or accomplished at school. It was too hard to put in words.
+I failed every interview after that. I never reflected on anything I did or accomplished at school. It was too hard to put in words.
 
-I ended up just working for family instead, designing restaurant kitchens. I never tell people I work for family, it's always taken in the wrong context - the assumption being you have an easy life.
+I ended up just working for family instead, designing restaurant kitchens. I rarely tell anyone I work for family - it's not something I'm particularly proud of. I didn't create that legacy, and didn't choose that lifestyle for half my life growing up. it always felt like it undermined everything I strived to achieve for.
 
-I designed kitchens for 6 years of my life. I got to work with some famous chefs, helped design a restaurant that hit national news, amongst other highlights. I learned how to operate a business, amongst other things. 
+I designed kitchens for 6 years of my life. I got to work with some famous chefs, helped design a restaurant that hit national news, amongst other highlights. I learned a lot through self-education.
 
-As my responsibilities kept piling on, I found myself constantly unable to keep up with the workload. Sometimes it was customer A needs a CAD file, customer B needs attention on a broken shipment, customer C doesn't speak English. All in one go. I had a hard time juggling all of these tasks at any given time, so I needed to get better at managing, delegating, and automating tasks.
+As my responsibilities kept piling on, I found myself constantly unable to keep up with the workload. Sometimes a client needed a CAD file, another needed attention on a broken shipment, another didn't speak English. I had a hard time juggling all of these tasks at any given time, so I needed to get better at managing, delegating, and automating tasks.
 
 I started to explore tools online, and just found a really excel-like spreadsheet tool called Airtable. I wrote my first plugin - a programming script in excelVBA - that downloaded images from their server to my local PC (TODO - see here)
 
@@ -96,6 +96,8 @@ I didn't want to work in my hometown anymore, and decided to go venture out to a
 
 [PICS - Dunno]
 
-I've come to appreciate where I am right now. I never plan terribly far ahead. I don't considered myself a programmer, but rather a problem solver and a content creator. I want to explore this whole other realm in the tech world - hardware development, gaming engines, devops, and more computer-sciency things. And make educational/entertaining content from it, something that inspires the next generation of problem solvers.
+I've come to appreciate where I am right now. I suffered from burn out a few times already, mostly because I never was good at planning long term. I don't considered myself a programmer, but rather a problem solver and a content creator. I want to explore this whole other realm in the tech world - hardware development, gaming engines, devops, and more computer-sciency things. And make educational/entertaining content from it, something that inspires the next generation of problem solvers.
+
+My 3 - 5 year goal is to become a creative interactive developer. Someone who creates experiences, or builds tools that tells stories. This means mastery in a few different fields, namely in 3D development, design, and animation - none of which I'm really great at. So for this, I'm pursuing interests in game and hardware development. 
 
 Feel free to reach out to me at [hello@vincentntang.com](mailto:hello@vincentntang.com)

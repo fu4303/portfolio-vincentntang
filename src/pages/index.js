@@ -75,20 +75,20 @@ export default class Index extends Component {
             <PostListing simple postEdges={latestPostEdges} />
           </section>
 
-          <section className="section">
+          {/* <section className="section">
             <h2>Most Popular</h2>
             <PostListing simple postEdges={popularPostEdges} />
-          </section>
+          </section> */}
 
-          <section className="section">
+          {/* <section className="section">
             <h2>Open Source Projects</h2>
             <ProjectListing projects={projects} />
-          </section>
+          </section> */}
 
-          <section className="section">
+          {/* <section className="section">
             <h2>Podcasts</h2>
             <SimpleListing simple data={podcasts} />
-          </section>
+          </section> */}
 
           <section className="section">
             <h2>Speaking</h2>
