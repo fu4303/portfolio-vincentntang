@@ -1,6 +1,6 @@
 ---
 date: 2020-05-12
-title: 'React useEffect vs componentDidMount and componentDidUpdate'
+title: 'Demystifying React useEffect'
 template: post
 thumbnail: '../../thumbnails/react.png'
 slug: react-use-effect-explained
