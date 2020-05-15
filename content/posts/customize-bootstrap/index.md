@@ -28,7 +28,7 @@ on npm (a package manager), so just install it there.
 
 The thing is, you DO NOT want to be source-controlling these files at all. You want to just modify the variables it references, so you can
 tweak the settings from the outside. This by design, is a good system because it prevents anyone working on the project modifying bootstrap directly.
-So anyone working on the project can confidently say "yap we are using bootstrap, and it's only been modified by what should be modified".
+So anyone working on the project can confidently say "yap we are using bootstrap, and it's only been modified by what should be modified". There is a caveat, and this is making sure your source controlling the version of bootstrap your using.
 
 Bootstrap source code uses `scss`, or pre-compiled css.
 
