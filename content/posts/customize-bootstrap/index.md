@@ -48,11 +48,11 @@ cd my-app
 So install these modules (you'll need to download [nodeJS](https://nodejs.org/en/) if you haven't already)
 
 ```
-npm install bootstrap
+npm install bootstrap@4.3.1
 npm install node-sass
 ```
 
-This will download `bootstrap scss files` into your `node_modules` folder. `node-sass` is used to compile these files
+This will download `bootstrap scss files` into your `node_modules` folder. `node-sass` is used to compile these files. 
 
 Next thing you want to do, is import a `main.scss` file into where you'll be calling this file. 
 We call this a rollup file, because it's going to referencing a ton of other files into it.
@@ -60,7 +60,71 @@ We call this a rollup file, because it's going to referencing a ton of other fil
 So now we have something like this:
 
 ```
+TODO show file structure
+```
 
-- 
+Inside the `base/` folder, you'll want to create a `bootstrap_variables` file. This is where we'll do all of our customizations to bootsrap.
 
-WIP
+After that, in the `main.scss` file, add the imports from node_modules
+
+```
+//==============================================================================
+// Bootstrap Customization
+//==============================================================================
+@import "~bootstrap/scss/functions";
+@import "./base/bootstrap_variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/custom-forms";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/jumbotron";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/media";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/toasts";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/print";
+```
+
+
+This is the same code used in the base imports as bootstrap for version 4.3.1 (check the source code if it's any different). The `~` sign is a relative import to the `node_modules`, anywhere in your application
+
+Now we can get to modifying actual variables!
+
+Compile the code and make sure it runs. If you run into an issue, try running `rm -rf node_modules` and updating `package.json` to the actual suggested custom theme version name of bootstrap. At the time of writing this, it's version 4.3.1
+
+package.json example:
+
+```
+"dependencies": {
+    "bootstrap": "4.3.1",
+}
+```
+
+Here's an example repo with preconfigurations to Bootstrap + React. There's also Reactstrap installed here too, which are components that then gets rendered as bootstrap HTML. 
+
+- TODO - repo - React-Reactstrap-Custom-Bootstrap
