@@ -5,20 +5,20 @@ export default class Footer extends Component {
   render() {
     return (
       <footer className="footer container">
-        <a
+        {/* <a
           href="https://ko-fi.com/vincentntang"
           target="_blank"
           rel="noopener noreferrer"
         >
           Ko-Fi
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://patreon.com/vincentntang"
           target="_blank"
           rel="noopener noreferrer"
         >
           Patreon
-        </a>
+        </a> */}
         <a
           href="https://twitter.com/vincentntang"
           target="_blank"
