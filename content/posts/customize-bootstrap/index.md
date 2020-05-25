@@ -36,7 +36,7 @@ And clear up misconceptions on how to do this, as well as easy workflows for you
 You might be thinking why not? The bootstrap website even has a tool for it! I've made this mistake too many times. These libraries are all published
 on npm (a package manager), so just install it there.
 
-The thing is, you DO NOT want to be source-controlling these files at all. You want to just modify the variables it references, so you can
+The thing is, you don't want to git-control the source files in bootstrap. You want to just modify the variables it references, so you can
 tweak the settings from the outside. This by design, is a good system because it prevents anyone working on the project modifying bootstrap directly.
 So anyone working on the project can confidently say "yap we are using bootstrap, and it's only been modified by what should be modified". There is a caveat, and this is making sure your source controlling the version of bootstrap your using.
 
