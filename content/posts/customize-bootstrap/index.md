@@ -63,7 +63,7 @@ So now we have something like this:
 TODO show file structure
 ```
 
-Inside the `base/` folder, you'll want to create a `bootstrap_variables` file. This is where we'll do all of our customizations to bootsrap.
+Inside the `base/` folder, you'll want to create a `bootstrap_variables` file, which you need to pull from the source code. This is where we'll do all of our customizations to bootsrap.
 
 After that, in the `main.scss` file, add the imports from node_modules
 
@@ -127,4 +127,4 @@ package.json example:
 
 Here's an example repo with preconfigurations to Bootstrap + React. There's also Reactstrap installed here too, which are components that then gets rendered as bootstrap HTML. 
 
-- TODO - repo - React-Reactstrap-Custom-Bootstrap
+To customize bootstrap you'll have to update the file `bootstrap_variables`
