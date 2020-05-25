@@ -1,6 +1,6 @@
 ---
 date: 2020-05-24
-title: 'Customizing Bootstrap with React or your favorite frontend framework'
+title: 'Customizing Bootstrap in a React App'
 template: post
 thumbnail: '../../thumbnails/bootstrap.png'
 slug: customize-bootstrap-with-react
