@@ -126,6 +126,7 @@ package.json example:
 }
 ```
 
+To customize bootstrap you'll have to update the file `bootstrap_variables`
+
 Here's an [example repo](https://github.com/vincentntang/react-app-with-custom-bootstrap) with preconfigurations to Bootstrap + React. 
 
-To customize bootstrap you'll have to update the file `bootstrap_variables`
