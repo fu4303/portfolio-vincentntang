@@ -1,3 +1,16 @@
+---
+date: 2020-05-24
+title: 'Customizing Bootstrap with React or your favorite frontend framework'
+template: post
+thumbnail: '../../thumbnails/VT_yellowBG.png'
+slug: customize-bootstrap-with-react
+categories:
+  - Javascript
+tags:
+  - Bootstrap
+  - React
+---
+
 ## Customizing Bootstrap
 
 Bootstrap is the tried and true CSS framework that's been around forever. Ask any webdeveloper if they've heard of it, chances are
@@ -6,7 +19,7 @@ they've used it. It's a swiss army knife of tools that helps rapidly prototype w
 However, it does have it's downsides. One, it looks the same as every other website out there! So you lose the unique value proposition,
 and make a site that just feels lazy and not thought out. 
 
-[TODO - INSERT TONS OF GENERIC SITES - caption - imean cmon these aren't unique]
+![](./GenericBootstrapSite.png)
 
 Re-inventing the wheel for every project, setting up whatever flavor of styles and media queries, is a no-go either. 
 I enjoy the design process, but I've had clients that complained about every pixel and color on the page. I want to focus on the meat of the application
@@ -128,3 +141,7 @@ package.json example:
 Here's an example repo with preconfigurations to Bootstrap + React. There's also Reactstrap installed here too, which are components that then gets rendered as bootstrap HTML. 
 
 To customize bootstrap you'll have to update the file `bootstrap_variables`
+
+Check out this small React app repo I made on how everything comes together!
+
+[Link](https://github.com/vincentntang/react-app-with-custom-bootstrap)
