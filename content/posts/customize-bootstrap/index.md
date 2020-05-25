@@ -22,10 +22,7 @@ and make a site that just feels lazy and not thought out.
 ![](./GenericBootstrapSite.png)
 
 Re-inventing the wheel for every project, setting up whatever flavor of styles and media queries, is a no-go either. 
-I enjoy the design process, but I've had clients that complained about every pixel and color on the page. I want to focus on the meat of the application
-- the features, the database design, AWS configurations, etc. Things that have a much larger direct impact for the time spent.
-
-Using alternative frameworks doesn't fly either because collaboration means training someone into a new design spec.
+I enjoy the custom designing a website, but there are just days where throwing bootstrap in there just makes more sense. Especially with teams that are familiar with it.
 
 Customizing bootstrap's not as hard as you think. You can tweak the colors so that someone won't even notice your using bootstrap, and
  that's a good thing! I'll show you how to do this with tools like React, Vue, or just a simple plain HTML site. I'll even show you
