@@ -2,7 +2,7 @@
 date: 2020-05-24
 title: 'Customizing Bootstrap with React or your favorite frontend framework'
 template: post
-thumbnail: '../../thumbnails/VT_yellowBG.png'
+thumbnail: '../../thumbnails/bootstrap.png'
 slug: customize-bootstrap-with-react
 categories:
   - Javascript
