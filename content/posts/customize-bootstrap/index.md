@@ -64,12 +64,6 @@ This will download `bootstrap scss files` into your `node_modules` folder. `node
 Next thing you want to do, is import a `main.scss` file into where you'll be calling this file. 
 We call this a rollup file, because it's going to referencing a ton of other files into it.
 
-So now we have something like this:
-
-```
-TODO show file structure
-```
-
 Inside the `base/` folder, you'll want to create a `bootstrap_variables` file, which you need to pull from the source code. This is where we'll do all of our customizations to bootsrap.
 
 After that, in the `main.scss` file, add the imports from node_modules
@@ -132,10 +126,6 @@ package.json example:
 }
 ```
 
-Here's an example repo with preconfigurations to Bootstrap + React. There's also Reactstrap installed here too, which are components that then gets rendered as bootstrap HTML. 
+Here's an [example repo](https://github.com/vincentntang/react-app-with-custom-bootstrap) with preconfigurations to Bootstrap + React. 
 
 To customize bootstrap you'll have to update the file `bootstrap_variables`
-
-Check out this small React app repo I made on how everything comes together!
-
-[Link](https://github.com/vincentntang/react-app-with-custom-bootstrap)
