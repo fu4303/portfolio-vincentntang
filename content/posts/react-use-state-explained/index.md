@@ -3,7 +3,7 @@ date: 2020-05-12
 title: 'Demystifying React useState'
 template: post
 thumbnail: '../../thumbnails/react.png'
-slug: react-use-effect-explained
+slug: react-use-state-explained
 categories:
   - Javascript
 tags:
