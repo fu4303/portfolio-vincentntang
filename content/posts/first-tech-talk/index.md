@@ -88,7 +88,7 @@ This was all done in parallel to researching the topic.
 
 My original plan was to knock out at least 3 demos, created by scratch from my own ideas. I only made (1). Everything else I copied from other sources, because I simply had issues debugging.
 
-So I took the best resources I found online for learning these subjects. And, more or less, copied the verbatim intro. I even used the same phrasing as well. Like what an "SVG" is. Or what "WebGL" is. There was no good soft introduction for HTML5 canvas that I found, so I had to draft my own.
+So I took the best resources I found online for learning these subjects. And compiled an intro on what I liked best about each of them. Like what an "SVG" is. Or what "WebGL" is. There was no good soft introduction for HTML5 canvas that I found, so I had to draft my own.
 
 I took that other video intros to the subject as a starting point. But all examples / reference material thereafter, I wrote the talking points myself
 
