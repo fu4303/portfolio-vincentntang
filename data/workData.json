@@ -1,0 +1,92 @@
+[
+  {
+    "type": "Clients",
+    "name": "Florida Funders",
+    "shortDesc": "",
+    "link": "",
+    "img": "",
+    "modalHtml":"",
+    "tags":"Angular, Typescript"
+  },
+  {
+    "type": "Clients",
+    "name": "Acquire Direct",
+    "shortDesc":"",
+    "link": "",
+    "img": "",
+    "modalHtml":"",
+    "tags":"NodeJS, GraphQL, React, Postgres"
+  },
+  {
+    "type": "Clients",
+    "name": "SSL Store",
+    "shortDesc":"",
+    "link": "",
+    "img": "",
+    "modalHtml":"React"
+  },
+  {
+    "type": "Clients",
+    "name": "Cherripick",
+    "shortDesc":"",
+    "link": "",
+    "img": "",
+    "modalHtml":""
+  },
+  {
+    "type": "Clients",
+    "name": "Airtable",
+    "shortDesc":"",
+    "link": "",
+    "img": "",
+    "modalHtml":""
+  },
+  {
+    "type": "Clients",
+    "name": "Aquatic Design and Engineering",
+    "shortDesc":"",
+    "link": "",
+    "img": "",
+    "modalHtml":""
+  },
+  {
+    "type": "Side Projects",
+    "name": "E-commerce Desk Configurator",
+    "shortDesc":"",
+    "link": "",
+    "img": "",
+    "modalHtml":""
+  },
+  {
+    "type": "Side Projects",
+    "name": "Nasa Space App",
+    "shortDesc":"",
+    "link": "",
+    "img": "",
+    "modalHtml":""
+  },
+  {
+    "type": "Hackathons",
+    "name": "Asteroid Battlegrounds",
+    "shortDesc":"",
+    "link": "",
+    "img": "",
+    "modalHtml":""
+  },
+  {
+    "type": "Hackathons",
+    "name": "Asteroid Battlegrounds",
+    "shortDesc":"",
+    "link": "",
+    "img": "",
+    "modalHtml":""
+  },
+  {
+    "type": "Side Projects",
+    "name": "Asteroid Battlegrounds",
+    "shortDesc":"",
+    "link": "",
+    "img": "",
+    "modalHtml":""
+  }
+]

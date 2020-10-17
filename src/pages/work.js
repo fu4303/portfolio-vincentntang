@@ -25,25 +25,13 @@ export default class Speaking extends Component {
         <SEO />
         <div className="container">
           <h1>Work with me 😃</h1>
-          <p>Over the past year, I've been fortunate enough to share my ideas, skills, and knowledge at meetups, hackathons, and events. Here you'll find an archive of slide decks, demos, and resources I made available.</p>
-          <p>I'm available for speaking opportunities please feel free to get in touch at <a href="mailto:hello@vincentntang.com">here</a></p>
-          <div className="speaking-wrapper">
-            {this.props.data.allSpeakingDataJson.edges.map(item => {
-              console.log(item,"item");
-              return (
-                <div name={item.node.title} className="speaking-card">
-                  <Img className="mb-2" fluid={item.node.fullImg.childImageSharp.fluid}/>
-                  <div>{item.node.venue}</div>
-                  <div className="text-13 mb-2">{item.node.date} — {item.node.location}</div>
-                  <div className="text-15" style={{height:'72px'}}>{item.node.title}</div>
-                  {Object.keys(item.node.links).map((key) => {
-                    if(item.node.links[key] !== null){
-                      return <li><a key={key} href={item.node.links[key]}>{key}</a></li>
-                    }
-                  })}
-                </div>
-              )
-            })}
+          <p>Here's some of the projects I worked on over the years, feel free to ask me what I built for each of these</p>
+          <p>I specialize in building custom fullstack applications in NodeJS / React</p>
+          <p>Shoot me an email if your interested in working with me <a href="mailto:hello@vincentntang.com">here</a></p>
+          <div>
+            <h1>Clients</h1>
+            <h1>Hackathon Projects</h1>
+            <h1>Codepen Apps</h1>
           </div>
         </div>
       </Layout>
