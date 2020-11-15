@@ -90,10 +90,10 @@ export default class Index extends Component {
             <SimpleListing simple data={podcasts} />
           </section> */}
 
-          <section className="section">
+          {/* <section className="section">
             <h2>Speaking</h2>
             <SimpleListing simple data={speaking} />
-          </section>
+          </section> */}
 
           {/* <section className="section">
             <h2>{`Other People's Opinions`}</h2>
