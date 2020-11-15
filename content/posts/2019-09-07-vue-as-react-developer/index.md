@@ -5,6 +5,7 @@ template: post
 thumbnail: '../../thumbnails/vue.png'
 slug: learning-vue-as-a-react-developer
 categories:
+  - Popular
   - Personal
 tags:
   - vue
