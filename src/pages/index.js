@@ -86,9 +86,7 @@ export default class Index extends Component {
               <div className="text-left">
                 <h2>CodeChefs.dev</h2>
                 <p>I run a podcast for junior to mid-level web developers seeking to level up!</p>
-                <button>
-                  <a target="_blank" rel="noreferrer" href="https://codechefs.dev">Listen Now</a>
-                </button>
+                <a className="button" target="_blank" rel="noreferrer" href="https://codechefs.dev">Listen Now</a>
               </div>
               <div className="logo-right">
                 <img src={codeChefsLogo} alt="code chefs logo"/>

@@ -5,6 +5,7 @@ template: post
 thumbnail: '../../thumbnails/gatsby.png'
 slug: custom-podcast-site-gatsby-react
 categories:
+  - Popular
   - Programming
 tags:
   - Gatsby

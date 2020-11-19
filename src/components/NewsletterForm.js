@@ -4,9 +4,7 @@ export default class NewsletterForm extends Component {
   render() {
     return (
       <>
-        <button>
-          <a target="_blank" rel="noreferrer" href="https://tinyletter.com/vincentntang">Join Newsletter</a>
-        </button>
+        <a className="button" target="_blank" rel="noreferrer" href="https://tinyletter.com/vincentntang">Join Newsletter</a>
         {/* <form  action="https://tinyletter.com/vincentntang" 
       method="post" target="popupwindow" 
       onsubmit="window.open('https://tinyletter.com/vincentntang', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p>
