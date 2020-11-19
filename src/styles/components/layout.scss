@@ -1118,3 +1118,30 @@ button[disabled] {
   background: rgba(255, 235, 20, 0.7);
   color: #111;
 }
+
+/**
+ * Custom Classes
+ */
+.podcast-wrapper {
+  background: #f2f2f2;
+  padding: 15px;
+  @include small-breakpoint {
+    padding: 30px;
+  }
+  border-radius: 20px;
+  border: 2px solid #ccc;
+  display: flex;
+  .text-left {
+
+  }
+
+  .logo-right {
+    width: 300px;
+    img {
+      min-width: 150px;
+      border: 8px solid teal;
+      border-radius: 20px;
+      margin-bottom: 0px;
+    }
+  }
+}

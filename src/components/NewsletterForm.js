@@ -4,11 +4,14 @@ export default class NewsletterForm extends Component {
   render() {
     return (
       <>
-        <form  action="https://tinyletter.com/vincentntang" 
+        <button>
+          <a target="_blank" rel="noreferrer" href="https://tinyletter.com/vincentntang">Join Newsletter</a>
+        </button>
+        {/* <form  action="https://tinyletter.com/vincentntang" 
       method="post" target="popupwindow" 
       onsubmit="window.open('https://tinyletter.com/vincentntang', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p>
         <label for="tlemail">Enter your email address</label></p><p><input type="text"  name="email" id="tlemail" />
-        </p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p></p></form>
+        </p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p></p></form> */}
       {/* <div className="centered-iframe">
         <iframe
           width="480"
