@@ -1,6 +1,6 @@
 ---
 date: 2020-11-15
-title: 'Building a Custom Podcast Site in GatsbyJS, ReactJS, AmazonS3, and Netlify'
+title: 'Building a Custom Podcast Site with GatsbyJS, ReactJS, AmazonS3, and Netlify'
 template: post
 thumbnail: '../../thumbnails/gatsby.png'
 slug: custom-podcast-site-gatsby-react
