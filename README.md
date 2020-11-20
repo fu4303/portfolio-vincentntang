@@ -2,11 +2,17 @@
 
 ![](2020-11-20-vincentntang-screenshot.png)
 
+## Quickstart
+
 Personal website running on Gatsby, React, and Node.js
 
-## Installation
+To install
 
-Run local server:
+```
+yarn install
+```
+
+then run local server:
 
 ```bash
 yarn
