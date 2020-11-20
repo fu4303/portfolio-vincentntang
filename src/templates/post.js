@@ -118,6 +118,14 @@ export default class PostTemplate extends Component {
           {/* <NewsletterForm /> */}
         </article>
         <UserInfo config={config} />
+        <script src="https://utteranc.es/client.js"
+          repo="https://github.com/vincentntang/vincentntang.com"
+          issue-term="pathname"
+          label="comments"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+        </script>
 
         {/* <div className="container">
           {!error && <Comments commentsList={comments} slug={commentSlug} />}
