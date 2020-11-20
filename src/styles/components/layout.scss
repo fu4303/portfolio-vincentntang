@@ -1171,7 +1171,6 @@ button[disabled] {
       margin-bottom: 5px;
     }
     .hand-wave {
-      // transform: rotate(50deg) perspective(0);
       animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
       animation-duration: 2.5s;        /* Change to speed up or slow down */
       animation-iteration-count: 1;  /* Never stop waving :) */
