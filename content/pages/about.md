@@ -25,8 +25,8 @@ My username is "vincentntang" across social media:
 
 Some other links to my work found here:
 
-- 💾 **[Slides](https://slides.com/vincentntang/)**: Presentation slidedecks
 - 💾 **[GitHub](https://github.com/vincentntang)**: Open source projects
+- 💾 **[Slides](https://slides.com/vincentntang/)**: Presentation slidedecks
 - 💾 **[Codepen](https://codepen.io/vincentntang)**: Web doodles
 - 💾 **[Devpost](https://devpost.com/vincentntang)**: Hackathon projects
 - 💾 **[Stackoverflow](https://stackoverflow.com/users/3258462/vincent-tang)**: Knowledge wiki
