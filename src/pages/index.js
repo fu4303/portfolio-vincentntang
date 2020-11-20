@@ -16,6 +16,7 @@ import quotes from '../../data/quotes';
 import vtYellow from '../../content/common/VT_yellowBG.png';
 import codeChefsLogo from "../images/code_chefs_podcast_art.png"
 import vincentBlue from '../../content/common/vincent_blue.jpg';
+import UserInfo from "../components/UserInfo";
 
 export default class Index extends Component {
   render() {
@@ -69,22 +70,7 @@ export default class Index extends Component {
             </div>
           </div> */}
         </div>
-        <div className="hero-full">
-          <div className="container hero-container">
-            <div className="image-left">
-              <img src={vincentBlue} alt="Vincent Portrait"/>
-            </div>
-            <div className="content-right">
-              <h1>Hi <span className="hand-wave">👋</span></h1>
-              <img className="display-right-float" src={vincentBlue} alt="Vincent Portrait"/>
-              <p>I'm Vincent Tang, a web developer specializing in modern Javascript. This website is my digital garden of notes on backend, frontend, and devops! I also run a coding podcast called <a target="_blank" rel="noreferrer" href="https://codechefs.dev">Code Chefs</a></p>
-              <a className="button mr-2" target="_blank" rel="noreferrer" href="https://tinyletter.com/vincentntang">Join Newsletter</a>
-              <a className="button mr-2" target="_blank" rel="noreferrer" href="https://twitter.com/vincentntang">Twitter</a>
-              <a className="button" target="_blank" rel="noreferrer" href="https://github.com/vincentntang">Github</a>
-            </div>
-          </div>
-        </div>
-
+        <UserInfo/>
         <div className="container front-page">
           <section className="section">
             <h2>Latest Articles</h2>
