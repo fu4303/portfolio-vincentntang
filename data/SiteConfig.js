@@ -34,10 +34,10 @@ const config = {
       name: 'About',
       link: '/about/',
     },
-    {
-      name: 'Contact',
-      link: '/contact',
-    },
+    // {
+    //   name: 'Contact',
+    //   link: '/contact',
+    // },
     // {
     //   name: 'Contact',
     //   link: '/contact/',
