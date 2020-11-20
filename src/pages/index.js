@@ -86,7 +86,7 @@ export default class Index extends Component {
             <div className="podcast-wrapper">
               <div className="content-left">
                 <h2>CodeChefs.dev</h2>
-                <p>I run a podcast for junior to mid-level web developers seeking to level up! Topics range from frontend, backend, devops, and career development!</p>
+                <p>I run a podcast for junior to mid-level web developers seeking to level up! <span className="hidden-600">Topics range from frontend, backend, devops, and career development!</span></p>
                 <a className="button" target="_blank" rel="noreferrer" href="https://codechefs.dev">Listen Now</a>
               </div>
               <div className="logo-right">

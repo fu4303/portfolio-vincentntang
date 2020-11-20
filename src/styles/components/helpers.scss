@@ -74,3 +74,9 @@
   width: 1px;
   overflow: hidden;
 }
+.hidden-600 {
+  display: inline;
+  @include screen-max(600px){
+    display: none;
+  }
+}
