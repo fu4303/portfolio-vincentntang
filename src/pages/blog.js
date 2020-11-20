@@ -63,7 +63,7 @@ export default class BlogPage extends Component {
       <Layout>
         <Helmet title={`Articles – ${config.siteTitle}`} />
         <SEO />
-        <div className="container">
+        <div className="container padding-non-home-page">
           <h1>Articles</h1>
           <div className="category-container">
             {categories.map(category => {

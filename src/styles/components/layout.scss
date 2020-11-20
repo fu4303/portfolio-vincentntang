@@ -1,13 +1,13 @@
 #main-content {
   margin-top: 55px;
-  padding: 40px 0 0;
+  // padding: 40px 0 0;
   min-height: calc(100vh - 162px);
 }
 
 @include small-breakpoint {
   #main-content {
     margin-top: 92px;
-    padding: 60px 0 0;
+    // padding: 60px 0 0;
     min-height: calc(100vh - 219px);
   }
 }
@@ -1131,17 +1131,100 @@ button[disabled] {
   border-radius: 20px;
   border: 2px solid #ccc;
   display: flex;
-  .text-left {
+  .content-left {
 
   }
 
   .logo-right {
-    width: 300px;
+    margin-left: 10px;
+    min-width: 100px;
+    max-width: 200px;
     img {
-      min-width: 150px;
+      width: 100%;
       border: 8px solid teal;
       border-radius: 20px;
       margin-bottom: 0px;
     }
+  }
+}
+
+.hero-full {
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  padding: 30px;
+  @include small-breakpoint {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .hero-container {
+    color: black;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+ 
+    h1 {
+      // color: white;
+      color: black;
+      margin-bottom: 5px;
+    }
+    .hand-wave {
+      // transform: rotate(50deg) perspective(0);
+      animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+      animation-duration: 2.5s;        /* Change to speed up or slow down */
+      animation-iteration-count: 1;  /* Never stop waving :) */
+      transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+      display: inline-block;
+    }
+    @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+      10% { transform: rotate(20.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+      20% { transform: rotate(-8.0deg) }
+      30% { transform: rotate(20.0deg) }
+      40% { transform: rotate(-4.0deg) }
+      50% { transform: rotate(10.0deg) }
+      60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+      100% { transform: rotate( 0.0deg) }
+    }
+    .image-left {
+      margin-right: 20px;
+      @include screen-max(600px){
+        display: none;
+      }
+      img {
+        min-width: 200px;
+        max-width: 200px;
+        border-radius: 10px;
+        margin-bottom: 0px;
+      }
+    }
+    .content-right {
+      @include screen-max(600px){
+        .button {
+          width: 100%;
+        }
+      }
+      .display-right-float {
+        display: none;
+        @include screen-max(600px){
+          display: inline-block;
+          margin-left: 5px;
+          width: 100px;
+          float: right;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Padding ajdustments for nonhomepage*/
+.padding-non-home-page {
+  padding-top: 40px;
+  @include small-breakpoint {
+    padding-top: 60px;
   }
 }

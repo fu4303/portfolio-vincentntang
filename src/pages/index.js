@@ -15,6 +15,7 @@ import podcasts from '../../data/podcasts';
 import quotes from '../../data/quotes';
 import vtYellow from '../../content/common/VT_yellowBG.png';
 import codeChefsLogo from "../images/code_chefs_podcast_art.png"
+import vincentBlue from '../../content/common/vincent_blue.jpg';
 
 export default class Index extends Component {
   render() {
@@ -28,9 +29,8 @@ export default class Index extends Component {
         <Helmet title={`${config.siteTitle} – Web developer & writer`} />
         <SEO />
         <div className="container">
-          <div className="lead">
+          {/* <div className="lead">
             <a
-              // href="https://taniarascia.github.io/new-moon"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -67,6 +67,21 @@ export default class Index extends Component {
                 </GitHubButton>
               </div>
             </div>
+          </div> */}
+        </div>
+        <div className="hero-full">
+          <div className="container hero-container">
+            <div className="image-left">
+              <img src={vincentBlue} alt="Vincent Portrait"/>
+            </div>
+            <div className="content-right">
+              <h1>Hi <span className="hand-wave">👋</span></h1>
+              <img className="display-right-float" src={vincentBlue} alt="Vincent Portrait"/>
+              <p>I'm Vincent Tang, a web developer specializing in modern Javascript. This website is my digital garden of notes on backend, frontend, and devops! I also run a coding podcast called <a target="_blank" rel="noreferrer" href="https://codechefs.dev">Code Chefs</a></p>
+              <a className="button mr-2" target="_blank" rel="noreferrer" href="https://tinyletter.com/vincentntang">Join Newsletter</a>
+              <a className="button mr-2" target="_blank" rel="noreferrer" href="https://twitter.com/vincentntang">Twitter</a>
+              <a className="button" target="_blank" rel="noreferrer" href="https://github.com/vincentntang">Github</a>
+            </div>
           </div>
         </div>
 
@@ -83,9 +98,9 @@ export default class Index extends Component {
 
           <section className="section">
             <div className="podcast-wrapper">
-              <div className="text-left">
+              <div className="content-left">
                 <h2>CodeChefs.dev</h2>
-                <p>I run a podcast for junior to mid-level web developers seeking to level up!</p>
+                <p>I run a podcast for junior to mid-level web developers seeking to level up! Topics range from frontend, backend, devops, and career development!</p>
                 <a className="button" target="_blank" rel="noreferrer" href="https://codechefs.dev">Listen Now</a>
               </div>
               <div className="logo-right">

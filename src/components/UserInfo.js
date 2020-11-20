@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import vincent from '../../content/common/vincentwarm.jpg';
+import vincentBlue from '../../content/common/vincent_blue.jpg';
 import patreon from '../../content/thumbnails/patreon.png';
 import twitter from '../../content/thumbnails/twitter.png'
 import github from '../../content/thumbnails/github.png'
@@ -12,7 +12,7 @@ export default class UserInfo extends Component {
         <div className="container note-container">
           <div className="flex-author">
             <div className="flex-avatar">
-              <img className="avatar" src={vincent} alt="Vincent Tang" />
+              <img className="avatar" src={vincentBlue} alt="Vincent Tang" />
             </div>
             <div>
               <p>

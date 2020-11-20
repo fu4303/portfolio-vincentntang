@@ -9,7 +9,7 @@ export default class ContactPage extends Component {
     return (
       <Layout>
         <Helmet title={`Contact – ${config.siteTitle}`} />
-        <div className="container">
+        <div className="container padding-non-home-page">
           <Contact />
         </div>
       </Layout>
