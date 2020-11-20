@@ -1,4 +1,4 @@
----
+<!-- ---
 title: My Story
 slug: mystory
 template: page
@@ -100,4 +100,4 @@ I've come to appreciate where I am right now. I suffered from burn out a few tim
 
 My 3 - 5 year goal is to become a creative interactive developer. Someone who creates experiences, or builds tools that tells stories. This means mastery in a few different fields, namely in 3D development, design, and animation - none of which I'm really great at. So for this, I'm pursuing interests in game and hardware development. 
 
-Feel free to reach out to me at [hello@vincentntang.com](mailto:hello@vincentntang.com)
+Feel free to reach out to me at [hello@vincentntang.com](mailto:hello@vincentntang.com) -->
