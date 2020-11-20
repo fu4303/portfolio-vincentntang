@@ -14,6 +14,9 @@ import speaking from '../../data/speakingData';
 import podcasts from '../../data/podcasts';
 import quotes from '../../data/quotes';
 import vtYellow from '../../content/common/VT_yellowBG.png';
+import codeChefsLogo from "../images/code_chefs_podcast_art.png"
+import vincentBlue from '../../content/common/vincent_blue.jpg';
+import UserInfo from "../components/UserInfo";
 
 export default class Index extends Component {
   render() {
@@ -27,9 +30,8 @@ export default class Index extends Component {
         <Helmet title={`${config.siteTitle} – Web developer & writer`} />
         <SEO />
         <div className="container">
-          <div className="lead">
+          {/* <div className="lead">
             <a
-              // href="https://taniarascia.github.io/new-moon"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -66,19 +68,47 @@ export default class Index extends Component {
                 </GitHubButton>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
-
+        <UserInfo/>
         <div className="container front-page">
           <section className="section">
             <h2>Latest Articles</h2>
             <PostListing simple postEdges={latestPostEdges} />
           </section>
 
-          {/* <section className="section">
+          <section className="section">
             <h2>Most Popular</h2>
             <PostListing simple postEdges={popularPostEdges} />
+          </section>
+
+          <section className="section">
+            <div className="podcast-wrapper">
+              <div className="content-left">
+                <h2>CodeChefs.dev</h2>
+                <p>I run a podcast for junior to mid-level web developers seeking to level up! Topics range from frontend, backend, devops, and career development!</p>
+                <a className="button" target="_blank" rel="noreferrer" href="https://codechefs.dev">Listen Now</a>
+              </div>
+              <div className="logo-right">
+                <img src={codeChefsLogo} alt="code chefs logo"/>
+              </div>
+            </div>
+          </section>
+          {/* <section className="section">
+            <div className="newsletter-wrapper">
+              <div className="text-left">
+                <h2>Vincent's Newsletter</h2>
+                <p>I run a newsletter and publish Javascript related content!</p>
+                <button>
+                  <a target="_blank" rel="noreferrer" href="https://codechefs.dev">Listen Now</a>
+                </button>
+              </div>
+              <div className="logo-right">
+                <img src={codeChefsLogo} alt="code chefs logo"/>
+              </div>
+            </div>
           </section> */}
+
 
           {/* <section className="section">
             <h2>Open Source Projects</h2>
@@ -90,10 +120,10 @@ export default class Index extends Component {
             <SimpleListing simple data={podcasts} />
           </section> */}
 
-          <section className="section">
+          {/* <section className="section">
             <h2>Speaking</h2>
             <SimpleListing simple data={speaking} />
-          </section>
+          </section> */}
 
           {/* <section className="section">
             <h2>{`Other People's Opinions`}</h2>

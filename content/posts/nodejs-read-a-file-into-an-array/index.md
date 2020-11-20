@@ -5,6 +5,7 @@ template: post
 thumbnail: '../../thumbnails/js.png'
 slug: read-local-text-file-nodejs
 categories:
+  - Popular
   - Javascript
 tags:
   - nodeJS

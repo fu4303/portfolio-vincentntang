@@ -7,10 +7,14 @@ $dark-border: darken($background, 3%);
   background: $background;
   color: $foreground;
 
+  .podcast-wrapper {
+    background: rgba(0,0,0,0.2);
+    border-color: #3a3a3a;
+  }
+
   .lead h1 {
     color: $foreground;
   }
-
   a {
     color: lighten($primary-color, 10%);
 
@@ -422,5 +426,24 @@ $dark-border: darken($background, 3%);
   ::selection {
     background: lighten($primary-color, 10%);
     color: white;
+  }
+  // OVERRIDES
+  .hero-container {
+    p {
+      color: black;
+    }
+    a:not(.button) { 
+      color: #2161f2 !important;
+    }
+    .button {
+      background: #5183F5 !important;
+      color: white;
+      border: 2px solid #5183F5 !important;
+      &:hover {
+        background: #0e51ec !important;
+        border: 2px solid #0e51ec !important;
+        color: white !important;
+      }
+    }
   }
 }

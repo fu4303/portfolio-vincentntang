@@ -66,7 +66,7 @@ export default class Speaking extends Component {
       <Layout>
         <Helmet title={`Articles – ${config.siteTitle}`} />
         <SEO />
-        <div className="container">
+        <div className="container padding-non-home-page">
           <h1>Speaking</h1>
           <p>Over the past few years, I've been fortunate enough to share my ideas, skills, and knowledge at meetups, hackathons, and events. Here you'll find an archive of slide decks, demos, and resources I made available.</p>
           <p>I'm available for speaking opportunities please feel free to get in touch at <a href="mailto:hello@vincentntang.com">here</a></p>
