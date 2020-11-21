@@ -12,11 +12,11 @@ import publications from '../../data/publications';
 export default class PublicationsPage extends Component {
   render() {
     const logoMap = {
-      DigitalOcean: digitalOcean,
-      SitePoint: sitePoint,
-      Codrops: codrops,
-      'Envato Tuts+': envato,
-      Progress: progress,
+      // DigitalOcean: digitalOcean,
+      // SitePoint: sitePoint,
+      // Codrops: codrops,
+      // 'Envato Tuts+': envato,
+      // Progress: progress,
     };
 
     const pubs = Object.entries(publications);
