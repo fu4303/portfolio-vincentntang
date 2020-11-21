@@ -13,9 +13,9 @@ import projects from '../../data/projects';
 import speaking from '../../data/speakingData';
 import podcasts from '../../data/podcasts';
 import quotes from '../../data/quotes';
-import vtYellow from '../../content/common/VT_yellowBG.png';
+// import vtYellow from '../../content/common/VT_yellowBG.png';
 import codeChefsLogo from "../images/code_chefs_podcast_art.png"
-import vincentBlue from '../../content/common/vincent_blue.jpg';
+// import vincentBlue from '../../../content/common/vincent_blue.jpg';
 import UserInfo from "../components/UserInfo";
 
 export default class Index extends Component {
@@ -24,6 +24,7 @@ export default class Index extends Component {
 
     const latestPostEdges = data.latest.edges;
     const popularPostEdges = data.popular.edges;
+    const vincentBlueImg = data.vincentBlue.edges[0];
 
     return (
       <Layout>
@@ -70,7 +71,7 @@ export default class Index extends Component {
             </div>
           </div> */}
         </div>
-        <UserInfo/>
+        <UserInfo gatsbyImg={vincentBlueImg}/>
         <div className="container front-page">
           <section className="section">
             <h2>Latest Articles</h2>
@@ -90,7 +91,7 @@ export default class Index extends Component {
                 <a className="button" target="_blank" rel="noreferrer" href="https://codechefs.dev">Listen Now</a>
               </div>
               <div className="logo-right">
-                <img src={codeChefsLogo} alt="code chefs logo"/>
+                {/* <img src={codeChefsLogo} alt="code chefs logo"/> */}
               </div>
             </div>
           </section>
@@ -209,6 +210,21 @@ export const pageQuery = graphql`
             }
             date
             template
+          }
+        }
+      }
+    }
+    vincentBlue: allImageSharp(filter: {
+      fluid:{ originalName: {eq:"vincent_blue.jpg"}}
+    }) {
+      edges {
+        node {
+          id
+          # fluid(base64Width: 10, traceSVG: {}) {
+          #   ...GatsbyImageSharpFluid
+          # }
+          fixed(width: 200, height: 200) {
+            ...GatsbyImageSharpFixed
           }
         }
       }

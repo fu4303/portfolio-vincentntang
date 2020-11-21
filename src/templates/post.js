@@ -69,6 +69,8 @@ export default class PostTemplate extends Component {
       }
     };
 
+    const vincentBlue = this.props.data.vincentBlue.edges[0]
+
     return (
       <Layout>
         <Helmet>
@@ -117,7 +119,7 @@ export default class PostTemplate extends Component {
           />
           {/* <NewsletterForm /> */}
         </article>
-        <UserInfo config={config} />
+        <UserInfo gatsbyImg={vincentBlue} />
         <Comments/>
       </Layout>
     );
@@ -149,6 +151,21 @@ export const pageQuery = graphql`
       fields {
         slug
         date
+      }
+    }
+    vincentBlue: allImageSharp(filter: {
+      fluid:{ originalName: {eq:"vincent_blue.jpg"}}
+    }) {
+      edges {
+        node {
+          id
+          # fluid(base64Width: 10, traceSVG: {}) {
+          #   ...GatsbyImageSharpFluid
+          # }
+          fixed(width: 200, height: 200) {
+            ...GatsbyImageSharpFixed
+          }
+        }
       }
     }
   }

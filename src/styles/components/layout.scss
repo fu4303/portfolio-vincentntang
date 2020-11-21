@@ -1174,7 +1174,7 @@ button[disabled] {
       animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
       animation-duration: 3.5s;        /* Change to speed up or slow down */
       animation-iteration-count: 1;  /* Never stop waving :) */
-      animation-delay: 0.5s;
+      animation-delay: 1s;
       transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
       display: inline-block;
     }
@@ -1200,6 +1200,7 @@ button[disabled] {
         margin-bottom: 0px;
       }
     }
+    // This CSS below is for userInfo and controlling gatsbyImg sharperImage
     .content-right {
       @include screen-max(600px){
         .button {
@@ -1207,14 +1208,28 @@ button[disabled] {
         }
       }
       .display-right-float {
-        display: none;
-        @include screen-max(600px){
-          display: inline-block;
-          margin-left: 5px;
-          width: 100px;
-          float: right;
-          border-radius: 10px;
+        float: right;
+        margin-left: 5px;
+        @include screen-min(600px){
+          display: none !important;
+          width: 0px !important;
+          height: 0px !important;
         }
+        @include screen-max(600px){
+          width: 100px !important;
+          height: 100px !important;
+        }
+        img {
+          display: none;
+          @include screen-max(600px){
+            display: inline-block;
+            width: 100px !important;
+            height: 100px !important;
+            float: right;
+            border-radius: 10px;
+          }
+        }
+
       }
     }
   }
