@@ -12,7 +12,6 @@ import config from '../../data/SiteConfig';
 import projects from '../../data/projects';
 import speaking from '../../data/speakingData';
 import podcasts from '../../data/podcasts';
-import quotes from '../../data/quotes';
 // import vtYellow from '../../content/common/VT_yellowBG.png';
 import codeChefsLogo from "../images/code_chefs_podcast_art.png"
 // import vincentBlue from '../../../content/common/vincent_blue.jpg';
