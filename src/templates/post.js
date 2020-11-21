@@ -24,10 +24,10 @@ export default class PostTemplate extends Component {
     const { slug } = this.props.pageContext;
 
     try {
-      const response = await fetch(`${config.commentsApi}${slug}`);
-      const comments = await response.json();
+      // const response = await fetch(`${config.commentsApi}${slug}`);
+      // const comments = await response.json();
 
-      this.setState({ comments });
+      // this.setState({ comments });
     } catch (error) {
       this.setState({ error: true });
     }
@@ -118,15 +118,7 @@ export default class PostTemplate extends Component {
           {/* <NewsletterForm /> */}
         </article>
         <UserInfo config={config} />
-        <script src="https://utteranc.es/client.js"
-          repo="https://github.com/vincentntang/vincentntang.com"
-          issue-term="pathname"
-          label="comments"
-          theme="github-light"
-          crossorigin="anonymous"
-          async>
-        </script>
-
+        <Comments/>
         {/* <div className="container">
           {!error && <Comments commentsList={comments} slug={commentSlug} />}
 

@@ -13,7 +13,6 @@ const config = {
   siteRss: '/rss.xml',
   googleAnalyticsID: 'UA-125472858-2',
   postDefaultCategoryID: 'Tech',
-  commentsApi: 'https://tania-comments-api.herokuapp.com/comments',
   userName: 'Vincent',
   userEmail: 'vincentntang@gmail.com',
   userTwitter: 'vincentntang',
