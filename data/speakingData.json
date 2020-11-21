@@ -1,5 +1,35 @@
 [
   {
+    "date": "November 14th 2020",
+    "location": "Tampa, FL",
+    "title": "How to succeed at your First Job",
+    "venue": "Suncoast Developers Guild",
+    "fullImg": "./images/suncoastdevs.jpeg",
+    "links": {
+      "slides": "https://slides.com/vincentntang/how-to-succeed-at-first-job/"
+    }
+  },
+  {
+    "date": "October 8th 2020",
+    "location": "Tampa, FL",
+    "title": "Learn to Cook Code at Hackathons",
+    "venue": "Thundernerds",
+    "fullImg": "./images/thundernerds.png",
+    "links": {
+      "video": "https://www.youtube.com/watch?v=7yzUUu0Lt8U&feature=emb_logo"
+    }
+  },
+  {
+    "date": "August 1st 2020",
+    "location": "Tampa, FL",
+    "title": "Making a Tech Podcast 101",
+    "venue": "Suncoast Developers Guild",
+    "fullImg": "./images/suncoastdevs.jpeg",
+    "links": {
+      "slides": "https://slides.com/vincentntang/svg-everything-you-should-know-about-it"
+    }
+  },
+  {
     "date": "November 15th 2019",
     "location": "Tampa, FL",
     "title": "SVGs - Everything you should know",
