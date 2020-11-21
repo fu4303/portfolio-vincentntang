@@ -3,11 +3,11 @@ import Helmet from 'react-helmet';
 import Layout from '../layout';
 import config from '../../data/SiteConfig';
 import publications from '../../data/publications';
-import digitalOcean from '../../content/common/do.png';
-import sitePoint from '../../content/common/sitepoint.png';
-import codrops from '../../content/common/codrops.png';
-import envato from '../../content/common/envato.png';
-import progress from '../../content/common/progress.png';
+// import digitalOcean from '../../content/common/do.png';
+// import sitePoint from '../../content/common/sitepoint.png';
+// import codrops from '../../content/common/codrops.png';
+// import envato from '../../content/common/envato.png';
+// import progress from '../../content/common/progress.png';
 
 export default class PublicationsPage extends Component {
   render() {
