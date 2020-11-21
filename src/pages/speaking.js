@@ -11,56 +11,9 @@ import speakingData from '../../data/speakingData';
 
 export default class Speaking extends Component {
   state = {
-    // searchTerm: '',
-    // currentCategories: [],
-    // posts: this.props.data.posts.edges,
-    // filteredPosts: this.props.data.posts.edges,
   }
 
-  // handleChange = async event => {
-  //   const { name, value } = event.target
-
-  //   await this.setState({ [name]: value })
-
-  //   this.filterPosts()
-  // }
-
-  // filterPosts = () => {
-  //   const { posts, searchTerm, currentCategories } = this.state
-
-  //   let filteredPosts = posts.filter(post =>
-  //     post.node.frontmatter.title.toLowerCase().includes(searchTerm.toLowerCase())
-  //   )
-
-  //   if (currentCategories.length > 0) {
-  //     filteredPosts = filteredPosts.filter(
-  //       post =>
-  //         post.node.frontmatter.categories &&
-  //         currentCategories.every(cat => post.node.frontmatter.categories.includes(cat))
-  //     )
-  //   }
-
-  //   this.setState({ filteredPosts })
-  // }
-
-  // updateCategories = category => {
-  //   const { currentCategories } = this.state
-
-  //   if (!currentCategories.includes(category)) {
-  //     this.setState(prevState => ({
-  //       currentCategories: [...prevState.currentCategories, category],
-  //     }))
-  //   } else {
-  //     this.setState(prevState => ({
-  //       currentCategories: prevState.currentCategories.filter(cat => category !== cat),
-  //     }))
-  //   }
-  // }
-
   render() {
-    // const { filteredPosts, searchTerm, currentCategories } = this.state
-    // const filterCount = filteredPosts.length
-    // const categories = this.props.data.categories.group
 
     return (
       <Layout>
@@ -76,8 +29,6 @@ export default class Speaking extends Component {
               console.log(item,"item");
               return (
                 <div name={item.node.title} className="speaking-card">
-                  {/* <img src={item.fullImg} alt="text"/> */}
-                  {/* <Img fixed={item.node.fullImg.childImageSharp.fixed}/> */}
                   <Img className="mb-2" fluid={item.node.fullImg.childImageSharp.fluid}/>
                   <div>{item.node.venue}</div>
                   <div className="text-13 mb-2">{item.node.date} — {item.node.location}</div>
@@ -87,33 +38,10 @@ export default class Speaking extends Component {
                       return <li><a key={key} href={item.node.links[key]}>{key}</a></li>
                     }
                   })}
-                  {/* <ul className="text-14">
-                    {item.node.links && Object.keys(item.node.links).map(key => {
-                      return <li><a href={item.node.links[key]}>{key}</a></li>
-                    })}
-                  </ul> */}
                 </div>
               )
             })}
           </div>
-          {/* <div className="speaking-wrapper"> */}
-            {/* Old content */}
-            {/* {speakingData.map(item => {
-              return (
-                <div className="speaking-card">
-                  <img src={item.fullImg} alt="text"/>
-                  <div>{item.venue}</div>
-                  <div className="text-13 mb-2">{item.date} — {item.location}</div>
-                  <div className="text-14">{item.title}</div>
-                  <ul className="text-14">
-                    {item.links && Object.keys(item.links).map(key => {
-                      return <li><a href={item.links[key]}>{key}</a></li>
-                    })}
-                  </ul>
-                </div>
-              )
-            })} */}
-          {/* </div> */}
         </div>
       </Layout>
     )

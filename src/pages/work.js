@@ -2,12 +2,8 @@ import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../layout'
-import PostListing from '../components/PostListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
-import Img from 'gatsby-image'; // Lazy Load images
-
-import speakingData from '../../data/speakingData';
 
 export default class Speaking extends Component {
   state = {
