@@ -45,4 +45,4 @@ Open source projects:
 <br/>
 
 <!-- ![Me](../common/vincentIDGAF.jpg) -->
-![Teaching](../common/teaching_bootcamp.jpg)
+![Teaching](../../data/page-images/teaching_bootcamp-min.jpg)
