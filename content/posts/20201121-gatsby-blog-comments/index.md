@@ -15,7 +15,7 @@ tags:
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/uo8ngaf1c8n4cf7gg6d9.jpg)
 
-Adding a commenting system into a blog platform is really useful. I wanted something that didn't require a lot of configuration, was open source, and had data stored in a visible way in the event I needed to move around blogging platforms. I also didn't want something externally controlled like Disqus, as they've been known to inject ads into your site.
+Adding a commenting system into a blog platform is really useful. I wanted something that didn't require a lot of configuration, was open source, and had data stored in a visible way in the event I needed to move around blogging platforms. I also didn't want something externally controlled like [Disqus](https://wptavern.com/disqus-hits-sites-with-unwanted-advertising-plans-to-charge-large-publishers-a-monthly-fee-to-remove-ads), as they've been known to inject ads into your site.
 
 Enter [Utterances](https://utteranc.es/). It's based on Github's search API, so that means it's free and open-source! 
 It uses Github's issue tracker to create an entry, and all comments in that entry are tied directly to a blog post
@@ -134,7 +134,7 @@ export default class Comments extends Component {
 
 This `Comments` class component uses `React.createRef()` to create a reference for how the Utterances `<script>` element is injected. There's a `<div ref={this.commentBox}/>` for the div element that adds the comment HTML from that `<script>` injection.
 
-Also, I use both a dark, and a light theme mode in my blog. Utterances has a configuration for setting a theme, `github-light` and `github-dark` being the most common configurations. I use React's Context API to make this variable globally available, so I know when a user toggles the dark/light mode in my blog. 
+Also, I use both a dark, and a light theme mode in my blog. Utterances has a configuration for setting a theme, `github-light` and `github-dark` being the most common configurations. I use React's [Context API](https://reactjs.org/docs/context.html) to make this variable globally available, so I know when a user toggles the dark/light mode in my blog. 
 
 This is where the code in `ComponentDidMount` comes into play:
 
