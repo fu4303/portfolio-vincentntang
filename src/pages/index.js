@@ -91,7 +91,9 @@ export default class Index extends Component {
                 <a className="button" target="_blank" rel="noreferrer" href="https://codechefs.dev">Listen Now</a>
               </div>
               <div className="logo-right">
-                <img src={codeChefsLogo} alt="code chefs logo"/>
+                <a href="https://codechefs.dev" target="_blank" rel="noreferrer">
+                  <img src={codeChefsLogo} alt="code chefs logo"/>
+                </a>
               </div>
             </div>
           </section>
