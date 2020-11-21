@@ -32,7 +32,7 @@ export default class PublicationsPage extends Component {
             return (
               <article>
                 <h2 className="publication-company">
-                  <img src={logoMap[company]} alt="Company" />
+                  {/* <img src={logoMap[company]} alt="Company" /> */}
                   {company}
                 </h2>
                 <ul key={i}>
