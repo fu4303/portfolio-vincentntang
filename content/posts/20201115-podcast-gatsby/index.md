@@ -14,7 +14,7 @@ tags:
   - RSS
 ---
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/xz4acojp77mkrhhgdqdy.png)
+![Alt Text](./img/xz4acojp77mkrhhgdqdy.png)
 
 6 months ago, I reached out to one of my best buddies to start a coding podcast! We wanted to reflect upon our journey as software developers thus far, and push ourselves to greater limits.
 
@@ -26,7 +26,7 @@ Here's how it's done with GatsbyJs, React, Netlify, and Amazon S3
 
 ## Overview of how the stack works
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/n9yki9z55v8bfkwbh4y5.png)
+![Alt Text](./img/n9yki9z55v8bfkwbh4y5.png)
 
 TL;DR 
 
@@ -223,7 +223,7 @@ Here's the plugin configuration for `gatsby-plugin-feed`, which generates the RS
 
 This generates the XML RSS feeds at `https://codechefs.dev/rss.xml` upon deployment. It first outputs data about the site, then each episode is wrapped in an XML `<item>` tag
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/kukhy4ghiywyocp6u1oi.png)
+![Alt Text](./img/kukhy4ghiywyocp6u1oi.png)
 
 Feel free to check out the generate RSS feed for codechefs [here](https://www.codechefs.dev/rss.xml)
 
@@ -231,19 +231,19 @@ Feel free to check out the generate RSS feed for codechefs [here](https://www.co
 
 Amazon S3 hosts the raw mp3 files for different podcast distributions to consume. Everything on this bucket is public by default since any listener should be able to access it.
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/k8iiulyoxnjta2reeonc.png)
+![Alt Text](./img/k8iiulyoxnjta2reeonc.png)
 
 By enabling this setting, anytime you upload an mp3 to the s3 bucket, it is publically read-accessible
 
 You may also have to make each mp3 file uploaded to be read-accessible by the public, to do this, click the file and go to Access Control List(ACL) and grant it read properties
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/l84scyec104fkgqrhqv0.png)
+![Alt Text](./img/l84scyec104fkgqrhqv0.png)
 
 Also, you can add cloudwatch on your amazonS3 bucket, and google analytics on your site to see stats related to your site
 
 ## ReactJS Audio Player
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/7n876ht8filcyotb6zjl.gif)
+![Alt Text](./img/7n876ht8filcyotb6zjl.gif)
 
 ReactJS is used as the physical podcast player on the site. The default HTML audio player is rather limited, so we use React to build custom event handlers and custom UI to control those events.
 
@@ -259,7 +259,7 @@ Netlify is used to deploy the GatsbyJS site, whereas Github is used to host the 
 
 Here's what the setup looks like:
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/6hv8cnx8nayc6ewrtt95.png)
+![Alt Text](./img/6hv8cnx8nayc6ewrtt95.png)
 
 Netlify also controls the custom domain. We point our name records from hosting provider, Namecheap, and point it Netlify. You can find more information about that [here](https://docs.netlify.com/domains-https/custom-domains/)
 

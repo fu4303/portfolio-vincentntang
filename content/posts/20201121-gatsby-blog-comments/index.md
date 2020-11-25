@@ -13,7 +13,7 @@ tags:
   - React
 ---
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/uo8ngaf1c8n4cf7gg6d9.jpg)
+![Alt Text](./img/uo8ngaf1c8n4cf7gg6d9.jpg)
 
 Adding a commenting system into a blog platform is really useful. I wanted something that didn't require a lot of configuration, was open source, and had data stored in a visible way in the event I needed to move around blogging platforms. I also didn't want something externally controlled like [Disqus](https://wptavern.com/disqus-hits-sites-with-unwanted-advertising-plans-to-charge-large-publishers-a-monthly-fee-to-remove-ads), as they've been known to inject ads into your site.
 
@@ -34,7 +34,7 @@ There is something called a "slug" or a "pathname". It's basically everything th
 
 If I add a comment to that blog post, here's what it looks like on the page:
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/w17p5qgur7a4o0iq6yqf.png)
+![Alt Text](./img/w17p5qgur7a4o0iq6yqf.png)
 
 I have it configured so that the utterance bot creates an issue in this repo, tied to that "slug":
 
@@ -46,7 +46,7 @@ Also there's no code in this repo, it just has Utterances installed  on the repo
 
 So Utterances creates an issue here, and each comment in this issue gets mapped directly into your blog post's comments.
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/y842ack38ku5nrkjydxf.png)
+![Alt Text](./img/y842ack38ku5nrkjydxf.png)
 
 You can check out the issue tracker created here:
 

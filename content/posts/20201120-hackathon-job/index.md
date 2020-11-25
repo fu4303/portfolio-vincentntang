@@ -13,7 +13,7 @@ tags:
   - Programming
 ---
 
-![](https://dev-to-uploads.s3.amazonaws.com/i/vc0600dwyav05r6h25kn.jpeg)
+![](./img/vc0600dwyav05r6h25kn.jpeg)
 
 I got my frontend certifications with FreeCodeCamp back in 2017. I remember how daunting it was to apply to jobs and feeling ready for the workforce. Every time I sent an application in, I felt like it went to the void, never to be heard from again.
 
