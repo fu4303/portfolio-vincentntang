@@ -1148,6 +1148,32 @@ button[disabled] {
     }
   }
 }
+
+// TINYLETTER.COM/VINCENTNTANG FORM STYLES
+.tiny-form {
+  margin-bottom: 0px;
+  input {
+    margin-top: 3px;
+    margin-bottom: 0px;
+  }
+  .tiny-input {
+    width: 200px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .tiny-submit {
+    
+  }
+  .tiny-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+  }
+  .tiny-show-me {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+}
 .hero-full {
   background-color: #a4508b;
   background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
@@ -1174,7 +1200,7 @@ button[disabled] {
       animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
       animation-duration: 3.5s;        /* Change to speed up or slow down */
       animation-iteration-count: 1;  /* Never stop waving :) */
-      animation-delay: 1s;
+      animation-delay: 0.5s;
       transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
       display: inline-block;
     }
@@ -1206,6 +1232,9 @@ button[disabled] {
         .button {
           width: 100%;
         }
+      }
+      .about-user {
+        // margin-bottom: 10px;
       }
       .display-right-float {
         float: right;
@@ -1244,6 +1273,35 @@ button[disabled] {
   }
 }
 
-.comment-box {
+.newsletter-wrapper {
+  position: relative;
+  padding-left: 25px;
+  img {
+    background-color: white;
+    border-radius: 3px;
+    position: absolute;
+    width: 25px;
+    left: -5px;
+    top: -2.5px;
+    margin-bottom: 0px;
+  }
+}
 
+.button-newsletter:hover {
+  animation-name: button-wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 1.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: 1;  /* Never stop waving :) */
+  animation-delay: 0.5s;
+  transform-origin: 50% 50%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+  @keyframes button-wave-animation {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(4.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+    20% { transform: rotate(-3.0deg) }
+    30% { transform: rotate(4.0deg) }
+    40% { transform: rotate(-1.0deg) }
+    50% { transform: rotate(2.0deg) }
+    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
 }

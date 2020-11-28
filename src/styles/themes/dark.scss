@@ -6,7 +6,6 @@ $dark-border: darken($background, 3%);
 .dark {
   background: $background;
   color: $foreground;
-
   .podcast-wrapper {
     background: rgba(0,0,0,0.2);
     border-color: #3a3a3a;
@@ -439,10 +438,35 @@ $dark-border: darken($background, 3%);
       background: #5183F5 !important;
       color: white;
       border: 2px solid #5183F5 !important;
+      &:focus,
+      &:active {
+        background: #5183F5 !important;
+        color: white;
+        border: 2px solid #5183F5 !important;
+      }
       &:hover {
         background: #0e51ec !important;
         border: 2px solid #0e51ec !important;
         color: white !important;
+      }
+    }
+  }
+
+  // TINYLETTER.COM/VINCENTNTANG FORM STYLES
+  .tiny-form {
+    .tiny-input {
+      color: black !important;
+      background: white !important;
+      border: 2px solid #ccc;
+    }
+    .tiny-submit {
+      color: white !important;
+      border: 2px solid #5183F5 !important; 
+      background: #5183F5 !important;
+      &:hover,
+      &:active,
+      &:focus {
+        background: darken($primary-color, 2%) !important;
       }
     }
   }
