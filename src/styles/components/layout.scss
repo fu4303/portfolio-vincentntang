@@ -1198,9 +1198,9 @@ button[disabled] {
     }
     .hand-wave {
       animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-      animation-duration: 3.5s;        /* Change to speed up or slow down */
+      animation-duration: 2.5s;        /* Change to speed up or slow down */
       animation-iteration-count: 1;  /* Never stop waving :) */
-      animation-delay: 0.5s;
+      animation-delay: 1s;
       transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
       display: inline-block;
     }
@@ -1303,5 +1303,11 @@ button[disabled] {
     50% { transform: rotate(2.0deg) }
     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
     100% { transform: rotate( 0.0deg) }
+  }
+}
+
+.width-100-600 {
+  @include screen-max(600px){
+    width: 100%;
   }
 }

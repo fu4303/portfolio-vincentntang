@@ -70,7 +70,7 @@ export default class Index extends Component {
             </div>
           </div> */}
         </div>
-        <UserInfo gatsbyImg={vincentBlueImg}/>
+        <UserInfo isHomePage gatsbyImg={vincentBlueImg}/>
         <div className="container front-page">
           <section className="section">
             <h2>Latest Articles</h2>
