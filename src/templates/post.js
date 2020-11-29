@@ -89,9 +89,9 @@ export default class PostTemplate extends Component {
               <div className="post-meta">
                 <time className="date">{date}</time>/
                 <a className="twitter-link" href={twitterShare}>
-                  Share
+                  Share on Twitter
                 </a>
-                /
+                {/* /
                 {!error && (
                   <span>
                     <a className="comment-link" href="#comments">
@@ -107,7 +107,7 @@ export default class PostTemplate extends Component {
                   rel="noopener noreferrer"
                 >
                   Edit on Github ✏️
-                </a>
+                </a> */}
               </div>
               <PostTags tags={post.tags} />
             </div>
@@ -120,7 +120,7 @@ export default class PostTemplate extends Component {
           {/* <NewsletterForm /> */}
         </article>
         <UserInfo gatsbyImg={vincentBlue} />
-        <Comments/>
+        <Comments twitterShare={twitterShare}/>
       </Layout>
     );
   }

@@ -21,9 +21,15 @@ export default class Comments extends Component {
   }
 
   render() {
+    const {twitterShare} = this.props;
     return (
-        <div className="comment-box-wrapper container pt-7">
-          <h1 className="mb-0">Comments</h1>
+        <div id="comments" className="comment-box-wrapper container pt-9">
+          <a className="twitter-link text-16" href={twitterShare}>
+            Share on Twitter
+          </a>
+          <h1 className="my-0">Comments {''}
+          </h1>
+
           <hr className="my-0"/>
           <div ref={this.commentBox} className="comment-box"></div>
         </div>
