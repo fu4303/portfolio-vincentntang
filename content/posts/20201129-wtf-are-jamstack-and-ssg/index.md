@@ -16,13 +16,15 @@ tags:
 
 ![Alt Text](./img/vt0f5d0xzoswp79wvwf2.jpeg)
 
-If you've ever read an article on JAMstack apps or Static Site Generators (SSG), sometimes you're left with more questions than answers. These articles usually describe the performance benefits, but not _how they work_ so you're often times confused about where these benefits come from.
+JAMstack and Static Site Generators are tools often used for building blog and marketing sites, usually as a replacement for older tools like [Wordpress](https://wordpress.com/). They provide huge performance gains to your site, don't require much maintenance, and makes scaling your content cheap and easy.
 
-At least that's how it was for me when I first started! Let me give you a history lesson about JAMstack apps and SSGs so you understand why they exist! Then I'll break down how JAMstack apps and SSGs work, and why such benefits exist. Lastly, I'll cover when you should and should not use each of these.
+But where do such benefits come from? 
+
+In this article, I will breakdown how Static Site Generators (SSG) work. First, by describing the original problem that it was created to solve. Next, I'll describe what JAMstacks app is, and how they evolved from SSGs. Then, I'll cover some actual tools you can use to build your next JAMstack app, such as [GatsbyJs](https://gatsbyjs.com). Finally, I'll summarize the similarities and differences between both JAMstack and SSG tools, and when to use each of these tools.
 
 ## The Good Ol' Days of PHP and HTML files in the year 2000
 
-Back in the good ol' days, the web used to be simple. You spun up an `index.html` site, pushed it to a server, and tada! You have a webpage! Maybe it's your own personal site. Or maybe it's a marketing site. Heck, maybe you just used Geocities or myspace back in the day which did this for you.
+Back in the good ol' days, the web used to be simple. You spun up an `index.html` site, pushed it to a server, and tada! You have a webpage! Maybe it's your own personal site. Or maybe it's a marketing site. Heck, maybe you just used [Geocities](https://en.wikipedia.org/wiki/Yahoo!_GeoCities) or [myspace](https://en.wikipedia.org/wiki/Myspace) back in the day which did this for you.
 
 Sometimes you needed more than just basic HTML. Maybe it's an e-commerce site, and you want customers to buy things online. Usually, this meant you ran a backend language like PHP to handle this for you. 
 
@@ -44,7 +46,7 @@ But here's the dilemma. All 100+ of these index.html pages use the same `<header
 
 Let's just say now, your site isn't an e-commerce site. It's a blog now! But it still has 100+ pages and articles you've written.
 
-You don't need to charge money on these blog articles or have a cart/checkout page. Your site is basically a **Read-only** site with minimal updates. There are no dynamic prices, or sales/promos. It doesn't need fancy PHP or server-side languages, it can just be plain `.html` files
+You don't need to charge money on these blog articles, store customer data, or have a cart/checkout page. Your site is basically a **Read-only** site with minimal updates. There are no dynamic prices, or sales/promos. It doesn't need fancy PHP or server-side languages, it can just be plain `.html` files
 
 But we've discussed early the problems here, updating the header on one `.html` file means you have to do it for the other 99+ `.html` files! That's ALOT of maintenance
 
