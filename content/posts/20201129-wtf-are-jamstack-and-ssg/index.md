@@ -1,9 +1,9 @@
 ---
 date: 2020-11-29
-title: 'WTF are JAMstack Apps and Static Site Generators (SSG)'
+title: 'What are JAMstack Apps and Static Site Generators (SSG)'
 template: post
 thumbnail: '../../thumbnails/thinkingemoji.png'
-slug: wtf-are-jamstack-apps-and-statiac-site-generators
+slug: what-are-jamstack-apps-and-static-site-generators
 categories:
   - Programming
 tags:
@@ -14,7 +14,7 @@ tags:
   - Jekyll
 ---
 
-![Alt Text](./img/vt0f5d0xzoswp79wvwf2.jpeg)
+<!-- ![Alt Text](./img/vt0f5d0xzoswp79wvwf2.jpeg) -->
 
 JAMstack and Static Site Generators are tools often used for building blog and marketing sites, usually as a replacement for older tools like [Wordpress](https://wordpress.com/). They provide huge performance gains to your site, don't require much maintenance, and makes scaling your content cheap and easy.
 
