@@ -138,7 +138,7 @@ You should have one project you can talk about at great lengths with an employer
 
 Also, if you're coming from a different career, consider building something related to that field. It tells a story of how you are transitioning from one career to the next.
 
-But if you truly don't have any ideas, feel free to add new features to a tutorial project and claim it as your own. Or, check out these recommendations for ideas:
+But if you truly don't have any ideas, feel free to add new features to a tutorial project and make it unique. Or, check out these recommendations for ideas:
 
 - [Github Idea Repo](https://github.com/florinpop17/app-ideas)
 
