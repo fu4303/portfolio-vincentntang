@@ -59,7 +59,7 @@ For reference this is what it looks like without my extension:
 
 ## My adventures in writing my first usercript
 
-I didn't really find any good tutorials on how to write a userscript. So this is my adventures (and ****ups) of going about solving it.
+I didn't really find any good tutorials on how to write a userscript. So this is my adventures of going about solving it.
 
 I already knew what the end result would look like. Here's the requirements I had originally when writing my userscript:
 
