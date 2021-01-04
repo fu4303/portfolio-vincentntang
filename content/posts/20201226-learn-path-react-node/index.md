@@ -1,6 +1,6 @@
 ---
 date: 2020-12-06
-title: 'Recommended Learning Path for a Self Taught Web Developer (React / NodeJS)'
+title: 'Learning Path for a Self Taught Web Developer (React/NodeJS)'
 template: post
 thumbnail: '../../thumbnails/writing.png'
 slug: learning-path-for-self-taught-web-developer
