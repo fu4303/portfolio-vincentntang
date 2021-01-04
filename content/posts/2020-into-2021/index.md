@@ -91,7 +91,7 @@ Over the course of a few months, I learned how to play "Knocking on Heaven's Doo
 
 For dancing, I picked this up through a dance studio. I never thought it was something I'd enjoy, but I fell in love with how expressive it can be. You can tell a lot about someone's personality, just by the way they move. For instance, slower movements are associated with someone more relaxed, whereas someone who has style tends to be more expressive. Everyone has a different pattern and I'm still finding my own. 
 
-![Alt Text](./img/akky89dmgun6y4mciauf.png)
+![Alt Text](./img/akky89dmgun6y4mciauf.jpeg)
 
 ## Goals this year
 
