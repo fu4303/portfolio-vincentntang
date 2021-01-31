@@ -4,7 +4,7 @@ slug: about
 template: page
 ---
 
-Hi 👋, I'm Vincent Tang, a metallurgist turned kitchen designer turned web developer. I primary work in the Javascript community, and I'm best known for my career talks in hackathons. I also run [CodeChefs](https://codechefs.dev), a podcast tailored toward junior to mid-level developers seeking to level up.
+Hi 👋, I'm Vincent Tang, a metallurgist turned kitchen designer turned web developer. I primarily work in the Javascript community, and I'm best known for my career talks in hackathons. I also run [CodeChefs](https://codechefs.dev), a podcast tailored toward junior to mid-level developers seeking to level up.
 
 This website originally started as a way to document things I learn during a career change. But it's since changed. I love trying out new things, and this blog is a reflection of my [digital garden](https://joelhooks.com/digital-garden) where I learn in [public](https://www.swyx.io/writing/learn-in-public/).
 
